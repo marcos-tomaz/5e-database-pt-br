@@ -781,6 +781,63 @@
     "url": "/api/magic-items/belt-of-giant-strength"
   },
   {
+    "index": "belt-of-giant-strength-cloud",
+    "name": "Belt of Cloud Giant Strength",
+    "equipment_category": {
+      "index": "wondrous-items",
+      "name": "Wondrous Items",
+      "url": "/api/equipment-categories/wondrous-items"
+    },
+    "rarity": {
+      "name": "Legendary"
+    },
+    "variants": [],
+    "variant": true,
+    "desc": [
+      "Wondrous item, legendary (requires attunement)",
+      "While wearing this belt, your Strength score changes to 27. If your Strength is already equal to or greater than the belt's score, the item has no Effect on you."
+    ],
+    "url": "/api/magic-items/belt-of-giant-strength-cloud"
+  },
+  {
+    "index": "belt-of-giant-strength-fire",
+    "name": "Belt of Fire Giant Strength",
+    "equipment_category": {
+      "index": "wondrous-items",
+      "name": "Wondrous Items",
+      "url": "/api/equipment-categories/wondrous-items"
+    },
+    "rarity": {
+      "name": "Very Rare"
+    },
+    "variants": [],
+    "variant": true,
+    "desc": [
+      "Wondrous item, very rare (requires attunement)",
+      "While wearing this belt, your Strength score changes to 25. If your Strength is already equal to or greater than the belt's score, the item has no Effect on you."
+    ],
+    "url": "/api/magic-items/belt-of-giant-strength-fire"
+  },
+  {
+    "index": "belt-of-giant-strength-frost",
+    "name": "Belt of Frost Giant Strength",
+    "equipment_category": {
+      "index": "wondrous-items",
+      "name": "Wondrous Items",
+      "url": "/api/equipment-categories/wondrous-items"
+    },
+    "rarity": {
+      "name": "Very Rare"
+    },
+    "variants": [],
+    "variant": true,
+    "desc": [
+      "Wondrous item, very rare (requires attunement)",
+      "While wearing this belt, your Strength score changes to 23. If your Strength is already equal to or greater than the belt's score, the item has no Effect on you."
+    ],
+    "url": "/api/magic-items/belt-of-giant-strength-frost"
+  },
+  {
     "index": "belt-of-giant-strength-hill",
     "name": "Belt of Hill Giant Strength",
     "equipment_category": {
@@ -817,63 +874,6 @@
       "While wearing this belt, your Strength score changes to a 23. If your Strength is already equal to or greater than the belt's score, the item has no Effect on you."
     ],
     "url": "/api/magic-items/belt-of-giant-strength-stone"
-  },
-  {
-    "index": "belt-of-giant-strength-frost",
-    "name": "Belt of Frost Giant Strength",
-    "equipment_category": {
-      "index": "wondrous-items",
-      "name": "Wondrous Items",
-      "url": "/api/equipment-categories/wondrous-items"
-    },
-    "rarity": {
-      "name": "Very Rare"
-    },
-    "variants": [],
-    "variant": true,
-    "desc": [
-      "Wondrous item, very rare (requires attunement)",
-      "While wearing this belt, your Strength score changes to 23. If your Strength is already equal to or greater than the belt's score, the item has no Effect on you."
-    ],
-    "url": "/api/magic-items/belt-of-giant-strength-frost"
-  },
-  {
-    "index": "belt-of-giant-strength-fire",
-    "name": "Belt of Fire Giant Strength",
-    "equipment_category": {
-      "index": "wondrous-items",
-      "name": "Wondrous Items",
-      "url": "/api/equipment-categories/wondrous-items"
-    },
-    "rarity": {
-      "name": "Very Rare"
-    },
-    "variants": [],
-    "variant": true,
-    "desc": [
-      "Wondrous item, very rare (requires attunement)",
-      "While wearing this belt, your Strength score changes to 25. If your Strength is already equal to or greater than the belt's score, the item has no Effect on you."
-    ],
-    "url": "/api/magic-items/belt-of-giant-strength-fire"
-  },
-  {
-    "index": "belt-of-giant-strength-cloud",
-    "name": "Belt of Cloud Giant Strength",
-    "equipment_category": {
-      "index": "wondrous-items",
-      "name": "Wondrous Items",
-      "url": "/api/equipment-categories/wondrous-items"
-    },
-    "rarity": {
-      "name": "Legendary"
-    },
-    "variants": [],
-    "variant": true,
-    "desc": [
-      "Wondrous item, legendary (requires attunement)",
-      "While wearing this belt, your Strength score changes to 27. If your Strength is already equal to or greater than the belt's score, the item has no Effect on you."
-    ],
-    "url": "/api/magic-items/belt-of-giant-strength-cloud"
   },
   {
     "index": "belt-of-giant-strength-storm",
@@ -3530,26 +3530,6 @@
     "url": "/api/magic-items/horn-of-valhalla"
   },
   {
-    "index": "horn-of-valhalla-silver",
-    "name": "Silver Horn of Valhalla",
-    "equipment_category": {
-      "index": "wondrous-items",
-      "name": "Wondrous Items",
-      "url": "/api/equipment-categories/wondrous-items"
-    },
-    "rarity": {
-      "name": "Rare"
-    },
-    "variants": [],
-    "variant": true,
-    "desc": [
-      "Wondrous item, rare",
-      "You can use an action to blow this horn. In response, 2d4 + 2 warrior spirits from the Valhalla appear within 60 feet of you. They use the statistics of a berserker. They return to Valhalla after 1 hour or when they drop to 0 hit points. Once you use the horn, it can't be used again until 7 days have passed.",
-      "The summoned berserkers are friendly to you and your companions and follow your commands."
-    ],
-    "url": "/api/magic-items/horn-of-valhalla-silver"
-  },
-  {
     "index": "horn-of-valhalla-brass",
     "name": "Brass Horn of Valhalla",
     "equipment_category": {
@@ -3608,6 +3588,26 @@
       "If you blow the horn without having proficiency with all martial weapons, the summoned berserkers attack you. If you meet the requirement, they are friendly to you and your companions and follow your commands."
     ],
     "url": "/api/magic-items/horn-of-valhalla-iron"
+  },
+  {
+    "index": "horn-of-valhalla-silver",
+    "name": "Silver Horn of Valhalla",
+    "equipment_category": {
+      "index": "wondrous-items",
+      "name": "Wondrous Items",
+      "url": "/api/equipment-categories/wondrous-items"
+    },
+    "rarity": {
+      "name": "Rare"
+    },
+    "variants": [],
+    "variant": true,
+    "desc": [
+      "Wondrous item, rare",
+      "You can use an action to blow this horn. In response, 2d4 + 2 warrior spirits from the Valhalla appear within 60 feet of you. They use the statistics of a berserker. They return to Valhalla after 1 hour or when they drop to 0 hit points. Once you use the horn, it can't be used again until 7 days have passed.",
+      "The summoned berserkers are friendly to you and your companions and follow your commands."
+    ],
+    "url": "/api/magic-items/horn-of-valhalla-silver"
   },
   {
     "index": "horseshoes-of-a-zephyr",
@@ -4757,6 +4757,38 @@
     "url": "/api/magic-items/oil-of-slipperiness"
   },
   {
+    "index": "orb-of-dragonkind",
+    "name": "Orb of Dragonkind",
+    "equipment_category": {
+      "index": "wondrous-items",
+      "name": "Wondrous Items",
+      "url": "/api/equipment-categories/wondrous-items"
+    },
+    "rarity": {
+      "name": "Artifact"
+    },
+    "variants": [],
+    "variant": false,
+    "desc": [
+      "Wondrous item, artifact (requires attunement)",
+      "Ages past, elves and humans waged a terrible war against evil dragons. When the world seemed doomed, powerful wizards came together and worked their greatest magic, forging five Orbs of Dragonkind (or Dragon Orbs) to help them defeat the dragons. One orb was taken to each of the five wizard towers, and there they were used to speed the war toward a victorious end. The wizards used the orbs to lure dragons to them, then destroyed the dragons with powerful magic.",
+      "As the wizard towers fell in later ages, the orbs were destroyed or faded into legend, and only three are thought to survive. Their magic has been warped and twisted over the centuries, so although their primary purpose of calling dragons still functions, they also allow some measure of control over dragons.",
+      "Each orb contains the essence of an evil dragon, a presence that resents any attempt to coax magic from it. Those lacking in force of personality might find themselves enslaved to an orb.",
+      "An orb is an etched crystal globe about 10 inches in diameter. When used, it grows to about 20 inches in diameter, and mist swirls inside it.",
+      "While attuned to an orb, you can use an action to peer into the orb's depths and speak its command word. You must then make a DC 15 Charisma check. On a successful check, you control the orb for as long as you remain attuned to it. On a failed check, you become charmed by the orb for as long as you remain attuned to it.",
+      "While you are charmed by the orb, you can't voluntarily end your attunement to it, and the orb casts suggestion on you at will (save DC 18), urging you to work toward the evil ends it desires. The dragon essence within the orb might want many things: the annihilation of a particular people, freedom from the orb, to spread suffering in the world, to advance the worship of Tiamat, or something else the GM decides.",
+      "***Random Properties.*** An Orb of Dragonkind has the following random properties:",
+      "2 minor beneficial properties",
+      "1 minor detrimental property",
+      "1 major detrimental property",
+      "***Spells.*** The orb has 7 charges and regains 1d4 + 3 expended charges daily at dawn. If you control the orb, you can use an action and expend 1 or more charges to cast one of the following spells (save DC 18) from it: cure wounds (5th-level version, 3 charges), daylight (1 charge), death ward (2 charges), or scrying (3 charges).",
+      "You can also use an action to cast the detect magic spell from the orb without using any charges.",
+      "***Call Dragons.*** While you control the orb, you can use an action to cause the artifact to issue a telepathic call that extends in all directions for 40 miles. Evil dragons in range feel compelled to come to the orb as soon as possible by the most direct route. Dragon deities such as Tiamat are unaffected by this call. Dragons drawn to the orb might be hostile toward you for compelling them against their will. Once you have used this property, it can't be used again for 1 hour.",
+      "***Destroying an Orb.*** An Orb of Dragonkind appears fragile but is impervious to most damage, including the attacks and breath weapons of dragons. A disintegrate spell or one good hit from a +3 magic weapon is sufficient to destroy an orb, however."
+    ],
+    "url": "/api/magic-items/orb-of-dragonkind"
+  },
+  {
     "index": "pearl-of-power",
     "name": "Pearl of Power",
     "equipment_category": {
@@ -5106,64 +5138,24 @@
     "url": "/api/magic-items/potion-of-giant-strength"
   },
   {
-    "index": "potion-of-giant-strength-hill",
-    "name": "Potion of Hill Giant Strength",
+    "index": "potion-of-giant-strength-cloud",
+    "name": "Potion of Cloud Giant Strength",
     "equipment_category": {
       "index": "potion",
       "name": "Potion",
       "url": "/api/equipment-categories/potion"
     },
     "rarity": {
-      "name": "Uncommon"
+      "name": "Very Rare"
     },
     "variants": [],
     "variant": true,
     "desc": [
-      "Potion, uncommon",
-      "When you drink this potion, your Strength score changes to 21 for 1 hour. The potion has no effect on you if your Strength is equal to or greater than that score.",
-      "This potion's transparent liquid has floating in it a sliver of fingernail from a hill giant."
+      "Potion, very rare",
+      "When you drink this potion, your Strength score changes to 27 for 1 hour. The potion has no effect on you if your Strength is equal to or greater than that score.",
+      "This potion's transparent liquid has floating in it a sliver of fingernail from a cloud giant."
     ],
-    "url": "/api/magic-items/potion-of-giant-strength-hill"
-  },
-  {
-    "index": "potion-of-giant-strength-frost",
-    "name": "Potion of Frost Giant Strength",
-    "equipment_category": {
-      "index": "potion",
-      "name": "Potion",
-      "url": "/api/equipment-categories/potion"
-    },
-    "rarity": {
-      "name": "Rare"
-    },
-    "variants": [],
-    "variant": true,
-    "desc": [
-      "Potion, rare",
-      "When you drink this potion, your Strength score changes to 23 for 1 hour. The potion has no effect on you if your Strength is equal to or greater than that score.",
-      "This potion's transparent liquid has floating in it a sliver of fingernail from a frost giant."
-    ],
-    "url": "/api/magic-items/potion-of-giant-strength-frost"
-  },
-  {
-    "index": "potion-of-giant-strength-stone",
-    "name": "Potion of Stone Giant Strength",
-    "equipment_category": {
-      "index": "potion",
-      "name": "Potion",
-      "url": "/api/equipment-categories/potion"
-    },
-    "rarity": {
-      "name": "Rare"
-    },
-    "variants": [],
-    "variant": true,
-    "desc": [
-      "Potion, rare",
-      "When you drink this potion, your Strength score changes to 23 for 1 hour. The potion has no effect on you if your Strength is equal to or greater than that score.",
-      "This potion's transparent liquid has floating in it a sliver of fingernail from a stone giant."
-    ],
-    "url": "/api/magic-items/potion-of-giant-strength-stone"
+    "url": "/api/magic-items/potion-of-giant-strength-cloud"
   },
   {
     "index": "potion-of-giant-strength-fire",
@@ -5186,24 +5178,64 @@
     "url": "/api/magic-items/potion-of-giant-strength-fire"
   },
   {
-    "index": "potion-of-giant-strength-cloud",
-    "name": "Potion of Cloud Giant Strength",
+    "index": "potion-of-giant-strength-frost",
+    "name": "Potion of Frost Giant Strength",
     "equipment_category": {
       "index": "potion",
       "name": "Potion",
       "url": "/api/equipment-categories/potion"
     },
     "rarity": {
-      "name": "Very Rare"
+      "name": "Rare"
     },
     "variants": [],
     "variant": true,
     "desc": [
-      "Potion, very rare",
-      "When you drink this potion, your Strength score changes to 27 for 1 hour. The potion has no effect on you if your Strength is equal to or greater than that score.",
-      "This potion's transparent liquid has floating in it a sliver of fingernail from a cloud giant."
+      "Potion, rare",
+      "When you drink this potion, your Strength score changes to 23 for 1 hour. The potion has no effect on you if your Strength is equal to or greater than that score.",
+      "This potion's transparent liquid has floating in it a sliver of fingernail from a frost giant."
     ],
-    "url": "/api/magic-items/potion-of-giant-strength-cloud"
+    "url": "/api/magic-items/potion-of-giant-strength-frost"
+  },
+  {
+    "index": "potion-of-giant-strength-hill",
+    "name": "Potion of Hill Giant Strength",
+    "equipment_category": {
+      "index": "potion",
+      "name": "Potion",
+      "url": "/api/equipment-categories/potion"
+    },
+    "rarity": {
+      "name": "Uncommon"
+    },
+    "variants": [],
+    "variant": true,
+    "desc": [
+      "Potion, uncommon",
+      "When you drink this potion, your Strength score changes to 21 for 1 hour. The potion has no effect on you if your Strength is equal to or greater than that score.",
+      "This potion's transparent liquid has floating in it a sliver of fingernail from a hill giant."
+    ],
+    "url": "/api/magic-items/potion-of-giant-strength-hill"
+  },
+  {
+    "index": "potion-of-giant-strength-stone",
+    "name": "Potion of Stone Giant Strength",
+    "equipment_category": {
+      "index": "potion",
+      "name": "Potion",
+      "url": "/api/equipment-categories/potion"
+    },
+    "rarity": {
+      "name": "Rare"
+    },
+    "variants": [],
+    "variant": true,
+    "desc": [
+      "Potion, rare",
+      "When you drink this potion, your Strength score changes to 23 for 1 hour. The potion has no effect on you if your Strength is equal to or greater than that score.",
+      "This potion's transparent liquid has floating in it a sliver of fingernail from a stone giant."
+    ],
+    "url": "/api/magic-items/potion-of-giant-strength-stone"
   },
   {
     "index": "potion-of-giant-strength-storm",
@@ -7081,27 +7113,6 @@
     "url": "/api/magic-items/spell-scroll"
   },
   {
-    "index": "spell-scroll-cantrip",
-    "name": "Spell Scroll (Cantrip)",
-    "equipment_category": {
-      "index": "scroll",
-      "name": "Scroll",
-      "url": "/api/equipment-categories/scroll"
-    },
-    "rarity": {
-      "name": "Common"
-    },
-    "variants": [],
-    "variant": true,
-    "desc": [
-      "Scroll, common",
-      "A spell scroll bears the words of a single spell, written in a mystical cipher. If the spell is on your class's spell list, you can read the scroll and cast its spell without providing any material components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell's normal casting time. Once the spell is cast, the words on the scroll fade, and it crumbles to dust. If the casting is uninterrupted, the scroll is not lost.",
-      "If the spell is on your class's spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC equals 10 + the spell's level. On a failed check, the spell disappears from the scroll with no other effect.",
-      "This scroll contains a cantrip. The spell's saving throw is 13 and the attack bonus is +5."
-    ],
-    "url": "/api/magic-items/spell-scroll-cantrip"
-  },
-  {
     "index": "spell-scroll-1st",
     "name": "Spell Scroll (1st)",
     "equipment_category": {
@@ -7298,6 +7309,27 @@
       "A wizard spell on a spell scroll can be copied just as spells in spellbooks can be copied. When a spell is copied from a spell scroll, the copier must succeed on an Intelligence (Arcana) check with a DC equal to 19. If the check succeeds, the spell is successfully copied. Whether the check succeeds or fails, the spell scroll is destroyed."
     ],
     "url": "/api/magic-items/spell-scroll-9th"
+  },
+  {
+    "index": "spell-scroll-cantrip",
+    "name": "Spell Scroll (Cantrip)",
+    "equipment_category": {
+      "index": "scroll",
+      "name": "Scroll",
+      "url": "/api/equipment-categories/scroll"
+    },
+    "rarity": {
+      "name": "Common"
+    },
+    "variants": [],
+    "variant": true,
+    "desc": [
+      "Scroll, common",
+      "A spell scroll bears the words of a single spell, written in a mystical cipher. If the spell is on your class's spell list, you can read the scroll and cast its spell without providing any material components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell's normal casting time. Once the spell is cast, the words on the scroll fade, and it crumbles to dust. If the casting is uninterrupted, the scroll is not lost.",
+      "If the spell is on your class's spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC equals 10 + the spell's level. On a failed check, the spell disappears from the scroll with no other effect.",
+      "This scroll contains a cantrip. The spell's saving throw is 13 and the attack bonus is +5."
+    ],
+    "url": "/api/magic-items/spell-scroll-cantrip"
   },
   {
     "index": "spellguard-shield",
@@ -8457,37 +8489,5 @@
       "While wearing this cloak, you can use an action to speak its command word. This turns the cloak into a pair of bat wings or bird wings on your back for 1 hour or until you repeat the command word as an action. The wings give you a flying speed of 60 feet. When they disappear, you can't use them again for 1d12 hours."
     ],
     "url": "/api/magic-items/wings-of-flying"
-  },
-  {
-    "index": "orb-of-dragonkind",
-    "name": "Orb of Dragonkind",
-    "equipment_category": {
-      "index": "wondrous-items",
-      "name": "Wondrous Items",
-      "url": "/api/equipment-categories/wondrous-items"
-    },
-    "rarity": {
-      "name": "Artifact"
-    },
-    "variants": [],
-    "variant": false,
-    "desc": [
-      "Wondrous item, artifact (requires attunement)",
-      "Ages past, elves and humans waged a terrible war against evil dragons. When the world seemed doomed, powerful wizards came together and worked their greatest magic, forging five Orbs of Dragonkind (or Dragon Orbs) to help them defeat the dragons. One orb was taken to each of the five wizard towers, and there they were used to speed the war toward a victorious end. The wizards used the orbs to lure dragons to them, then destroyed the dragons with powerful magic.",
-      "As the wizard towers fell in later ages, the orbs were destroyed or faded into legend, and only three are thought to survive. Their magic has been warped and twisted over the centuries, so although their primary purpose of calling dragons still functions, they also allow some measure of control over dragons.",
-      "Each orb contains the essence of an evil dragon, a presence that resents any attempt to coax magic from it. Those lacking in force of personality might find themselves enslaved to an orb.",
-      "An orb is an etched crystal globe about 10 inches in diameter. When used, it grows to about 20 inches in diameter, and mist swirls inside it.",
-      "While attuned to an orb, you can use an action to peer into the orb's depths and speak its command word. You must then make a DC 15 Charisma check. On a successful check, you control the orb for as long as you remain attuned to it. On a failed check, you become charmed by the orb for as long as you remain attuned to it.",
-      "While you are charmed by the orb, you can't voluntarily end your attunement to it, and the orb casts suggestion on you at will (save DC 18), urging you to work toward the evil ends it desires. The dragon essence within the orb might want many things: the annihilation of a particular people, freedom from the orb, to spread suffering in the world, to advance the worship of Tiamat, or something else the GM decides.",
-      "***Random Properties.*** An Orb of Dragonkind has the following random properties:",
-      "2 minor beneficial properties",
-      "1 minor detrimental property",
-      "1 major detrimental property",
-      "***Spells.*** The orb has 7 charges and regains 1d4 + 3 expended charges daily at dawn. If you control the orb, you can use an action and expend 1 or more charges to cast one of the following spells (save DC 18) from it: cure wounds (5th-level version, 3 charges), daylight (1 charge), death ward (2 charges), or scrying (3 charges).",
-      "You can also use an action to cast the detect magic spell from the orb without using any charges.",
-      "***Call Dragons.*** While you control the orb, you can use an action to cause the artifact to issue a telepathic call that extends in all directions for 40 miles. Evil dragons in range feel compelled to come to the orb as soon as possible by the most direct route. Dragon deities such as Tiamat are unaffected by this call. Dragons drawn to the orb might be hostile toward you for compelling them against their will. Once you have used this property, it can't be used again for 1 hour.",
-      "***Destroying an Orb.*** An Orb of Dragonkind appears fragile but is impervious to most damage, including the attacks and breath weapons of dragons. A disintegrate spell or one good hit from a +3 magic weapon is sufficient to destroy an orb, however."
-    ],
-    "url": "/api/magic-items/orb-of-dragonkind"
   }
 ]

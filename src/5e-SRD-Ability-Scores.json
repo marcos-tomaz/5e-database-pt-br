@@ -1,20 +1,46 @@
 [
   {
-    "index": "str",
-    "name": "STR",
-    "full_name": "Strength",
+    "index": "cha",
+    "name": "CHA",
+    "full_name": "Charisma",
     "desc": [
-      "Strength measures bodily power, athletic training, and the extent to which you can exert raw physical force.",
-      "A Strength check can model any attempt to lift, push, pull, or break something, to force your body through a space, or to otherwise apply brute force to a situation. The Athletics skill reflects aptitude in certain kinds of Strength checks."
+      "Charisma measures your ability to interact effectively with others. It includes such factors as confidence and eloquence, and it can represent a charming or commanding personality.",
+      "A Charisma check might arise when you try to influence or entertain others, when you try to make an impression or tell a convincing lie, or when you are navigating a tricky social situation. The Deception, Intimidation, Performance, and Persuasion skills reflect aptitude in certain kinds of Charisma checks."
     ],
     "skills": [
       {
-        "name": "Athletics",
-        "index": "athletics",
-        "url": "/api/skills/athletics"
+        "name": "Deception",
+        "index": "deception",
+        "url": "/api/skills/deception"
+      },
+      {
+        "name": "Intimidation",
+        "index": "intimidation",
+        "url": "/api/skills/intimidation"
+      },
+      {
+        "name": "Performance",
+        "index": "performance",
+        "url": "/api/skills/performance"
+      },
+      {
+        "name": "Persuasion",
+        "index": "persuasion",
+        "url": "/api/skills/persuasion"
       }
     ],
-    "url": "/api/ability-scores/str"
+    "url": "/api/ability-scores/cha"
+  },
+  {
+    "index": "con",
+    "name": "CON",
+    "full_name": "Constitution",
+    "desc": [
+      "Constitution measures health, stamina, and vital force.",
+      "Constitution checks are uncommon, and no skills apply to Constitution checks, because the endurance this ability represents is largely passive rather than involving a specific effort on the part of a character or monster."
+    ],
+    "skills": [],
+    "url": "/api/ability-scores/con"
   },
   {
     "index": "dex",
@@ -42,17 +68,6 @@
       }
     ],
     "url": "/api/ability-scores/dex"
-  },
-  {
-    "index": "con",
-    "name": "CON",
-    "full_name": "Constitution",
-    "desc": [
-      "Constitution measures health, stamina, and vital force.",
-      "Constitution checks are uncommon, and no skills apply to Constitution checks, because the endurance this ability represents is largely passive rather than involving a specific effort on the part of a character or monster."
-    ],
-    "skills": [],
-    "url": "/api/ability-scores/con"
   },
   {
     "index": "int",
@@ -92,6 +107,23 @@
     "url": "/api/ability-scores/int"
   },
   {
+    "index": "str",
+    "name": "STR",
+    "full_name": "Strength",
+    "desc": [
+      "Strength measures bodily power, athletic training, and the extent to which you can exert raw physical force.",
+      "A Strength check can model any attempt to lift, push, pull, or break something, to force your body through a space, or to otherwise apply brute force to a situation. The Athletics skill reflects aptitude in certain kinds of Strength checks."
+    ],
+    "skills": [
+      {
+        "name": "Athletics",
+        "index": "athletics",
+        "url": "/api/skills/athletics"
+      }
+    ],
+    "url": "/api/ability-scores/str"
+  },
+  {
     "index": "wis",
     "name": "WIS",
     "full_name": "Wisdom",
@@ -127,37 +159,5 @@
       }
     ],
     "url": "/api/ability-scores/wis"
-  },
-  {
-    "index": "cha",
-    "name": "CHA",
-    "full_name": "Charisma",
-    "desc": [
-      "Charisma measures your ability to interact effectively with others. It includes such factors as confidence and eloquence, and it can represent a charming or commanding personality.",
-      "A Charisma check might arise when you try to influence or entertain others, when you try to make an impression or tell a convincing lie, or when you are navigating a tricky social situation. The Deception, Intimidation, Performance, and Persuasion skills reflect aptitude in certain kinds of Charisma checks."
-    ],
-    "skills": [
-      {
-        "name": "Deception",
-        "index": "deception",
-        "url": "/api/skills/deception"
-      },
-      {
-        "name": "Intimidation",
-        "index": "intimidation",
-        "url": "/api/skills/intimidation"
-      },
-      {
-        "name": "Performance",
-        "index": "performance",
-        "url": "/api/skills/performance"
-      },
-      {
-        "name": "Persuasion",
-        "index": "persuasion",
-        "url": "/api/skills/persuasion"
-      }
-    ],
-    "url": "/api/ability-scores/cha"
   }
 ]
