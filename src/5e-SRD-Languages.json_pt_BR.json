@@ -1,5 +1,25 @@
 [
     {
+        "index": "abyssal",
+        "name": "Abyssal",
+        "type": "Exotic",
+        "typical_speakers": [
+            "Demons"
+        ],
+        "script": "Infernal",
+        "url": "/api/languages/abyssal"
+    },
+    {
+        "index": "celestial",
+        "name": "Celestial",
+        "type": "Exotic",
+        "typical_speakers": [
+            "Celestials"
+        ],
+        "script": "Celestial",
+        "url": "/api/languages/celestial"
+    },
+    {
         "index": "common",
         "name": "Common",
         "type": "Standard",
@@ -8,6 +28,28 @@
         ],
         "script": "Common",
         "url": "/api/languages/common"
+    },
+    {
+        "index": "deep-speech",
+        "name": "Deep Speech",
+        "type": "Exotic",
+        "typical_speakers": [
+            "Aboleths",
+            "Cloakers"
+        ],
+        "url": "/api/languages/deep-speech"
+    },
+    {
+        "index": "draconic",
+        "name": "Draconic",
+        "desc": "Draconic is thought to be one of the oldest languages and is often used in the study of magic. The language sounds harsh to most other creatures and includes numerous hard consonants and sibilants.",
+        "type": "Exotic",
+        "typical_speakers": [
+            "Dragons",
+            "Dragonborn"
+        ],
+        "script": "Draconic",
+        "url": "/api/languages/draconic"
     },
     {
         "index": "dwarvish",
@@ -75,6 +117,16 @@
         "url": "/api/languages/halfling"
     },
     {
+        "index": "infernal",
+        "name": "Infernal",
+        "type": "Exotic",
+        "typical_speakers": [
+            "Devils"
+        ],
+        "script": "Infernal",
+        "url": "/api/languages/infernal"
+    },
+    {
         "index": "orc",
         "name": "Orc",
         "desc": "Orc is a harsh, grating language with hard consonants. It has no script of its own but is written in the Dwarvish script.",
@@ -84,58 +136,6 @@
         ],
         "script": "Dwarvish",
         "url": "/api/languages/orc"
-    },
-    {
-        "index": "abyssal",
-        "name": "Abyssal",
-        "type": "Exotic",
-        "typical_speakers": [
-            "Demons"
-        ],
-        "script": "Infernal",
-        "url": "/api/languages/abyssal"
-    },
-    {
-        "index": "celestial",
-        "name": "Celestial",
-        "type": "Exotic",
-        "typical_speakers": [
-            "Celestials"
-        ],
-        "script": "Celestial",
-        "url": "/api/languages/celestial"
-    },
-    {
-        "index": "draconic",
-        "name": "Draconic",
-        "desc": "Draconic is thought to be one of the oldest languages and is often used in the study of magic. The language sounds harsh to most other creatures and includes numerous hard consonants and sibilants.",
-        "type": "Exotic",
-        "typical_speakers": [
-            "Dragons",
-            "Dragonborn"
-        ],
-        "script": "Draconic",
-        "url": "/api/languages/draconic"
-    },
-    {
-        "index": "deep-speech",
-        "name": "Deep Speech",
-        "type": "Exotic",
-        "typical_speakers": [
-            "Aboleths",
-            "Cloakers"
-        ],
-        "url": "/api/languages/deep-speech"
-    },
-    {
-        "index": "infernal",
-        "name": "Infernal",
-        "type": "Exotic",
-        "typical_speakers": [
-            "Devils"
-        ],
-        "script": "Infernal",
-        "url": "/api/languages/infernal"
     },
     {
         "index": "primordial",
