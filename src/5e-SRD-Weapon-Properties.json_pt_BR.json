@@ -41,6 +41,14 @@
         "url": "/api/weapon-properties/loading"
     },
     {
+        "index": "monk",
+        "name": "Monk",
+        "desc": [
+            "Monks gain several benefits while unarmed or wielding only monk weapons while they aren't wearing armor or wielding shields."
+        ],
+        "url": "/api/weapon-properties/monk"
+    },
+    {
         "index": "reach",
         "name": "Reach",
         "desc": [
@@ -79,13 +87,5 @@
             "This weapon can be used with one or two hands. A damage value in parentheses appears with the property--the damage when the weapon is used with two hands to make a melee attack."
         ],
         "url": "/api/weapon-properties/versatile"
-    },
-    {
-        "index": "monk",
-        "name": "Monk",
-        "desc": [
-            "Monks gain several benefits while unarmed or wielding only monk weapons while they aren't wearing armor or wielding shields."
-        ],
-        "url": "/api/weapon-properties/monk"
     }
 ]
