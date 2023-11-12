@@ -1,0 +1,106 @@
+[
+    {
+        "index": "acid",
+        "name": "Ácido",
+        "desc": [
+            "O spray corrosivo do sopro de um dragão negro e a dissolução de enzimas secretas por um pudim preto causam dano ácido."
+        ],
+        "url": "/api/damage-types/acid"
+    },
+    {
+        "index": "bludgeoning",
+        "name": "Espingarda",
+        "desc": [
+            "Ataques da força bruta, queda, constricção e o dano parecido com o que causa dano de atordoamento."
+        ],
+        "url": "/api/damage-types/bludgeoning"
+    },
+    {
+        "index": "cold",
+        "name": "Frio",
+        "desc": [
+            "O frio infernal irradiando da lança de um diabo de gelo e a explosão gelada da respiração de um dragão branco causam dano frio."
+        ],
+        "url": "/api/damage-types/cold"
+    },
+    {
+        "index": "fire",
+        "name": "Disparar",
+        "desc": [
+            "Dragões vermelhos respiram fogo, e muitos feitiços conjazem chamas para causar dano de fogo."
+        ],
+        "url": "/api/damage-types/fire"
+    },
+    {
+        "index": "force",
+        "name": "Força",
+        "desc": [
+            "Força é pura energia mágica focada em uma forma de dano. A maioria dos efeitos que causam dano forçado são feitiços, incluindo mísseis mágicos e arma espiritual."
+        ],
+        "url": "/api/damage-types/force"
+    },
+    {
+        "index": "lightning",
+        "name": "Relâmpago",
+        "desc": [
+            "Uma feitiça de relâmpago e a respiração de um dragão azul causam dano elétrico."
+        ],
+        "url": "/api/damage-types/lightning"
+    },
+    {
+        "index": "necrotic",
+        "name": "Necrótica",
+        "desc": [
+            "Dano Necrético, causado por certos mortos-vivos e um feitiço como o afresco, withers importam e até mesmo a alma."
+        ],
+        "url": "/api/damage-types/necrotic"
+    },
+    {
+        "index": "piercing",
+        "name": "Penetração",
+        "desc": [
+            "Ataques perfurantes e impactantes, incluindo lanças e picadas de monstros, causam dano perfurante."
+        ],
+        "url": "/api/damage-types/piercing"
+    },
+    {
+        "index": "poison",
+        "name": "Veneno",
+        "desc": [
+            "Estações venenosas e o gás tóxico da respiração de um dragão verde causam dano venenoso."
+        ],
+        "url": "/api/damage-types/poison"
+    },
+    {
+        "index": "psychic",
+        "name": "Psíquico",
+        "desc": [
+            "Habilidades mentais como um alto psíquico inflige dano psíquico."
+        ],
+        "url": "/api/damage-types/psychic"
+    },
+    {
+        "index": "radiant",
+        "name": "Radiante",
+        "desc": [
+            "Dano radiante, causado pelo feitiço de chamas de um clérigo ou pela arma de um anjo, arca a carne como fogo e sobrecarrega o espírito com poder."
+        ],
+        "url": "/api/damage-types/radiant"
+    },
+    {
+        "index": "slashing",
+        "name": "Cortando",
+        "desc": [
+            "Espadas, machados e garras dos monstros causam dano cortante."
+        ],
+        "url": "/api/damage-types/slashing"
+    },
+    {
+        "index": "thunder",
+        "name": "Trovão",
+        "desc": [
+            "Uma explosão concussiva de som, como o efeito do feitiço da onda, causa dano trovado."
+        ],
+        "url": "/api/damage-types/thunder"
+    }
+]
