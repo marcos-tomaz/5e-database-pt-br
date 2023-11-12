@@ -1,0 +1,170 @@
+[
+    {
+        "index": "abyssal",
+        "name": "Abyssal",
+        "type": "Exótico",
+        "typical_speakers": [
+            "Demons"
+        ],
+        "script": "Infernal",
+        "url": "/api/languages/abyssal"
+    },
+    {
+        "index": "celestial",
+        "name": "Celestial",
+        "type": "Exótico",
+        "typical_speakers": [
+            "Celestiais"
+        ],
+        "script": "Celestial",
+        "url": "/api/languages/celestial"
+    },
+    {
+        "index": "common",
+        "name": "Comum",
+        "type": "Padrão",
+        "typical_speakers": [
+            "Humanos"
+        ],
+        "script": "Comum",
+        "url": "/api/languages/common"
+    },
+    {
+        "index": "deep-speech",
+        "name": "Discurso Profundo",
+        "type": "Exótico",
+        "typical_speakers": [
+            "Aboletos",
+            "Caputores"
+        ],
+        "url": "/api/languages/deep-speech"
+    },
+    {
+        "index": "draconic",
+        "name": "Draconic",
+        "desc": "O Dracônico é considerado uma das línguas mais antigas e é frequentemente usado no estudo de magia. O idioma soa duro para a maioria das outras criaturas e inclui várias consoantes difíceis e sibilantes.",
+        "type": "Exótico",
+        "typical_speakers": [
+            "Dragões",
+            "Dragonborn"
+        ],
+        "script": "Draconic",
+        "url": "/api/languages/draconic"
+    },
+    {
+        "index": "dwarvish",
+        "name": "Antecedente",
+        "desc": "Dwarvish está cheio de consoantes difíceis e sons de granulação.",
+        "type": "Padrão",
+        "typical_speakers": [
+            "Anões"
+        ],
+        "script": "Antecedente",
+        "url": "/api/languages/dwarvish"
+    },
+    {
+        "index": "elvish",
+        "name": "Elfo",
+        "desc": "Elvis é fluido, com intrusões sutis e gramática intrincada. Literatura Elven é rica e variada, e suas canções e poemas são famosos entre outras raças. Muitas barras aprendem a sua língua para poderem adicionar bolas de Elvish aos seus repertórios.",
+        "type": "Padrão",
+        "typical_speakers": [
+            "Elfos"
+        ],
+        "script": "Elfo",
+        "url": "/api/languages/elvish"
+    },
+    {
+        "index": "giant",
+        "name": "Gigante",
+        "type": "Padrão",
+        "typical_speakers": [
+            "Ogres",
+            "Gigantes"
+        ],
+        "script": "Antecedente",
+        "url": "/api/languages/giant"
+    },
+    {
+        "index": "gnomish",
+        "name": "Gnomish",
+        "desc": "A linguagem nómada, que utiliza o script Dwarvish, é conhecida pelos seus tratados técnicos e pelos seus catálogos de conhecimento sobre o mundo natural.",
+        "type": "Padrão",
+        "typical_speakers": [
+            "Gnomes"
+        ],
+        "script": "Antecedente",
+        "url": "/api/languages/gnomish"
+    },
+    {
+        "index": "goblin",
+        "name": "Goblin",
+        "type": "Padrão",
+        "typical_speakers": [
+            "Goblinoides"
+        ],
+        "script": "Antecedente",
+        "url": "/api/languages/goblin"
+    },
+    {
+        "index": "halfling",
+        "name": "Híbrido",
+        "desc": "A linguagem Halfling não é secreta, mas halflings é falta para compartilhar com os outros. Eles escrevem muito pouco, então não têm um corpo rico de literatura. No entanto, a sua tradição oral é muito forte.",
+        "type": "Padrão",
+        "typical_speakers": [
+            "Meios"
+        ],
+        "script": "Comum",
+        "url": "/api/languages/halfling"
+    },
+    {
+        "index": "infernal",
+        "name": "Infernal",
+        "type": "Exótico",
+        "typical_speakers": [
+            "Devils"
+        ],
+        "script": "Infernal",
+        "url": "/api/languages/infernal"
+    },
+    {
+        "index": "orc",
+        "name": "Orc,",
+        "desc": "Orc é uma linguagem severa e de graça com consoantes difíceis. Não tem nenhum script próprio, mas está escrita no script Dwarvish.",
+        "type": "Padrão",
+        "typical_speakers": [
+            "Orcs"
+        ],
+        "script": "Antecedente",
+        "url": "/api/languages/orc"
+    },
+    {
+        "index": "primordial",
+        "name": "Primordial",
+        "type": "Exótico",
+        "typical_speakers": [
+            "Elementos"
+        ],
+        "script": "Antecedente",
+        "url": "/api/languages/primordial"
+    },
+    {
+        "index": "sylvan",
+        "name": "Silvestre",
+        "type": "Exótico",
+        "typical_speakers": [
+            "Criaturas de Fey"
+        ],
+        "script": "Elfo",
+        "url": "/api/languages/sylvan"
+    },
+    {
+        "index": "undercommon",
+        "name": "Subcomum",
+        "type": "Exótico",
+        "typical_speakers": [
+            "Negociantes clandestinos"
+        ],
+        "script": "Elfo",
+        "url": "/api/languages/undercommon"
+    }
+]
