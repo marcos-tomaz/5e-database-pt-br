@@ -1,0 +1,2041 @@
+[
+    {
+        "index": "alchemists-supplies",
+        "type": "Ferramentas do Artesão",
+        "name": "Suprimentos de Alquimista",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencies/alchemists-supplies",
+        "reference": {
+            "index": "alchemists-supplies",
+            "name": "Suprimentos de Alquimista",
+            "url": "/api/equipment/alchemists-supplies"
+        }
+    },
+    {
+        "index": "all-armor",
+        "type": "Armaduras",
+        "name": "Todas as armaduras",
+        "classes": [
+            {
+                "index": "fighter",
+                "name": "Guerreiro",
+                "url": "/api/classes/fighter"
+            },
+            {
+                "index": "paladin",
+                "name": "Paladino",
+                "url": "/api/classes/paladin"
+            }
+        ],
+        "races": [],
+        "url": "/api/proficiencies/all-armor",
+        "reference": {
+            "index": "armor",
+            "name": "Armaduras",
+            "url": "/api/equipment-categories/armor"
+        }
+    },
+    {
+        "index": "bagpipes",
+        "type": "Instrumentos Musicais",
+        "name": "Bagas",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencies/bagpipes",
+        "reference": {
+            "index": "bagpipes",
+            "name": "Bagas",
+            "url": "/api/equipment/bagpipes"
+        }
+    },
+    {
+        "index": "battleaxes",
+        "type": "Armas",
+        "name": "Machados de batalha",
+        "classes": [],
+        "races": [
+            {
+                "index": "dwarf",
+                "name": "Awarf",
+                "url": "/api/races/dwarf"
+            }
+        ],
+        "url": "/api/proficiencies/battleaxes",
+        "reference": {
+            "index": "battleaxe",
+            "name": "Machado de batalha",
+            "url": "/api/equipment/battleaxe"
+        }
+    },
+    {
+        "index": "blowguns",
+        "type": "Armas",
+        "name": "Armas",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencies/blowguns",
+        "reference": {
+            "index": "blowgun",
+            "name": "Pistola",
+            "url": "/api/equipment/blowgun"
+        }
+    },
+    {
+        "index": "breastplate",
+        "type": "Armaduras",
+        "name": "Peitoral",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencies/breastplate",
+        "reference": {
+            "index": "breastplate",
+            "name": "Peitoral",
+            "url": "/api/equipment/breastplate"
+        }
+    },
+    {
+        "index": "brewers-supplies",
+        "type": "Ferramentas do Artesão",
+        "name": "Suprimentos de Cerveiro",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencies/brewers-supplies",
+        "reference": {
+            "index": "brewers-supplies",
+            "name": "Suprimentos de Cerveiro",
+            "url": "/api/equipment/brewers-supplies"
+        }
+    },
+    {
+        "index": "calligraphers-supplies",
+        "type": "Ferramentas do Artesão",
+        "name": "Suprimentos de Calígrafo",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencies/calligraphers-supplies",
+        "reference": {
+            "index": "calligraphers-supplies",
+            "name": "Suprimentos de Calígrafo",
+            "url": "/api/equipment/calligraphers-supplies"
+        }
+    },
+    {
+        "index": "carpenters-tools",
+        "type": "Ferramentas do Artesão",
+        "name": "Ferramentas do Carpinteiro",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencies/carpenters-tools",
+        "reference": {
+            "index": "carpenters-tools",
+            "name": "Ferramentas do Carpinteiro",
+            "url": "/api/equipment/carpenters-tools"
+        }
+    },
+    {
+        "index": "cartographers-tools",
+        "type": "Ferramentas do Artesão",
+        "name": "Ferramentas do Cartógrafo",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencies/cartographers-tools",
+        "reference": {
+            "index": "cartographers-tools",
+            "name": "Ferramentas do Cartógrafo",
+            "url": "/api/equipment/cartographers-tools"
+        }
+    },
+    {
+        "index": "chain-mail",
+        "type": "Armaduras",
+        "name": "Chain Mail",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencies/chain-mail",
+        "reference": {
+            "index": "chain-mail",
+            "name": "Chain Mail",
+            "url": "/api/equipment/chain-mail"
+        }
+    },
+    {
+        "index": "chain-shirt",
+        "type": "Armaduras",
+        "name": "Camisa de Corrente",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencies/chain-shirt",
+        "reference": {
+            "index": "chain-shirt",
+            "name": "Camisa de Corrente",
+            "url": "/api/equipment/chain-shirt"
+        }
+    },
+    {
+        "index": "clubs",
+        "type": "Armas",
+        "name": "Clubes",
+        "classes": [
+            {
+                "index": "druid",
+                "name": "Druida",
+                "url": "/api/classes/druid"
+            }
+        ],
+        "races": [],
+        "url": "/api/proficiencies/clubs",
+        "reference": {
+            "index": "club",
+            "name": "Clava",
+            "url": "/api/equipment/club"
+        }
+    },
+    {
+        "index": "cobblers-tools",
+        "type": "Ferramentas do Artesão",
+        "name": "Ferramentas do Cobrador",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencies/cobblers-tools",
+        "reference": {
+            "index": "cobblers-tools",
+            "name": "Ferramentas do Cobrador",
+            "url": "/api/equipment/cobblers-tools"
+        }
+    },
+    {
+        "index": "cooks-utensils",
+        "type": "Ferramentas do Artesão",
+        "name": "utensílios de coque",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencies/cooks-utensils",
+        "reference": {
+            "index": "cooks-utensils",
+            "name": "utensílios de coque",
+            "url": "/api/equipment/cooks-utensils"
+        }
+    },
+    {
+        "index": "crossbows-heavy",
+        "type": "Armas",
+        "name": "Besteiros, pesado",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencies/crossbows-heavy",
+        "reference": {
+            "index": "crossbow-heavy",
+            "name": "Besteiro, pesado",
+            "url": "/api/equipment/crossbow-heavy"
+        }
+    },
+    {
+        "index": "crossbows-light",
+        "type": "Armas",
+        "name": "Besteiros, claro",
+        "classes": [
+            {
+                "index": "sorcerer",
+                "name": "Sorcerer",
+                "url": "/api/classes/sorcerer"
+            },
+            {
+                "index": "wizard",
+                "name": "Assistente",
+                "url": "/api/classes/wizard"
+            }
+        ],
+        "races": [],
+        "url": "/api/proficiencies/crossbows-light",
+        "reference": {
+            "index": "crossbow-light",
+            "name": "Besteira, luz",
+            "url": "/api/equipment/crossbow-light"
+        }
+    },
+    {
+        "index": "daggers",
+        "type": "Armas",
+        "name": "Daggers",
+        "classes": [
+            {
+                "index": "druid",
+                "name": "Druida",
+                "url": "/api/classes/druid"
+            },
+            {
+                "index": "sorcerer",
+                "name": "Sorcerer",
+                "url": "/api/classes/sorcerer"
+            },
+            {
+                "index": "wizard",
+                "name": "Assistente",
+                "url": "/api/classes/wizard"
+            }
+        ],
+        "races": [],
+        "url": "/api/proficiencies/daggers",
+        "reference": {
+            "index": "dagger",
+            "name": "Dagger",
+            "url": "/api/equipment/dagger"
+        }
+    },
+    {
+        "index": "darts",
+        "type": "Armas",
+        "name": "Dardos",
+        "classes": [
+            {
+                "index": "druid",
+                "name": "Druida",
+                "url": "/api/classes/druid"
+            },
+            {
+                "index": "sorcerer",
+                "name": "Sorcerer",
+                "url": "/api/classes/sorcerer"
+            },
+            {
+                "index": "wizard",
+                "name": "Assistente",
+                "url": "/api/classes/wizard"
+            }
+        ],
+        "races": [],
+        "url": "/api/proficiencies/darts",
+        "reference": {
+            "index": "dart",
+            "name": "Dardo",
+            "url": "/api/equipment/dart"
+        }
+    },
+    {
+        "index": "dice-set",
+        "type": "Conjuntos de jogos",
+        "name": "Conjunto de dados",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencies/dice-set",
+        "reference": {
+            "index": "dice-set",
+            "name": "Conjunto de dados",
+            "url": "/api/equipment/dice-set"
+        }
+    },
+    {
+        "index": "disguise-kit",
+        "type": "Ferramentas do Artesão",
+        "name": "Kit de Disfarce",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencies/disguise-kit",
+        "reference": {
+            "index": "disguise-kit",
+            "name": "Kit de Disfarce",
+            "url": "/api/equipment/disguise-kit"
+        }
+    },
+    {
+        "index": "drum",
+        "type": "Instrumentos Musicais",
+        "name": "Tambor",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencies/drum",
+        "reference": {
+            "index": "drum",
+            "name": "Tambor",
+            "url": "/api/equipment/drum"
+        }
+    },
+    {
+        "index": "dulcimer",
+        "type": "Instrumentos Musicais",
+        "name": "Dulcimer",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencies/dulcimer",
+        "reference": {
+            "index": "dulcimer",
+            "name": "Dulcimer",
+            "url": "/api/equipment/dulcimer"
+        }
+    },
+    {
+        "index": "flails",
+        "type": "Armas",
+        "name": "Sinalizadores",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencies/flails",
+        "reference": {
+            "index": "flail",
+            "name": "Sinalizador",
+            "url": "/api/equipment/flail"
+        }
+    },
+    {
+        "index": "flute",
+        "type": "Instrumentos Musicais",
+        "name": "Flauta",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencies/flute",
+        "reference": {
+            "index": "flute",
+            "name": "Flauta",
+            "url": "/api/equipment/flute"
+        }
+    },
+    {
+        "index": "forgery-kit",
+        "type": "Ferramentas do Artesão",
+        "name": "Kit de Forja",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencies/forgery-kit",
+        "reference": {
+            "index": "forgery-kit",
+            "name": "Kit de Forja",
+            "url": "/api/equipment/forgery-kit"
+        }
+    },
+    {
+        "index": "glaives",
+        "type": "Armas",
+        "name": "Glaives",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencies/glaives",
+        "reference": {
+            "index": "glaive",
+            "name": "Glaive",
+            "url": "/api/equipment/glaive"
+        }
+    },
+    {
+        "index": "glassblowers-tools",
+        "type": "Ferramentas do Artesão",
+        "name": "Ferramentas do soprador",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencies/glassblowers-tools",
+        "reference": {
+            "index": "glassblowers-tools",
+            "name": "Ferramentas do soprador",
+            "url": "/api/equipment/glassblowers-tools"
+        }
+    },
+    {
+        "index": "greataxes",
+        "type": "Armas",
+        "name": "Greataxes",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencies/greataxes",
+        "reference": {
+            "index": "greataxe",
+            "name": "Greataxe",
+            "url": "/api/equipment/greataxe"
+        }
+    },
+    {
+        "index": "greatclubs",
+        "type": "Armas",
+        "name": "Boas clubes",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencies/greatclubs",
+        "reference": {
+            "index": "greatclub",
+            "name": "Grande clube",
+            "url": "/api/equipment/greatclub"
+        }
+    },
+    {
+        "index": "greatswords",
+        "type": "Armas",
+        "name": "Palavras",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencies/greatswords",
+        "reference": {
+            "index": "greatsword",
+            "name": "Espada Grande",
+            "url": "/api/equipment/greatsword"
+        }
+    },
+    {
+        "index": "halberds",
+        "type": "Armas",
+        "name": "Alabardas",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencies/halberds",
+        "reference": {
+            "index": "halberd",
+            "name": "Halberd",
+            "url": "/api/equipment/halberd"
+        }
+    },
+    {
+        "index": "half-plate-armor",
+        "type": "Armaduras",
+        "name": "Armadura de Placas Simples",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencies/half-plate-armor",
+        "reference": {
+            "index": "half-plate-armor",
+            "name": "Armadura de Placas Simples",
+            "url": "/api/equipment/half-plate-armor"
+        }
+    },
+    {
+        "index": "hand-crossbows",
+        "type": "Armas",
+        "name": "Bestas de mão",
+        "classes": [
+            {
+                "index": "bard",
+                "name": "Bardo",
+                "url": "/api/classes/bard"
+            },
+            {
+                "index": "rogue",
+                "name": "Rogue",
+                "url": "/api/classes/rogue"
+            }
+        ],
+        "races": [],
+        "url": "/api/proficiencies/hand-crossbows",
+        "reference": {
+            "index": "crossbow-hand",
+            "name": "Besteira, mão",
+            "url": "/api/equipment/crossbow-hand"
+        }
+    },
+    {
+        "index": "handaxes",
+        "type": "Armas",
+        "name": "Handaxes",
+        "classes": [],
+        "races": [
+            {
+                "index": "dwarf",
+                "name": "Awarf",
+                "url": "/api/races/dwarf"
+            }
+        ],
+        "url": "/api/proficiencies/handaxes",
+        "reference": {
+            "index": "handaxe",
+            "name": "Handaxe",
+            "url": "/api/equipment/handaxe"
+        }
+    },
+    {
+        "index": "heavy-armor",
+        "type": "Armaduras",
+        "name": "Armadura Pesada",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencies/heavy-armor",
+        "reference": {
+            "index": "heavy-armor",
+            "name": "Armadura Pesada",
+            "url": "/api/equipment-categories/heavy-armor"
+        }
+    },
+    {
+        "index": "herbalism-kit",
+        "type": "Outros",
+        "name": "Kit Herbalismo",
+        "classes": [
+            {
+                "index": "druid",
+                "name": "Druida",
+                "url": "/api/classes/druid"
+            }
+        ],
+        "races": [],
+        "url": "/api/proficiencies/herbalism-kit",
+        "reference": {
+            "index": "herbalism-kit",
+            "name": "Kit Herbalismo",
+            "url": "/api/equipment/herbalism-kit"
+        }
+    },
+    {
+        "index": "hide-armor",
+        "type": "Armaduras",
+        "name": "Esconder Armadura",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencies/hide-armor",
+        "reference": {
+            "index": "hide-armor",
+            "name": "Esconder Armadura",
+            "url": "/api/equipment/hide-armor"
+        }
+    },
+    {
+        "index": "horn",
+        "type": "Instrumentos Musicais",
+        "name": "Chifre",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencies/horn",
+        "reference": {
+            "index": "horn",
+            "name": "Chifre",
+            "url": "/api/equipment/horn"
+        }
+    },
+    {
+        "index": "javelins",
+        "type": "Armas",
+        "name": "Janelas",
+        "classes": [
+            {
+                "index": "druid",
+                "name": "Druida",
+                "url": "/api/classes/druid"
+            }
+        ],
+        "races": [],
+        "url": "/api/proficiencies/javelins",
+        "reference": {
+            "index": "javelin",
+            "name": "Javelin",
+            "url": "/api/equipment/javelin"
+        }
+    },
+    {
+        "index": "jewelers-tools",
+        "type": "Ferramentas do Artesão",
+        "name": "Ferramentas de Joalheiro",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencies/jewelers-tools",
+        "reference": {
+            "index": "jewelers-tools",
+            "name": "Ferramentas de Joalheiro",
+            "url": "/api/equipment/jewelers-tools"
+        }
+    },
+    {
+        "index": "lances",
+        "type": "Armas",
+        "name": "Lanças",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencies/lances",
+        "reference": {
+            "index": "lance",
+            "name": "Lança",
+            "url": "/api/equipment/lance"
+        }
+    },
+    {
+        "index": "land-vehicles",
+        "type": "Veículos",
+        "name": "Veículos Terrestres",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencies/land-vehicles",
+        "reference": {
+            "index": "land-vehicles",
+            "name": "Veículos Terrestres",
+            "url": "/api/equipment-categories/land-vehicles"
+        }
+    },
+    {
+        "index": "leather-armor",
+        "type": "Armaduras",
+        "name": "Armadura de couro",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencies/leather-armor",
+        "reference": {
+            "index": "leather-armor",
+            "name": "Armadura de couro",
+            "url": "/api/equipment/leather-armor"
+        }
+    },
+    {
+        "index": "leatherworkers-tools",
+        "type": "Ferramentas do Artesão",
+        "name": "Ferramentas do Coureiro",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencies/leatherworkers-tools",
+        "reference": {
+            "index": "leatherworkers-tools",
+            "name": "Ferramentas do Coureiro",
+            "url": "/api/equipment/leatherworkers-tools"
+        }
+    },
+    {
+        "index": "light-armor",
+        "type": "Armaduras",
+        "name": "Armadura Leve",
+        "classes": [
+            {
+                "index": "barbarian",
+                "name": "Bárbaro",
+                "url": "/api/classes/barbarian"
+            },
+            {
+                "index": "bard",
+                "name": "Bardo",
+                "url": "/api/classes/bard"
+            },
+            {
+                "index": "cleric",
+                "name": "Clérico",
+                "url": "/api/classes/cleric"
+            },
+            {
+                "index": "druid",
+                "name": "Druida",
+                "url": "/api/classes/druid"
+            },
+            {
+                "index": "ranger",
+                "name": "Ranger",
+                "url": "/api/classes/ranger"
+            },
+            {
+                "index": "rogue",
+                "name": "Rogue",
+                "url": "/api/classes/rogue"
+            },
+            {
+                "index": "warlock",
+                "name": "Warlock",
+                "url": "/api/classes/warlock"
+            }
+        ],
+        "races": [],
+        "url": "/api/proficiencies/light-armor",
+        "reference": {
+            "index": "light-armor",
+            "name": "Armadura Leve",
+            "url": "/api/equipment-categories/light-armor"
+        }
+    },
+    {
+        "index": "light-hammers",
+        "type": "Armas",
+        "name": "Martelos claros",
+        "classes": [],
+        "races": [
+            {
+                "index": "dwarf",
+                "name": "Awarf",
+                "url": "/api/races/dwarf"
+            }
+        ],
+        "url": "/api/proficiencies/light-hammers",
+        "reference": {
+            "index": "light-hammer",
+            "name": "Martelo leve",
+            "url": "/api/equipment/light-hammer"
+        }
+    },
+    {
+        "index": "longbows",
+        "type": "Armas",
+        "name": "Longbows",
+        "classes": [],
+        "races": [
+            {
+                "index": "high-elf",
+                "name": "Elfo Alto",
+                "url": "/api/subraces/high-elf"
+            }
+        ],
+        "url": "/api/proficiencies/longbows",
+        "reference": {
+            "index": "longbow",
+            "name": "Longbow",
+            "url": "/api/equipment/longbow"
+        }
+    },
+    {
+        "index": "longswords",
+        "type": "Armas",
+        "name": "Espadas longas",
+        "classes": [
+            {
+                "index": "bard",
+                "name": "Bardo",
+                "url": "/api/classes/bard"
+            },
+            {
+                "index": "rogue",
+                "name": "Rogue",
+                "url": "/api/classes/rogue"
+            }
+        ],
+        "races": [
+            {
+                "index": "high-elf",
+                "name": "Elfo Alto",
+                "url": "/api/subraces/high-elf"
+            }
+        ],
+        "url": "/api/proficiencies/longswords",
+        "reference": {
+            "index": "longsword",
+            "name": "Espada Longa",
+            "url": "/api/equipment/longsword"
+        }
+    },
+    {
+        "index": "lute",
+        "type": "Instrumentos Musicais",
+        "name": "Lutar",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencies/lute",
+        "reference": {
+            "index": "lute",
+            "name": "Lutar",
+            "url": "/api/equipment/lute"
+        }
+    },
+    {
+        "index": "lyre",
+        "type": "Instrumentos Musicais",
+        "name": "Lança",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencies/lyre",
+        "reference": {
+            "index": "lyre",
+            "name": "Lança",
+            "url": "/api/equipment/lyre"
+        }
+    },
+    {
+        "index": "maces",
+        "type": "Armas",
+        "name": "Maces",
+        "classes": [
+            {
+                "index": "druid",
+                "name": "Druida",
+                "url": "/api/classes/druid"
+            }
+        ],
+        "races": [],
+        "url": "/api/proficiencies/maces",
+        "reference": {
+            "index": "mace",
+            "name": "Mace",
+            "url": "/api/equipment/mace"
+        }
+    },
+    {
+        "index": "martial-weapons",
+        "type": "Armas",
+        "name": "Armas Marciais",
+        "classes": [
+            {
+                "index": "barbarian",
+                "name": "Bárbaro",
+                "url": "/api/classes/barbarian"
+            },
+            {
+                "index": "fighter",
+                "name": "Guerreiro",
+                "url": "/api/classes/fighter"
+            },
+            {
+                "index": "paladin",
+                "name": "Paladino",
+                "url": "/api/classes/paladin"
+            },
+            {
+                "index": "ranger",
+                "name": "Ranger",
+                "url": "/api/classes/ranger"
+            }
+        ],
+        "races": [],
+        "url": "/api/proficiencies/martial-weapons",
+        "reference": {
+            "index": "martial-weapons",
+            "name": "Armas Marciais",
+            "url": "/api/equipment-categories/martial-weapons"
+        }
+    },
+    {
+        "index": "masons-tools",
+        "type": "Ferramentas do Artesão",
+        "name": "Ferramentas de Mason",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencies/masons-tools",
+        "reference": {
+            "index": "masons-tools",
+            "name": "Ferramentas de Mason",
+            "url": "/api/equipment/masons-tools"
+        }
+    },
+    {
+        "index": "mauls",
+        "type": "Armas",
+        "name": "Bordos",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencies/mauls",
+        "reference": {
+            "index": "maul",
+            "name": "Maul",
+            "url": "/api/equipment/maul"
+        }
+    },
+    {
+        "index": "medium-armor",
+        "type": "Armaduras",
+        "name": "Armadura Média",
+        "classes": [
+            {
+                "index": "barbarian",
+                "name": "Bárbaro",
+                "url": "/api/classes/barbarian"
+            },
+            {
+                "index": "cleric",
+                "name": "Clérico",
+                "url": "/api/classes/cleric"
+            },
+            {
+                "index": "druid",
+                "name": "Druida",
+                "url": "/api/classes/druid"
+            },
+            {
+                "index": "ranger",
+                "name": "Ranger",
+                "url": "/api/classes/ranger"
+            }
+        ],
+        "races": [],
+        "url": "/api/proficiencies/medium-armor",
+        "reference": {
+            "index": "medium-armor",
+            "name": "Armadura Média",
+            "url": "/api/equipment-categories/medium-armor"
+        }
+    },
+    {
+        "index": "morningstars",
+        "type": "Armas",
+        "name": "Estrelas",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencies/morningstars",
+        "reference": {
+            "index": "morningstar",
+            "name": "Estrela-Manhã",
+            "url": "/api/equipment/morningstar"
+        }
+    },
+    {
+        "index": "navigators-tools",
+        "type": "Outros",
+        "name": "Ferramentas do Navegador",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencies/navigators-tools",
+        "reference": {
+            "index": "navigators-tools",
+            "name": "Ferramentas do Navegador",
+            "url": "/api/equipment/navigators-tools"
+        }
+    },
+    {
+        "index": "nets",
+        "type": "Armas",
+        "name": "Redes",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencies/nets",
+        "reference": {
+            "index": "net",
+            "name": "Líquido",
+            "url": "/api/equipment/net"
+        }
+    },
+    {
+        "index": "padded-armor",
+        "type": "Armaduras",
+        "name": "Armadura Acolchoada",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencies/padded-armor",
+        "reference": {
+            "index": "padded-armor",
+            "name": "Armadura Acolchoada",
+            "url": "/api/equipment/padded-armor"
+        }
+    },
+    {
+        "index": "painters-supplies",
+        "type": "Ferramentas do Artesão",
+        "name": "Suprimentos do Pintor",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencies/painters-supplies",
+        "reference": {
+            "index": "painters-supplies",
+            "name": "Suprimentos do Pintor",
+            "url": "/api/equipment/painters-supplies"
+        }
+    },
+    {
+        "index": "pan-flute",
+        "type": "Instrumentos Musicais",
+        "name": "Flauta de Panela",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencies/pan-flute",
+        "reference": {
+            "index": "pan-flute",
+            "name": "Flauta de Panela",
+            "url": "/api/equipment/pan-flute"
+        }
+    },
+    {
+        "index": "pikes",
+        "type": "Armas",
+        "name": "Piques",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencies/pikes",
+        "reference": {
+            "index": "pike",
+            "name": "Pique",
+            "url": "/api/equipment/pike"
+        }
+    },
+    {
+        "index": "plate-armor",
+        "type": "Armaduras",
+        "name": "Armadura de Placa",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencies/plate-armor",
+        "reference": {
+            "index": "plate-armor",
+            "name": "Armadura de Placa",
+            "url": "/api/equipment/plate-armor"
+        }
+    },
+    {
+        "index": "playing-card-set",
+        "type": "Conjuntos de jogos",
+        "name": "Conjunto de cartas de reprodução",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencies/playing-card-set",
+        "reference": {
+            "index": "playing-card-set",
+            "name": "Conjunto de cartas de reprodução",
+            "url": "/api/equipment/playing-card-set"
+        }
+    },
+    {
+        "index": "poisoners-kit",
+        "type": "Outros",
+        "name": "Kit do Envenenador",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencies/poisoners-kit",
+        "reference": {
+            "index": "poisoners-kit",
+            "name": "Kit do Envenenador",
+            "url": "/api/equipment/poisoners-kit"
+        }
+    },
+    {
+        "index": "potters-tools",
+        "type": "Ferramentas do Artesão",
+        "name": "Ferramentas de Oleiro",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencies/potters-tools",
+        "reference": {
+            "index": "potters-tools",
+            "name": "Ferramentas de Oleiro",
+            "url": "/api/equipment/potters-tools"
+        }
+    },
+    {
+        "index": "quarterstaffs",
+        "type": "Armas",
+        "name": "Quartéis",
+        "classes": [
+            {
+                "index": "druid",
+                "name": "Druida",
+                "url": "/api/classes/druid"
+            },
+            {
+                "index": "sorcerer",
+                "name": "Sorcerer",
+                "url": "/api/classes/sorcerer"
+            },
+            {
+                "index": "wizard",
+                "name": "Assistente",
+                "url": "/api/classes/wizard"
+            }
+        ],
+        "races": [],
+        "url": "/api/proficiencies/quarterstaffs",
+        "reference": {
+            "index": "quarterstaff",
+            "name": "Bastão",
+            "url": "/api/equipment/quarterstaff"
+        }
+    },
+    {
+        "index": "rapiers",
+        "type": "Armas",
+        "name": "Rapieiras",
+        "classes": [
+            {
+                "index": "bard",
+                "name": "Bardo",
+                "url": "/api/classes/bard"
+            },
+            {
+                "index": "rogue",
+                "name": "Rogue",
+                "url": "/api/classes/rogue"
+            }
+        ],
+        "races": [],
+        "url": "/api/proficiencies/rapiers",
+        "reference": {
+            "index": "rapier",
+            "name": "Rapieira",
+            "url": "/api/equipment/rapier"
+        }
+    },
+    {
+        "index": "ring-mail",
+        "type": "Armaduras",
+        "name": "Toque de Correio",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencies/ring-mail",
+        "reference": {
+            "index": "ring-mail",
+            "name": "Toque de Correio",
+            "url": "/api/equipment/ring-mail"
+        }
+    },
+    {
+        "index": "saving-throw-cha",
+        "type": "Salvando lançamentos.",
+        "name": "Salvando Throw: CHA",
+        "classes": [
+            {
+                "index": "bard",
+                "name": "Bardo",
+                "url": "/api/classes/bard"
+            },
+            {
+                "index": "cleric",
+                "name": "Clérico",
+                "url": "/api/classes/cleric"
+            },
+            {
+                "index": "paladin",
+                "name": "Paladino",
+                "url": "/api/classes/paladin"
+            },
+            {
+                "index": "sorcerer",
+                "name": "Sorcerer",
+                "url": "/api/classes/sorcerer"
+            },
+            {
+                "index": "warlock",
+                "name": "Warlock",
+                "url": "/api/classes/warlock"
+            }
+        ],
+        "races": [],
+        "url": "/api/proficiencies/saving-throw-cha",
+        "reference": {
+            "index": "cha",
+            "name": "CHA",
+            "url": "/api/ability-scores/cha"
+        }
+    },
+    {
+        "index": "saving-throw-con",
+        "type": "Salvando lançamentos.",
+        "name": "Salvando Throw: CON",
+        "classes": [
+            {
+                "index": "barbarian",
+                "name": "Bárbaro",
+                "url": "/api/classes/barbarian"
+            },
+            {
+                "index": "fighter",
+                "name": "Guerreiro",
+                "url": "/api/classes/fighter"
+            },
+            {
+                "index": "sorcerer",
+                "name": "Sorcerer",
+                "url": "/api/classes/sorcerer"
+            }
+        ],
+        "races": [],
+        "url": "/api/proficiencies/saving-throw-con",
+        "reference": {
+            "index": "con",
+            "name": "CON",
+            "url": "/api/ability-scores/con"
+        }
+    },
+    {
+        "index": "saving-throw-dex",
+        "type": "Salvando lançamentos.",
+        "name": "Salvando Throw: DEX",
+        "classes": [
+            {
+                "index": "bard",
+                "name": "Bardo",
+                "url": "/api/classes/bard"
+            },
+            {
+                "index": "monk",
+                "name": "Monge",
+                "url": "/api/classes/monk"
+            },
+            {
+                "index": "ranger",
+                "name": "Ranger",
+                "url": "/api/classes/ranger"
+            },
+            {
+                "index": "rogue",
+                "name": "Rogue",
+                "url": "/api/classes/rogue"
+            }
+        ],
+        "races": [],
+        "url": "/api/proficiencies/saving-throw-dex",
+        "reference": {
+            "index": "dex",
+            "name": "DEXO",
+            "url": "/api/ability-scores/dex"
+        }
+    },
+    {
+        "index": "saving-throw-int",
+        "type": "Salvando lançamentos.",
+        "name": "Salvando Throw: INT",
+        "classes": [
+            {
+                "index": "druid",
+                "name": "Druida",
+                "url": "/api/classes/druid"
+            },
+            {
+                "index": "rogue",
+                "name": "Rogue",
+                "url": "/api/classes/rogue"
+            },
+            {
+                "index": "wizard",
+                "name": "Assistente",
+                "url": "/api/classes/wizard"
+            }
+        ],
+        "races": [],
+        "url": "/api/proficiencies/saving-throw-int",
+        "reference": {
+            "index": "int",
+            "name": "INT",
+            "url": "/api/ability-scores/int"
+        }
+    },
+    {
+        "index": "saving-throw-str",
+        "type": "Salvando lançamentos.",
+        "name": "Salvando Throw: STR",
+        "classes": [
+            {
+                "index": "barbarian",
+                "name": "Bárbaro",
+                "url": "/api/classes/barbarian"
+            },
+            {
+                "index": "fighter",
+                "name": "Guerreiro",
+                "url": "/api/classes/fighter"
+            },
+            {
+                "index": "monk",
+                "name": "Monge",
+                "url": "/api/classes/monk"
+            },
+            {
+                "index": "ranger",
+                "name": "Ranger",
+                "url": "/api/classes/ranger"
+            }
+        ],
+        "races": [],
+        "url": "/api/proficiencies/saving-throw-str",
+        "reference": {
+            "index": "str",
+            "name": "STR",
+            "url": "/api/ability-scores/str"
+        }
+    },
+    {
+        "index": "saving-throw-wis",
+        "type": "Salvando lançamentos.",
+        "name": "Salvando Throw: WIS",
+        "classes": [
+            {
+                "index": "cleric",
+                "name": "Clérico",
+                "url": "/api/classes/cleric"
+            },
+            {
+                "index": "druid",
+                "name": "Druida",
+                "url": "/api/classes/druid"
+            },
+            {
+                "index": "paladin",
+                "name": "Paladino",
+                "url": "/api/classes/paladin"
+            },
+            {
+                "index": "warlock",
+                "name": "Warlock",
+                "url": "/api/classes/warlock"
+            },
+            {
+                "index": "wizard",
+                "name": "Assistente",
+                "url": "/api/classes/wizard"
+            }
+        ],
+        "races": [],
+        "url": "/api/proficiencies/saving-throw-wis",
+        "reference": {
+            "index": "wis",
+            "name": "WIS",
+            "url": "/api/ability-scores/wis"
+        }
+    },
+    {
+        "index": "scale-mail",
+        "type": "Armaduras",
+        "name": "Escala de Correio",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencies/scale-mail",
+        "reference": {
+            "index": "scale-mail",
+            "name": "Escala de Correio",
+            "url": "/api/equipment/scale-mail"
+        }
+    },
+    {
+        "index": "scimitars",
+        "type": "Armas",
+        "name": "Cimitarras",
+        "classes": [
+            {
+                "index": "druid",
+                "name": "Druida",
+                "url": "/api/classes/druid"
+            }
+        ],
+        "races": [],
+        "url": "/api/proficiencies/scimitars",
+        "reference": {
+            "index": "scimitar",
+            "name": "Cimitarra",
+            "url": "/api/equipment/scimitar"
+        }
+    },
+    {
+        "index": "shawm",
+        "type": "Instrumentos Musicais",
+        "name": "Shawm",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencies/shawm",
+        "reference": {
+            "index": "shawm",
+            "name": "Shawm",
+            "url": "/api/equipment/shawm"
+        }
+    },
+    {
+        "index": "shields",
+        "type": "Armaduras",
+        "name": "Escudos",
+        "classes": [
+            {
+                "index": "barbarian",
+                "name": "Bárbaro",
+                "url": "/api/classes/barbarian"
+            },
+            {
+                "index": "cleric",
+                "name": "Clérico",
+                "url": "/api/classes/cleric"
+            },
+            {
+                "index": "druid",
+                "name": "Druida",
+                "url": "/api/classes/druid"
+            },
+            {
+                "index": "fighter",
+                "name": "Guerreiro",
+                "url": "/api/classes/fighter"
+            },
+            {
+                "index": "paladin",
+                "name": "Paladino",
+                "url": "/api/classes/paladin"
+            },
+            {
+                "index": "ranger",
+                "name": "Ranger",
+                "url": "/api/classes/ranger"
+            }
+        ],
+        "races": [],
+        "url": "/api/proficiencies/shields",
+        "reference": {
+            "index": "shield",
+            "name": "Escudos",
+            "url": "/api/equipment/shield"
+        }
+    },
+    {
+        "index": "shortbows",
+        "type": "Armas",
+        "name": "Arcos curtos",
+        "classes": [],
+        "races": [
+            {
+                "index": "high-elf",
+                "name": "Elfo Alto",
+                "url": "/api/subraces/high-elf"
+            }
+        ],
+        "url": "/api/proficiencies/shortbows",
+        "reference": {
+            "index": "shortbow",
+            "name": "Arco curto",
+            "url": "/api/equipment/shortbow"
+        }
+    },
+    {
+        "index": "shortswords",
+        "type": "Armas",
+        "name": "Palavras curtas",
+        "classes": [
+            {
+                "index": "bard",
+                "name": "Bardo",
+                "url": "/api/classes/bard"
+            },
+            {
+                "index": "monk",
+                "name": "Monge",
+                "url": "/api/classes/monk"
+            },
+            {
+                "index": "rogue",
+                "name": "Rogue",
+                "url": "/api/classes/rogue"
+            }
+        ],
+        "races": [
+            {
+                "index": "high-elf",
+                "name": "Elfo Alto",
+                "url": "/api/subraces/high-elf"
+            }
+        ],
+        "url": "/api/proficiencies/shortswords",
+        "reference": {
+            "index": "shortsword",
+            "name": "Palavra curta",
+            "url": "/api/equipment/shortsword"
+        }
+    },
+    {
+        "index": "sickles",
+        "type": "Armas",
+        "name": "Foices",
+        "classes": [
+            {
+                "index": "druid",
+                "name": "Druida",
+                "url": "/api/classes/druid"
+            }
+        ],
+        "races": [],
+        "url": "/api/proficiencies/sickles",
+        "reference": {
+            "index": "sickle",
+            "name": "Foice",
+            "url": "/api/equipment/sickle"
+        }
+    },
+    {
+        "index": "simple-weapons",
+        "type": "Armas",
+        "name": "Armas Simples",
+        "classes": [
+            {
+                "index": "barbarian",
+                "name": "Bárbaro",
+                "url": "/api/classes/barbarian"
+            },
+            {
+                "index": "bard",
+                "name": "Bardo",
+                "url": "/api/classes/bard"
+            },
+            {
+                "index": "cleric",
+                "name": "Clérico",
+                "url": "/api/classes/cleric"
+            },
+            {
+                "index": "fighter",
+                "name": "Guerreiro",
+                "url": "/api/classes/fighter"
+            },
+            {
+                "index": "monk",
+                "name": "Monge",
+                "url": "/api/classes/monk"
+            },
+            {
+                "index": "paladin",
+                "name": "Paladino",
+                "url": "/api/classes/paladin"
+            },
+            {
+                "index": "ranger",
+                "name": "Ranger",
+                "url": "/api/classes/ranger"
+            },
+            {
+                "index": "rogue",
+                "name": "Rogue",
+                "url": "/api/classes/rogue"
+            },
+            {
+                "index": "warlock",
+                "name": "Warlock",
+                "url": "/api/classes/warlock"
+            }
+        ],
+        "races": [],
+        "url": "/api/proficiencies/simple-weapons",
+        "reference": {
+            "index": "simple-weapons",
+            "name": "Armas Simples",
+            "url": "/api/equipment-categories/simple-weapons"
+        }
+    },
+    {
+        "index": "skill-acrobatics",
+        "type": "Habilidades",
+        "name": "Habilidade: Acrobática",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencies/skill-acrobatics",
+        "reference": {
+            "index": "acrobatics",
+            "name": "Acrobáticos",
+            "url": "/api/skills/acrobatics"
+        }
+    },
+    {
+        "index": "skill-animal-handling",
+        "type": "Habilidades",
+        "name": "Habilidade: Manipulação de Animais",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencies/skill-animal-handling",
+        "reference": {
+            "index": "animal-handling",
+            "name": "Manuseio de animais",
+            "url": "/api/skills/animal-handling"
+        }
+    },
+    {
+        "index": "skill-arcana",
+        "type": "Habilidades",
+        "name": "Habilidade: Arcana",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencies/skill-arcana",
+        "reference": {
+            "index": "arcana",
+            "name": "Arcano",
+            "url": "/api/skills/arcana"
+        }
+    },
+    {
+        "index": "skill-athletics",
+        "type": "Habilidades",
+        "name": "Habilidade: Atleta",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencies/skill-athletics",
+        "reference": {
+            "index": "athletics",
+            "name": "Atletismo",
+            "url": "/api/skills/athletics"
+        }
+    },
+    {
+        "index": "skill-deception",
+        "type": "Habilidades",
+        "name": "Habilidade: Engodo",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencies/skill-deception",
+        "reference": {
+            "index": "deception",
+            "name": "Engodo",
+            "url": "/api/skills/deception"
+        }
+    },
+    {
+        "index": "skill-history",
+        "type": "Habilidades",
+        "name": "Habilidade: Histórico",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencies/skill-history",
+        "reference": {
+            "index": "history",
+            "name": "Histórico",
+            "url": "/api/skills/history"
+        }
+    },
+    {
+        "index": "skill-insight",
+        "type": "Habilidades",
+        "name": "Habilidade: Conhecimento",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencies/skill-insight",
+        "reference": {
+            "index": "insight",
+            "name": "Intuições",
+            "url": "/api/skills/insight"
+        }
+    },
+    {
+        "index": "skill-intimidation",
+        "type": "Habilidades",
+        "name": "Habilidade: Intimidação",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencies/skill-intimidation",
+        "reference": {
+            "index": "intimidation",
+            "name": "Intimidação",
+            "url": "/api/skills/intimidation"
+        }
+    },
+    {
+        "index": "skill-investigation",
+        "type": "Habilidades",
+        "name": "Habilidade: Investigação",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencies/skill-investigation",
+        "reference": {
+            "index": "investigation",
+            "name": "Investigação",
+            "url": "/api/skills/investigation"
+        }
+    },
+    {
+        "index": "skill-medicine",
+        "type": "Habilidades",
+        "name": "Habilidade: Medicina",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencies/skill-medicine",
+        "reference": {
+            "index": "medicine",
+            "name": "Medicamento",
+            "url": "/api/skills/medicine"
+        }
+    },
+    {
+        "index": "skill-nature",
+        "type": "Habilidades",
+        "name": "Habilidade: Natureza",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencies/skill-nature",
+        "reference": {
+            "index": "nature",
+            "name": "Natureza",
+            "url": "/api/skills/nature"
+        }
+    },
+    {
+        "index": "skill-perception",
+        "type": "Habilidades",
+        "name": "Habilidade: Percepção",
+        "classes": [],
+        "races": [
+            {
+                "index": "elf",
+                "name": "Elfo",
+                "url": "/api/races/elf"
+            }
+        ],
+        "url": "/api/proficiencies/skill-perception",
+        "reference": {
+            "index": "perception",
+            "name": "Percepção",
+            "url": "/api/skills/perception"
+        }
+    },
+    {
+        "index": "skill-performance",
+        "type": "Habilidades",
+        "name": "Habilidade: Desempenho",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencies/skill-performance",
+        "reference": {
+            "index": "performance",
+            "name": "Desempenho",
+            "url": "/api/skills/performance"
+        }
+    },
+    {
+        "index": "skill-persuasion",
+        "type": "Habilidades",
+        "name": "Habilidade: Persuasão",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencies/skill-persuasion",
+        "reference": {
+            "index": "persuasion",
+            "name": "Persuasão",
+            "url": "/api/skills/persuasion"
+        }
+    },
+    {
+        "index": "skill-religion",
+        "type": "Habilidades",
+        "name": "Habilidade: Religião",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencies/skill-religion",
+        "reference": {
+            "index": "religion",
+            "name": "Religião",
+            "url": "/api/skills/religion"
+        }
+    },
+    {
+        "index": "skill-sleight-of-hand",
+        "type": "Habilidades",
+        "name": "Habilidade: Trenó da Mão",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencies/skill-sleight-of-hand",
+        "reference": {
+            "index": "sleight-of-hand",
+            "name": "Trenó da Mão",
+            "url": "/api/skills/sleight-of-hand"
+        }
+    },
+    {
+        "index": "skill-stealth",
+        "type": "Habilidades",
+        "name": "Habilidade: Furtividade",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencies/skill-stealth",
+        "reference": {
+            "index": "stealth",
+            "name": "Furtividade",
+            "url": "/api/skills/stealth"
+        }
+    },
+    {
+        "index": "skill-survival",
+        "type": "Habilidades",
+        "name": "Habilidade: Sobrevivência",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencies/skill-survival",
+        "reference": {
+            "index": "survival",
+            "name": "Sobrevivência",
+            "url": "/api/skills/survival"
+        }
+    },
+    {
+        "index": "slings",
+        "type": "Armas",
+        "name": "Costuradas",
+        "classes": [
+            {
+                "index": "druid",
+                "name": "Druida",
+                "url": "/api/classes/druid"
+            },
+            {
+                "index": "sorcerer",
+                "name": "Sorcerer",
+                "url": "/api/classes/sorcerer"
+            },
+            {
+                "index": "wizard",
+                "name": "Assistente",
+                "url": "/api/classes/wizard"
+            }
+        ],
+        "races": [],
+        "url": "/api/proficiencies/slings",
+        "reference": {
+            "index": "sling",
+            "name": "Estilingue",
+            "url": "/api/equipment/sling"
+        }
+    },
+    {
+        "index": "smiths-tools",
+        "type": "Ferramentas do Artesão",
+        "name": "Ferramentas de Smith",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencies/smiths-tools",
+        "reference": {
+            "index": "smiths-tools",
+            "name": "Ferramentas de Smith",
+            "url": "/api/equipment/smiths-tools"
+        }
+    },
+    {
+        "index": "spears",
+        "type": "Armas",
+        "name": "Lanças",
+        "classes": [
+            {
+                "index": "druid",
+                "name": "Druida",
+                "url": "/api/classes/druid"
+            }
+        ],
+        "races": [],
+        "url": "/api/proficiencies/spears",
+        "reference": {
+            "index": "spear",
+            "name": "Lança",
+            "url": "/api/equipment/spear"
+        }
+    },
+    {
+        "index": "splint-armor",
+        "type": "Armaduras",
+        "name": "Armadura de Splint",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencies/splint-armor",
+        "reference": {
+            "index": "splint-armor",
+            "name": "Armadura de Splint",
+            "url": "/api/equipment/splint-armor"
+        }
+    },
+    {
+        "index": "studded-leather-armor",
+        "type": "Armaduras",
+        "name": "Armadura de Couro Alocada",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencies/studded-leather-armor",
+        "reference": {
+            "index": "studded-leather-armor",
+            "name": "Armadura de Couro Alocada",
+            "url": "/api/equipment/studded-leather-armor"
+        }
+    },
+    {
+        "index": "thieves-tools",
+        "type": "Outros",
+        "name": "Ferramentas de Ladrões",
+        "classes": [
+            {
+                "index": "rogue",
+                "name": "Rogue",
+                "url": "/api/classes/rogue"
+            }
+        ],
+        "races": [],
+        "url": "/api/proficiencies/thieves-tools",
+        "reference": {
+            "index": "thieves-tools",
+            "name": "Ferramentas de Ladrões",
+            "url": "/api/equipment/thieves-tools"
+        }
+    },
+    {
+        "index": "tinkers-tools",
+        "type": "Ferramentas do Artesão",
+        "name": "Ferramentas do Tinker",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencies/tinkers-tools",
+        "reference": {
+            "index": "tinkers-tools",
+            "name": "Ferramentas do Tinker",
+            "url": "/api/equipment/tinkers-tools"
+        }
+    },
+    {
+        "index": "tridents",
+        "type": "Armas",
+        "name": "Tridentes",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencies/tridents",
+        "reference": {
+            "index": "trident",
+            "name": "Tridente",
+            "url": "/api/equipment/trident"
+        }
+    },
+    {
+        "index": "viol",
+        "type": "Instrumentos Musicais",
+        "name": "Viol",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencies/viol",
+        "reference": {
+            "index": "viol",
+            "name": "Viol",
+            "url": "/api/equipment/viol"
+        }
+    },
+    {
+        "index": "war-picks",
+        "type": "Armas",
+        "name": "Picks da Guerra",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencies/war-picks",
+        "reference": {
+            "index": "war-pick",
+            "name": "Picareta de guerra",
+            "url": "/api/equipment/war-pick"
+        }
+    },
+    {
+        "index": "warhammers",
+        "type": "Armas",
+        "name": "Warhammers",
+        "classes": [],
+        "races": [
+            {
+                "index": "dwarf",
+                "name": "Awarf",
+                "url": "/api/races/dwarf"
+            }
+        ],
+        "url": "/api/proficiencies/warhammers",
+        "reference": {
+            "index": "warhammer",
+            "name": "Warhammer",
+            "url": "/api/equipment/warhammer"
+        }
+    },
+    {
+        "index": "water-vehicles",
+        "type": "Veículos",
+        "name": "Veículos aquáticos",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencies/water-vehicles",
+        "reference": {
+            "index": "waterborne-vehicles",
+            "name": "Veículos Aquários",
+            "url": "/api/equipment-categories/waterborne-vehicles"
+        }
+    },
+    {
+        "index": "weavers-tools",
+        "type": "Ferramentas do Artesão",
+        "name": "Ferramentas de Wever",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencies/weavers-tools",
+        "reference": {
+            "index": "weavers-tools",
+            "name": "Ferramentas de Wever",
+            "url": "/api/equipment/weavers-tools"
+        }
+    },
+    {
+        "index": "whips",
+        "type": "Armas",
+        "name": "Chicotes",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencies/whips",
+        "reference": {
+            "index": "whip",
+            "name": "Chicote",
+            "url": "/api/equipment/whip"
+        }
+    },
+    {
+        "index": "woodcarvers-tools",
+        "type": "Ferramentas do Artesão",
+        "name": "Ferramentas do Caranguejo",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencies/woodcarvers-tools",
+        "reference": {
+            "index": "woodcarvers-tools",
+            "name": "Ferramentas do Caranguejo",
+            "url": "/api/equipment/woodcarvers-tools"
+        }
+    }
+]
