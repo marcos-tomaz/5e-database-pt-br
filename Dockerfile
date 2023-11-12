@@ -32,9 +32,6 @@ RUN mongod --fork --logpath /var/log/mongodb.log --dbpath /data/db2 \
   && mongod --dbpath /data/db2 --shutdown \
   && chown -R mongodb:mongodb /data/db2
 
-# Make the new dir a VOLUME to persists it 
-VOLUME /data/db2
-
 HEALTHCHECK CMD curl --connect-timeout 10 --silent --fail http://localhost:27017 || exit 1
 
 CMD ["mongod", "--config", "/etc/mongodb.conf"]
