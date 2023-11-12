@@ -1,0 +1,156 @@
+[
+    {
+        "index": "blinded",
+        "name": "Cegado",
+        "desc": [
+            "- Uma criatura cega não pode ver e automaticamente falha na verificação de habilidades que requer visão.",
+            "- Atacar espólios contra a criatura tem vantagem, e os espólios de ataque da criatura têm desvantagem."
+        ],
+        "url": "/api/conditions/blinded"
+    },
+    {
+        "index": "charmed",
+        "name": "Charmado",
+        "desc": [
+            "- Uma criatura encharcada não pode atacar o charmer ou escolher o charmer com habilidades nocivas ou efeitos mágicos.",
+            "- O charmer tem vantagem em qualquer verificação de habilidade para interagir socialmente com a criatura."
+        ],
+        "url": "/api/conditions/charmed"
+    },
+    {
+        "index": "deafened",
+        "name": "Inaudível",
+        "desc": [
+            "- Uma criatura ensurdecedora não consegue ouvir e automaticamente falha em qualquer verificação de habilidade que requer audição."
+        ],
+        "url": "/api/conditions/deafened"
+    },
+    {
+        "index": "exhaustion",
+        "name": "Esgoto",
+        "desc": [
+            "Algumas capacidades especiais e perigos ambientais, tais como a fome e os efeitos a longo prazo do congelamento ou aumento das temperaturas, pode levar a uma condição especial chamada esgotamento. A exaustão é medida em seis níveis. Um efeito pode dar à criatura um ou mais níveis de exaustão, conforme especificado na descrição do efeito.",
+            "1 - Desvantagem nas verificações de habilidades",
+            "2 - Velocidade pela metade",
+            "3 - Desvantagem em rolagens de ataque e jogadores economizados",
+            "4 - Ponto máximo reduzido pela metade",
+            "5 - Velocidade reduzida para 0",
+            "6 - Morte",
+            "Se uma criatura já esgotada sofrer outro efeito que cause esgotamento, seu nível atual de exaustão aumenta pela quantidade especificada na descrição do efeito.",
+            "Uma criatura sofre o efeito do seu nível actual de exaustão, bem como de todos os níveis mais baixos. Por exemplo, uma criatura que sofre o esgotamento do nível 2 tem a sua velocidade reduzida para metade e tem desvantagens em matéria de controlos de capacidades.",
+            "Um efeito que remove a exaustão reduz o seu nível conforme especificado na descrição do efeito, com todos os efeitos de exaustão terminando se o nível de exaustão de uma criatura é reduzido abaixo de 1.",
+            "Terminar um longo descanso reduz o nível de exaustão de uma criatura em 1, desde que a criatura também tenha ingerido algum alimento e bebida."
+        ],
+        "url": "/api/conditions/exhaustion"
+    },
+    {
+        "index": "frightened",
+        "name": "assustado",
+        "desc": [
+            "- Uma criatura assustada tem desvantagem em verificações de habilidades e rolagens de ataque, enquanto a fonte de seu medo está dentro do horizonte.",
+            "- A criatura não pode se aproximar da fonte de seu medo."
+        ],
+        "url": "/api/conditions/frightened"
+    },
+    {
+        "index": "grappled",
+        "name": "Gráfico",
+        "desc": [
+            "- A velocidade da criatura aclamada se torna 0, e ela não pode se beneficiar de nenhum bônus de sua velocidade.",
+            "- A condição termina se o óleo for incapacitado (veja a condição).",
+            "- A condição também termina se um efeito retirar a criatura acariciada do alcance do hóspede ou do efeito de coluna. tal como quando uma criatura é lançada pelo feitiço da onda."
+        ],
+        "url": "/api/conditions/grappled"
+    },
+    {
+        "index": "incapacitated",
+        "name": "Incapacitado",
+        "desc": [
+            "- Uma criatura incapacitada não pode tomar ações ou reações."
+        ],
+        "url": "/api/conditions/incapacitated"
+    },
+    {
+        "index": "invisible",
+        "name": "Invisível",
+        "desc": [
+            "- Uma criatura invisível é impossível de ver sem a ajuda da magia ou do sentido especial. Com o propósito de se esconder, a criatura é muito obscurecida. A localização da criatura pode ser detectada por qualquer barulho que faça ou por qualquer faixa que parte dela.",
+            "- Atacar rolos contra a criatura tem desvantagem, e os rolos de ataque da criatura têm vantagem."
+        ],
+        "url": "/api/conditions/invisible"
+    },
+    {
+        "index": "paralyzed",
+        "name": "Paralelamente",
+        "desc": [
+            "- Uma criatura paralisada está incapacitada (veja a condição) e não pode se mover ou falar.",
+            "- A criatura falha automaticamente na Força e habilidade salvando lançamentos.",
+            "- Atacar rolagens contra a criatura tem vantagem.",
+            "- Qualquer ataque que atingir a criatura é um ataque crítico se o atacante estiver a 5 pés da criatura."
+        ],
+        "url": "/api/conditions/paralyzed"
+    },
+    {
+        "index": "petrified",
+        "name": "Petrificado",
+        "desc": [
+            "- Uma criatura petrificada é transformada, junto com qualquer objeto não mágico que está usando ou carregando, em uma substância sólida inanimada (geralmente pedra). Seu peso aumenta em dez, e deixa de envelhecer.",
+            "- A criatura está incapacitada (veja a condição), não consegue se mover ou falar, e não sabe de seu redor.",
+            "- Atacar rolagens contra a criatura tem vantagem.",
+            "- A criatura falha automaticamente na Força e habilidade salvando lançamentos.",
+            "- A criatura tem resistência a todos os danos.",
+            "- A criatura é imune ao veneno e às doenças, embora um veneno ou uma doença que já está no seu sistema esteja suspenso, não seja neutralizada."
+        ],
+        "url": "/api/conditions/petrified"
+    },
+    {
+        "index": "poisoned",
+        "name": "Envenenado",
+        "desc": [
+            "- Uma criatura envenenada tem desvantagem em rolamentos de ataque e verificações de habilidades."
+        ],
+        "url": "/api/conditions/poisoned"
+    },
+    {
+        "index": "prone",
+        "name": "Implantar",
+        "desc": [
+            "- A única opção de movimento de uma criatura propensa é rastejar, a menos que ela se levante e termine a condição.",
+            "- A criatura tem desvantagem em rolagens de ataque.",
+            "- Um rolamento de ataque contra a criatura tem vantagem se o invasor estiver dentro de 5 pés da criatura. Caso contrário, o rolamento de ataque tem desvantagem."
+        ],
+        "url": "/api/conditions/prone"
+    },
+    {
+        "index": "restrained",
+        "name": "Recuperado",
+        "desc": [
+            "- A velocidade da criatura restrita se torna 0, e ela não pode beneficiar de nenhum bônus a sua velocidade.",
+            "- Atacar espólios contra a criatura tem vantagem, e os espólios de ataque da criatura têm desvantagem.",
+            "- A criatura tem desvantagem na economia de Agilidade de lançamentos."
+        ],
+        "url": "/api/conditions/restrained"
+    },
+    {
+        "index": "stunned",
+        "name": "Atordoado",
+        "desc": [
+            "- Uma criatura atordoada está incapacitada (veja a condição), não se move, só pode falar com hesitação.",
+            "- A criatura falha automaticamente na Força e habilidade salvando lançamentos.",
+            "- Atacar rolagens contra a criatura tem vantagem."
+        ],
+        "url": "/api/conditions/stunned"
+    },
+    {
+        "index": "unconscious",
+        "name": "Inconsciente",
+        "desc": [
+            "- Uma criatura inconsciente está incapacitada (veja a condição), não pode se mover ou falar, e não sabe de seu redor.",
+            "- A criatura cai tudo o que está segurando e cai propenso.",
+            "- A criatura falha automaticamente na Força e habilidade salvando lançamentos.",
+            "- Atacar rolagens contra a criatura tem vantagem.",
+            "- Qualquer ataque que atingir a criatura é um ataque crítico se o atacante estiver a 5 pés da criatura."
+        ],
+        "url": "/api/conditions/unconscious"
+    }
+]
