@@ -1,0 +1,215 @@
+[
+    {
+        "name": "Aventura",
+        "index": "adventuring",
+        "desc": "# Aventurando\n",
+        "subsections": [
+            {
+                "name": "Horário",
+                "index": "time",
+                "url": "/api/rule-sections/time"
+            },
+            {
+                "name": "Movimentação",
+                "index": "movement",
+                "url": "/api/rule-sections/movement"
+            },
+            {
+                "name": "O Ambiente",
+                "index": "the-environment",
+                "url": "/api/rule-sections/the-environment"
+            },
+            {
+                "name": "Armadilhas",
+                "index": "traps",
+                "url": "/api/rule-sections/traps"
+            },
+            {
+                "name": "Doenças",
+                "index": "diseases",
+                "url": "/api/rule-sections/diseases"
+            },
+            {
+                "name": "Loucura",
+                "index": "madness",
+                "url": "/api/rule-sections/madness"
+            },
+            {
+                "name": "Descansando",
+                "index": "resting",
+                "url": "/api/rule-sections/resting"
+            },
+            {
+                "name": "Entre Aventuras",
+                "index": "between-adventures",
+                "url": "/api/rule-sections/between-adventures"
+            }
+        ],
+        "url": "/api/rules/adventuring"
+    },
+    {
+        "name": "Apêndice",
+        "index": "appendix",
+        "desc": "# Apêndice\n",
+        "subsections": [
+            {
+                "name": "Panteões Fantasy-Históricos",
+                "index": "fantasy-historical-pantheons",
+                "url": "/api/rule-sections/fantasy-historical-pantheons"
+            },
+            {
+                "name": "Os aviões da existência",
+                "index": "the-planes-of-existence",
+                "url": "/api/rule-sections/the-planes-of-existence"
+            }
+        ],
+        "url": "/api/rules/appendix"
+    },
+    {
+        "name": "Combate.",
+        "index": "combat",
+        "desc": "# Combate\n",
+        "subsections": [
+            {
+                "name": "A Ordem do Combate",
+                "index": "the-order-of-combat",
+                "url": "/api/rule-sections/the-order-of-combat"
+            },
+            {
+                "name": "Movimento e Posição",
+                "index": "movement-and-position",
+                "url": "/api/rule-sections/movement-and-position"
+            },
+            {
+                "name": "Ações em Combate",
+                "index": "actions-in-combat",
+                "url": "/api/rule-sections/actions-in-combat"
+            },
+            {
+                "name": "Fazendo um Ataque",
+                "index": "making-an-attack",
+                "url": "/api/rule-sections/making-an-attack"
+            },
+            {
+                "name": "Capa",
+                "index": "cover",
+                "url": "/api/rule-sections/cover"
+            },
+            {
+                "name": "Dano e Cura",
+                "index": "damage-and-healing",
+                "url": "/api/rule-sections/damage-and-healing"
+            },
+            {
+                "name": "Combate Montado",
+                "index": "mounted-combat",
+                "url": "/api/rule-sections/mounted-combat"
+            },
+            {
+                "name": "Combate subaquático",
+                "index": "underwater-combat",
+                "url": "/api/rule-sections/underwater-combat"
+            }
+        ],
+        "url": "/api/rules/combat"
+    },
+    {
+        "name": "Equipamentos",
+        "index": "equipment",
+        "desc": "# Equipamento\n\nAs moedas comuns têm várias denominações com base no valor relativo do metal do qual são feitas. As três moedas mais comuns são a peça de ouro (po), a peça de prata (pp), e a peça de cobre (pc).\n\nCom uma peça de ouro, um personagem pode comprar um saco de dormir, 15 metros de corda resistente, ou um bode. Um artesão habilidoso (mas não excepcional) pode ganhar uma peça de ouro por dia. A peça de ouro é a unidade padrão de medida para riqueza, mesmo que a moeda em si não seja comumente usada. Quando os mercadores discutem negócios que envolvem bens ou serviços no valor de centenas ou milhares de peças de ouro, as transações geralmente não envolvem a troca de moedas individuais. Em vez disso, a peça de ouro é uma medida padrão de valor, e a troca real ocorre em barras de ouro, letras de crédito ou bens valiosos.\n\nUma peça de ouro vale dez peças de prata, a moeda mais prevalente entre os plebeus. Uma peça de prata compra o trabalho de um trabalhador por meio dia, uma garrafa de óleo para lâmpadas ou uma noite de descanso em uma estalagem simples.\n\nUma peça de prata vale dez peças de cobre, comuns entre trabalhadores e mendigos. Uma única peça de cobre compra uma vela, uma tocha ou um pedaço de giz.\n\nAlém disso, moedas incomuns feitas de outros metais preciosos às vezes aparecem em tesouros. A peça de eletrum (pe) e a peça de platina (pp) têm origem em impérios caídos e reinos perdidos, e às vezes despertam suspeitas e ceticismo quando usadas em transações. Uma peça de eletrum vale cinco peças de prata, e uma peça de platina vale dez peças de ouro.\n\nUma moeda padrão pesa cerca de um terço de onça, então cinquenta moedas pesam uma libra.\n",
+        "subsections": [
+            {
+                "name": "Taxas de Câmbio Padrão",
+                "index": "standard-exchange-rates",
+                "url": "/api/rule-sections/standard-exchange-rates"
+            },
+            {
+                "name": "Objetos",
+                "index": "objects",
+                "url": "/api/rule-sections/objects"
+            },
+            {
+                "name": "Venenos",
+                "index": "poisons",
+                "url": "/api/rule-sections/poisons"
+            },
+            {
+                "name": "Sintonia",
+                "index": "attunement",
+                "url": "/api/rule-sections/attunement"
+            },
+            {
+                "name": "Usando e Empunhando Itens",
+                "index": "wearing-and-wielding-items",
+                "url": "/api/rule-sections/wearing-and-wielding-items"
+            },
+            {
+                "name": "Ativando um Item",
+                "index": "activating-an-item",
+                "url": "/api/rule-sections/activating-an-item"
+            },
+            {
+                "name": "Itens Mágicos Sentidos",
+                "index": "sentient-magic-items",
+                "url": "/api/rule-sections/sentient-magic-items"
+            }
+        ],
+        "url": "/api/rules/equipment"
+    },
+    {
+        "name": "Feitiço",
+        "index": "spellcasting",
+        "desc": "# Conjuração de Feitiços\n\nA magia permeia os mundos de jogos de fantasia e frequentemente se manifesta na forma de um feitiço.\n\nEste capítulo fornece as regras para conjurar feitiços. Classes de personagens diferentes têm maneiras distintas de aprender e preparar seus feitiços, e monstros utilizam feitiços de maneiras únicas. Independentemente da fonte, um feitiço segue as regras apresentadas aqui.\n",
+        "subsections": [
+            {
+                "name": "O que é um Feitiço?",
+                "index": "what-is-a-spell",
+                "url": "/api/rule-sections/what-is-a-spell"
+            },
+            {
+                "name": "Lingotando um Feitiço",
+                "index": "casting-a-spell",
+                "url": "/api/rule-sections/casting-a-spell"
+            }
+        ],
+        "url": "/api/rules/spellcasting"
+    },
+    {
+        "name": "Usando Pontuação de Habilidade",
+        "index": "using-ability-scores",
+        "desc": "# Utilizando Pontuações de Habilidade\n\nSeis habilidades fornecem uma descrição rápida das características físicas e mentais de cada criatura:\n- **Força**, medindo o poder físico\n- **Destreza**, medindo a agilidade\n- **Constituição**, medindo a resistência\n- **Inteligência**, medindo a capacidade de raciocínio e memória\n- **Sabedoria**, medindo a percepção e insight\n- **Carisma**, medindo a força de personalidade\n\nO personagem é musculoso e perspicaz? Brilhante e encantador? Ágil e resistente? As pontuações de habilidade definem essas qualidades - os pontos fortes e fracos de uma criatura.\n\nOs três principais tipos de rolagens no jogo - o teste de habilidade, o teste de resistência e o ataque - dependem das seis pontuações de habilidade. A introdução do livro descreve a regra básica por trás dessas rolagens: jogue um d20, adicione um modificador de habilidade derivado de uma das seis pontuações de habilidade e compare o total com um número-alvo.\n\n**Pontuações de Habilidade e Modificadores** Cada habilidade de uma criatura tem uma pontuação, um número que define a magnitude dessa habilidade. Uma pontuação de habilidade não é apenas uma medida das capacidades inatas, mas também engloba o treinamento e competência de uma criatura em atividades relacionadas a essa habilidade.\n\nUma pontuação de 10 ou 11 é a média normal humana, mas aventureiros e muitos monstros estão acima da média na maioria das habilidades. Uma pontuação de 18 é o máximo que uma pessoa normalmente atinge. Aventureiros podem ter pontuações tão altas quanto 20, e monstros e seres divinos podem ter pontuações tão altas quanto 30.\n\nCada habilidade também tem um modificador, derivado da pontuação e variando de -5 (para uma pontuação de habilidade de 1) a +10 (para uma pontuação de 30). A tabela de Pontuações de Habilidade e Modificadores indica os modificadores de habilidade para a faixa de pontuações de habilidade possíveis, de 1 a 30.\n",
+        "subsections": [
+            {
+                "name": "Pontuações de habilidades e modificadores",
+                "index": "ability-scores-and-modifiers",
+                "url": "/api/rule-sections/ability-scores-and-modifiers"
+            },
+            {
+                "name": "Vantagem e desvantagem",
+                "index": "advantage-and-disadvantage",
+                "url": "/api/rule-sections/advantage-and-disadvantage"
+            },
+            {
+                "name": "Bônus de proficiência",
+                "index": "proficiency-bonus",
+                "url": "/api/rule-sections/proficiency-bonus"
+            },
+            {
+                "name": "Verificação de habilidades",
+                "index": "ability-checks",
+                "url": "/api/rule-sections/ability-checks"
+            },
+            {
+                "name": "Usando cada especialização",
+                "index": "using-each-ability",
+                "url": "/api/rule-sections/using-each-ability"
+            },
+            {
+                "name": "Salvando lançamentos.",
+                "index": "saving-throws",
+                "url": "/api/rule-sections/saving-throws"
+            }
+        ],
+        "url": "/api/rules/using-ability-scores"
+    }
+]

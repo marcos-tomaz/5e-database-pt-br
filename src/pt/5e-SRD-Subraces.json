@@ -1,0 +1,285 @@
+[
+    {
+        "index": "high-elf",
+        "name": "Elfo Alto",
+        "race": {
+            "index": "elf",
+            "name": "Elfo",
+            "url": "/api/races/elf"
+        },
+        "desc": "Como um elfo alto, você tem uma mente interessada e um domínio de pelo menos os fundamentos da mágica. Em muitos mundos de fantasia de jogos há dois tipos de elfos altos. Um tipo é ensinado e recluso, acreditando-se acima dos não-elfos e até mesmo dos outros. O outro tipo é mais comum e mais amigável, encontrando-se frequentemente entre os seres humanos e outras raças.",
+        "ability_bonuses": [
+            {
+                "ability_score": {
+                    "index": "int",
+                    "name": "INT",
+                    "url": "/api/ability-scores/int"
+                },
+                "bonus": 1
+            }
+        ],
+        "starting_proficiencies": [
+            {
+                "index": "longswords",
+                "name": "Espadas longas",
+                "url": "/api/proficiencies/longswords"
+            },
+            {
+                "index": "shortswords",
+                "name": "Palavras curtas",
+                "url": "/api/proficiencies/shortswords"
+            },
+            {
+                "index": "shortbows",
+                "name": "Arcos curtos",
+                "url": "/api/proficiencies/shortbows"
+            },
+            {
+                "index": "longbows",
+                "name": "Longbows",
+                "url": "/api/proficiencies/longbows"
+            }
+        ],
+        "languages": [],
+        "language_options": {
+            "choose": 1,
+            "from": {
+                "option_set_type": "options_array",
+                "options": [
+                    {
+                        "option_type": "reference",
+                        "item": {
+                            "index": "dwarvish",
+                            "name": "Antecedente",
+                            "url": "/api/languages/dwarvish"
+                        }
+                    },
+                    {
+                        "option_type": "reference",
+                        "item": {
+                            "index": "giant",
+                            "name": "Gigante",
+                            "url": "/api/languages/giant"
+                        }
+                    },
+                    {
+                        "option_type": "reference",
+                        "item": {
+                            "index": "gnomish",
+                            "name": "Gnomish",
+                            "url": "/api/languages/gnomish"
+                        }
+                    },
+                    {
+                        "option_type": "reference",
+                        "item": {
+                            "index": "goblin",
+                            "name": "Goblin",
+                            "url": "/api/languages/goblin"
+                        }
+                    },
+                    {
+                        "option_type": "reference",
+                        "item": {
+                            "index": "halfling",
+                            "name": "Híbrido",
+                            "url": "/api/languages/halfling"
+                        }
+                    },
+                    {
+                        "option_type": "reference",
+                        "item": {
+                            "index": "orc",
+                            "name": "Orc,",
+                            "url": "/api/languages/orc"
+                        }
+                    },
+                    {
+                        "option_type": "reference",
+                        "item": {
+                            "index": "abyssal",
+                            "name": "Abyssal",
+                            "url": "/api/languages/abyssal"
+                        }
+                    },
+                    {
+                        "option_type": "reference",
+                        "item": {
+                            "index": "celestial",
+                            "name": "Celestial",
+                            "url": "/api/languages/celestial"
+                        }
+                    },
+                    {
+                        "option_type": "reference",
+                        "item": {
+                            "index": "draconic",
+                            "name": "Draconic",
+                            "url": "/api/languages/draconic"
+                        }
+                    },
+                    {
+                        "option_type": "reference",
+                        "item": {
+                            "index": "deep-speech",
+                            "name": "Discurso Profundo",
+                            "url": "/api/languages/deep-speech"
+                        }
+                    },
+                    {
+                        "option_type": "reference",
+                        "item": {
+                            "index": "infernal",
+                            "name": "Infernal",
+                            "url": "/api/languages/infernal"
+                        }
+                    },
+                    {
+                        "option_type": "reference",
+                        "item": {
+                            "index": "primordial",
+                            "name": "Primordial",
+                            "url": "/api/languages/primordial"
+                        }
+                    },
+                    {
+                        "option_type": "reference",
+                        "item": {
+                            "index": "sylvan",
+                            "name": "Silvestre",
+                            "url": "/api/languages/sylvan"
+                        }
+                    },
+                    {
+                        "option_type": "reference",
+                        "item": {
+                            "index": "undercommon",
+                            "name": "Subcomum",
+                            "url": "/api/languages/undercommon"
+                        }
+                    }
+                ]
+            },
+            "type": "language"
+        },
+        "racial_traits": [
+            {
+                "index": "elf-weapon-training",
+                "name": "Treinamento de Armas Elfas",
+                "url": "/api/traits/elf-weapon-training"
+            },
+            {
+                "index": "high-elf-cantrip",
+                "name": "Lápis de Alto Elfo",
+                "url": "/api/traits/high-elf-cantrip"
+            },
+            {
+                "index": "extra-language",
+                "name": "Idioma extra",
+                "url": "/api/traits/extra-language"
+            }
+        ],
+        "url": "/api/subraces/high-elf"
+    },
+    {
+        "index": "hill-dwarf",
+        "name": "Dwarf do monte",
+        "race": {
+            "index": "dwarf",
+            "name": "Awarf",
+            "url": "/api/races/dwarf"
+        },
+        "desc": "Como um anão de montanha, você tem sentidos interessantes, intuição profunda e uma notável resiliência.",
+        "ability_bonuses": [
+            {
+                "ability_score": {
+                    "index": "wis",
+                    "name": "WIS",
+                    "url": "/api/ability-scores/wis"
+                },
+                "bonus": 1
+            }
+        ],
+        "starting_proficiencies": [],
+        "languages": [],
+        "racial_traits": [
+            {
+                "index": "dwarven-toughness",
+                "name": "Tenacidade Aduvidada",
+                "url": "/api/traits/dwarven-toughness"
+            }
+        ],
+        "url": "/api/subraces/hill-dwarf"
+    },
+    {
+        "index": "lightfoot-halfling",
+        "name": "Híbrido Pé Leve",
+        "race": {
+            "index": "halfling",
+            "name": "Híbrido",
+            "url": "/api/races/halfling"
+        },
+        "desc": "Como um halfoot halfling, você pode facilmente esconder-se do aviso, mesmo usando outras pessoas como cobertura. Você tende a ser afável e se dar bem com os outros. Os raposas são mais propensos a vaguear do que outros halflings, e muitas vezes ficam ao lado de outras raças ou tomam uma vida nómada.",
+        "ability_bonuses": [
+            {
+                "ability_score": {
+                    "index": "cha",
+                    "name": "CHA",
+                    "url": "/api/ability-scores/cha"
+                },
+                "bonus": 1
+            }
+        ],
+        "starting_proficiencies": [],
+        "languages": [],
+        "racial_traits": [
+            {
+                "index": "naturally-stealthy",
+                "name": "Ladrão naturalmente",
+                "url": "/api/traits/naturally-stealthy"
+            }
+        ],
+        "url": "/api/subraces/lightfoot-halfling"
+    },
+    {
+        "index": "rock-gnome",
+        "name": "format@@0 Rock Gnome",
+        "race": {
+            "index": "gnome",
+            "name": "Gnome",
+            "url": "/api/races/gnome"
+        },
+        "desc": "Como um gnomo de rocha, você tem uma inventividade natural e dificuldade além dos outros gnomos.",
+        "ability_bonuses": [
+            {
+                "ability_score": {
+                    "index": "con",
+                    "name": "CON",
+                    "url": "/api/ability-scores/con"
+                },
+                "bonus": 1
+            }
+        ],
+        "starting_proficiencies": [
+            {
+                "index": "tinkers-tools",
+                "name": "Ferramentas do Tinker",
+                "url": "/api/proficiencies/tinkers-tools"
+            }
+        ],
+        "languages": [],
+        "racial_traits": [
+            {
+                "index": "artificers-lore",
+                "name": "Lore do artifício",
+                "url": "/api/traits/artificers-lore"
+            },
+            {
+                "index": "tinker",
+                "name": "Tinker",
+                "url": "/api/traits/tinker"
+            }
+        ],
+        "url": "/api/subraces/rock-gnome"
+    }
+]

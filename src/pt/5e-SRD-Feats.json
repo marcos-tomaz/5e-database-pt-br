@@ -1,0 +1,22 @@
+[
+    {
+        "index": "grappler",
+        "name": "Gráfico",
+        "prerequisites": [
+            {
+                "ability_score": {
+                    "index": "str",
+                    "name": "STR",
+                    "url": "/api/ability-scores/str"
+                },
+                "minimum_score": 13
+            }
+        ],
+        "desc": [
+            "Você desenvolveu as Habilidades necessárias para manter as suas próprias em Gráficos de perto - trimestre. Você ganha os seguintes benefícios:",
+            "- Você tem vantagem em Rolagens de Ataque contra uma criatura que você está usando Gráficos.",
+            "- Você pode usar sua ação para tentar fixar uma criatura Gráfica por você. Para fazer isso, faça outra verificação de captura. Se você for bem-sucedido, você e a criatura serão retidos até o final da mochila."
+        ],
+        "url": "/api/feats/grappler"
+    }
+]

@@ -1,0 +1,91 @@
+[
+    {
+        "index": "ammunition",
+        "name": "Munição",
+        "desc": [
+            "Você pode usar uma arma que possui a propriedade de munição para fazer um ataque de longo alcance somente se você tiver munições para disparar da arma. Cada vez que você atacar com a arma, você gasta um pedaço de munição. Desenho das munições de uma aljava, caso ou outro contêiner faz parte do ataque (você precisa de uma mão livre para carregar uma arma de uma mão).",
+            "No final da batalha, você pode recuperar metade das suas munições gastas demorando um minuto para procurar no campo de batalha. Se você usar uma arma que possui a propriedade de munição para fazer um ataque corpo a corpo, você trata a arma como uma arma improvisada (veja \"Armas Improvisadas\" mais tarde na seção). Uma estilingue deve ser carregada para causar qualquer dano quando utilizada desta forma."
+        ],
+        "url": "/api/weapon-properties/ammunition"
+    },
+    {
+        "index": "finesse",
+        "name": "Fino",
+        "desc": [
+            "Ao fazer um ataque com uma arma do fino, você usa sua escolha do modificador de Força ou Agilidade para o ataque e acerto de dano. Você deve usar o mesmo modificador para as duas rolagens."
+        ],
+        "url": "/api/weapon-properties/finesse"
+    },
+    {
+        "index": "heavy",
+        "name": "Pesado",
+        "desc": [
+            "Criaturas pequenas têm desvantagem em rolagens de ataque com armas pesadas. O tamanho de uma arma pesada e a massa tornam-na demasiado grande para uma criatura pequena poder ser utilizada de forma eficaz."
+        ],
+        "url": "/api/weapon-properties/heavy"
+    },
+    {
+        "index": "light",
+        "name": "Fino",
+        "desc": [
+            "Uma arma leve é pequena e fácil de manusear, tornando-se ideal para uso na luta com duas armas."
+        ],
+        "url": "/api/weapon-properties/light"
+    },
+    {
+        "index": "loading",
+        "name": "Carregando...",
+        "desc": [
+            "Por causa do tempo necessário para carregar esta arma, você pode disparar apenas um pedaço de munição quando usar uma ação, ação bônus ou reação ao dispará-la, independente do número de ataques que você normalmente faça."
+        ],
+        "url": "/api/weapon-properties/loading"
+    },
+    {
+        "index": "monk",
+        "name": "Monge",
+        "desc": [
+            "Monges ganham vários benefícios enquanto desarmados ou empunhando apenas armas de monges enquanto não usam armaduras ou escudos."
+        ],
+        "url": "/api/weapon-properties/monk"
+    },
+    {
+        "index": "reach",
+        "name": "Atingir",
+        "desc": [
+            "Esta arma adiciona 5 pés ao seu alcance quando você ataca com ela, bem como ao determinar seu alcance para ataques de oportunidade com ela."
+        ],
+        "url": "/api/weapon-properties/reach"
+    },
+    {
+        "index": "special",
+        "name": "Promoções",
+        "desc": [
+            "Uma arma com a propriedade especial tem regras incomuns que regem o seu uso, explicada na descrição da arma (veja \"Armas Especiais\" mais tarde nesta seção)."
+        ],
+        "url": "/api/weapon-properties/special"
+    },
+    {
+        "index": "thrown",
+        "name": "Jogado",
+        "desc": [
+            "Se uma arma tiver a propriedade do lançamento, você pode lançar a arma para fazer um ataque à distância. Se a arma é uma arma branca você usa o mesmo modificador de habilidades para o rolamento de ataque e de dano que você usaria para um ataque corpo a corpo com a arma. Por exemplo, se você jogar uma handaxe, você usará sua força, mas se você jogar um punhal, você pode usar ou Força ou Agilidade, já que o punhal tem a propriedade fina."
+        ],
+        "url": "/api/weapon-properties/thrown"
+    },
+    {
+        "index": "two-handed",
+        "name": "Dois-Mãos",
+        "desc": [
+            "Esta arma requer duas mãos quando você ataca com ela."
+        ],
+        "url": "/api/weapon-properties/two-handed"
+    },
+    {
+        "index": "versatile",
+        "name": "Versátil",
+        "desc": [
+            "Esta arma pode ser usada com uma ou duas mãos. Um valor de dano entre parênteses aparece com a propriedade- o dano quando a arma é usada com duas mãos para fazer um ataque corpo a corpo."
+        ],
+        "url": "/api/weapon-properties/versatile"
+    }
+]

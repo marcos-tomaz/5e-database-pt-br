@@ -1,0 +1,50 @@
+[
+    {
+        "index": "abjuration",
+        "name": "Abjuration",
+        "desc": "Os feitiços de Abjúrio são de natureza protectora, embora alguns deles tenham uma utilização agressiva. Criam barreiras mágicas, negam efeitos nocivos, prejudicam os malefícios ou banem criaturas de outros aviões de existência.",
+        "url": "/api/magic-schools/abjuration"
+    },
+    {
+        "index": "conjuration",
+        "name": "Conjuração",
+        "desc": "Os feitiços de juramento envolvem o transporte de objetos e criaturas de um local para outro. Alguns feitiços invocam criaturas ou objetos para o lado do caster, enquanto outros permitem que o casaco se teletransporte para outro local. Algumas conjurações criam objetos ou efeitos de nada.",
+        "url": "/api/magic-schools/conjuration"
+    },
+    {
+        "index": "divination",
+        "name": "Divinação",
+        "desc": "Os feitiços de divinação revelam informações, seja sob a forma de segredos por muito tempo esquecidos, vislumbram o futuro, os locais das coisas ocultas, a verdade por detrás das ilusões, ou das visões de pessoas ou lugares distantes.",
+        "url": "/api/magic-schools/divination"
+    },
+    {
+        "index": "enchantment",
+        "name": "Encantamento",
+        "desc": "Feitiços de encantamento afetam as mentes dos outros, influenciando ou controlando seu comportamento. Tais feitiços podem fazer os inimigos verem o caster como um amigo, força as criaturas a tomarem uma ação, ou até mesmo controlar outra criatura como um filhote.",
+        "url": "/api/magic-schools/enchantment"
+    },
+    {
+        "index": "evocation",
+        "name": "Evocação",
+        "desc": "Feitiços de erupção manipulam energia mágica para produzir o efeito desejado. Alguns chamam explosões de fogo ou relâmpago. Outros canalizam energia positiva para curar feridas.",
+        "url": "/api/magic-schools/evocation"
+    },
+    {
+        "index": "illusion",
+        "name": "Ilusão",
+        "desc": "A ilusão ilude os sentidos ou as mentes dos outros. Eles fazem com que as pessoas vejam coisas que não estão lá, sintam falta de coisas que existem. para ouvir barulhos fantasmas, ou para lembrar de coisas que nunca aconteceram. Algumas ilusões criam imagens fantasmas que qualquer criatura pode ver, mas as ilusões mais insidiosas plantam uma imagem diretamente na mente de uma criatura.",
+        "url": "/api/magic-schools/illusion"
+    },
+    {
+        "index": "necromancy",
+        "name": "Necromante",
+        "desc": "Os feitiços de Necromancia manipulam as energias da vida e da morte. Tais feitiços podem conceder uma reserva extra de força de vida, esgotar a energia de outra criatura, crie os mortos-vivos ou traga os mortos de volta à vida.",
+        "url": "/api/magic-schools/necromancy"
+    },
+    {
+        "index": "transmutation",
+        "name": "Transmutação",
+        "desc": "Os feitiços de transmutação alteram as propriedades de uma criatura, objeto ou ambiente. Eles podem transformar um inimigo em uma criatura inofensiva, reforçando a força de um aliado faça um objeto se mover no comando da cadeira ou melhore as habilidades inatas de cura de uma criatura para se recuperar rapidamente da lesão.",
+        "url": "/api/magic-schools/transmutation"
+    }
+]
