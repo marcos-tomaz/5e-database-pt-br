@@ -18,6 +18,7 @@ RUN apt-get install -y nodejs \
   && rm -rf /var/apt/lists/*
 
 ENV MONGODB_URI mongodb://localhost:27017/5e-database
+ENV LANGUAGE_SELECTION=pt
 
 ## Add code
 WORKDIR /data/db2

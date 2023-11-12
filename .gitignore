@@ -7,3 +7,6 @@ named-*
 
 **/built/
 **/built/**
+
+/legacy/
+.vscode/

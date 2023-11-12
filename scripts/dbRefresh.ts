@@ -1,6 +1,10 @@
 import { readdirSync, unlinkSync, writeFileSync } from "fs";
 
 import { execSync } from "child_process";
+import { join } from "path";
+
+const LANGUAGE_SELECTION = process.env.LANGUAGE_SELECTION || "en";
+console.log(`using ${LANGUAGE_SELECTION} language`);
 
 // check the environment variable is set
 const mongodb_uri = process.env.MONGODB_URI;
@@ -29,7 +33,7 @@ try {
   process.exit(1);
 }
 
-const json_db_dir = "src";
+const json_db_dir = join("src", LANGUAGE_SELECTION);
 const json_db_collection_prefix = "5e-SRD-";
 const json_data_pattern = `\\b${json_db_collection_prefix}(.+)\\.json\\b`;
 
