@@ -1,0 +1,236 @@
+[
+    {
+        "index": "acrobatics",
+        "name": "Acrobáticos",
+        "desc": [
+            "Sua verificação de Agilidade (Arobática) cobre sua tentativa de ficar a seu pé em uma situação complicada, como quando você está tentando atravessar uma folha de gelo, equilibrar com uma tropa apertada, ou ficar imóvel em um deck de rocha. O GM pode também exigir uma verificação de Agilidade (Acrobáticas) para ver se consegue realizar stuntes acrobacias, incluindo divas, rolamentos, somersaultas e viragens."
+        ],
+        "ability_score": {
+            "index": "dex",
+            "name": "DEXO",
+            "url": "/api/ability-scores/dex"
+        },
+        "url": "/api/skills/acrobatics"
+    },
+    {
+        "index": "animal-handling",
+        "name": "Manuseio de animais",
+        "desc": [
+            "Quando houver alguma dúvida se você consegue se acalmar um animal domesticado, impedir que uma montaria fique assustada, ou intua as intenções de um animal, os OGM podem pedir uma verificação de sabedoria (manuseamento de animais). Você também faz uma verificação de sabedoria (supervisão animal) para controlar sua montaria quando você tenta uma manobra arriscada."
+        ],
+        "ability_score": {
+            "index": "wis",
+            "name": "WIS",
+            "url": "/api/ability-scores/wis"
+        },
+        "url": "/api/skills/animal-handling"
+    },
+    {
+        "index": "arcana",
+        "name": "Arcano",
+        "desc": [
+            "Sua Inteligência (Arcana) verifica sua habilidade de revogar a história sobre feitiços, itens mágicos Símbolos de elasticidade, tradições mágicas, aviões de existência e habitantes desses aviões."
+        ],
+        "ability_score": {
+            "index": "int",
+            "name": "INT",
+            "url": "/api/ability-scores/int"
+        },
+        "url": "/api/skills/arcana"
+    },
+    {
+        "index": "athletics",
+        "name": "Atletismo",
+        "desc": [
+            "Sua verificação de Força (Athletic) cobre situações difíceis que você encontra ao escalar, pular ou nadar."
+        ],
+        "ability_score": {
+            "index": "str",
+            "name": "STR",
+            "url": "/api/ability-scores/str"
+        },
+        "url": "/api/skills/athletics"
+    },
+    {
+        "index": "deception",
+        "name": "Engodo",
+        "desc": [
+            "A verificação de seu Charisma (Decepção) determina se você pode ocultar de forma convincente a verdade, verbalmente ou por meio de suas ações. Este engano pode englobar tudo, desde o engano dos outros, passando por ambiguidades até às mentiras absolutas. Situações típicas incluem tentar rapidamente falar um guarda, com um comerciante, ganhar dinheiro através do jogo a dinheiro, se passar por disfarce ofusca as suspeitas de alguém com falsas garantias, ou mantém uma cara reta enquanto conta uma mentira flagrante."
+        ],
+        "ability_score": {
+            "index": "cha",
+            "name": "CHA",
+            "url": "/api/ability-scores/cha"
+        },
+        "url": "/api/skills/deception"
+    },
+    {
+        "index": "history",
+        "name": "Histórico",
+        "desc": [
+            "Sua Inteligência (História) verifica sua habilidade de relembrar eventos históricos, povos lendários, disputas passadas, guerras recentes e civilizações perdidas."
+        ],
+        "ability_score": {
+            "index": "int",
+            "name": "INT",
+            "url": "/api/ability-scores/int"
+        },
+        "url": "/api/skills/history"
+    },
+    {
+        "index": "insight",
+        "name": "Intuições",
+        "desc": [
+            "Sua sabedoria (Insight) verifica se você pode determinar as verdadeiras intenções de uma criatura, como quando procurar uma mentira ou prever o próximo passo de alguém. Isso envolve inclinação de pistas da linguagem corporal, hábitos de fala e mudanças de modo."
+        ],
+        "ability_score": {
+            "index": "wis",
+            "name": "WIS",
+            "url": "/api/ability-scores/wis"
+        },
+        "url": "/api/skills/insight"
+    },
+    {
+        "index": "intimidation",
+        "name": "Intimidação",
+        "desc": [
+            "Quando se tenta influenciar alguém através de ameaças abertas, de acções hostis e de violência física, o GM pode pedir que se proceda a um controlo de Charisma (Intimidação). Exemplos disso são a tentativa de retirar informações de um prisioneiro, bandidos de rua convincentes para recuar de um confronto, ou utilizando o limite de uma garrafa quebrada para convencer um vizier esgueiro a reconsiderar uma decisão."
+        ],
+        "ability_score": {
+            "index": "cha",
+            "name": "CHA",
+            "url": "/api/ability-scores/cha"
+        },
+        "url": "/api/skills/intimidation"
+    },
+    {
+        "index": "investigation",
+        "name": "Investigação",
+        "desc": [
+            "Quando você olha por pistas e faz deduções com base nessas pistas, você faz uma verificação de Inteligência (Investigação). Você pode deduzir o local de um objeto oculto, discernir da aparência de uma ferida que tipo de arma gerou, ou determinar o ponto mais fraco de um túnel que poderia causar o seu colapso. Percorrer por pergaminhos antigos em busca de um fragmento oculto de conhecimento pode também pedir uma verificação de Inteligência (Investigação)."
+        ],
+        "ability_score": {
+            "index": "int",
+            "name": "INT",
+            "url": "/api/ability-scores/int"
+        },
+        "url": "/api/skills/investigation"
+    },
+    {
+        "index": "medicine",
+        "name": "Medicamento",
+        "desc": [
+            "A verificação da sabedoria (Medicine) permite tentar estabilizar um companheiro moribundo ou diagnosticar uma doença."
+        ],
+        "ability_score": {
+            "index": "wis",
+            "name": "WIS",
+            "url": "/api/ability-scores/wis"
+        },
+        "url": "/api/skills/medicine"
+    },
+    {
+        "index": "nature",
+        "name": "Natureza",
+        "desc": [
+            "Sua Inteligência (Nature) verifica sua habilidade de lembrar a história do terreno, plantas e animais, o clima e ciclos naturais."
+        ],
+        "ability_score": {
+            "index": "int",
+            "name": "INT",
+            "url": "/api/ability-scores/int"
+        },
+        "url": "/api/skills/nature"
+    },
+    {
+        "index": "perception",
+        "name": "Percepção",
+        "desc": [
+            "A verificação da sua sabedoria (peneiramento) permite que você mantenha, ouça ou detecte a presença de algo. Isso mede a sua consciência geral do ambiente e da acuidade dos seus sentidos. Por exemplo, você pode tentar ouvir uma conversa por meio de uma porta fechada, caia sob uma janela aberta, ou ouve monstros se movendo furtivamente na floresta. Ou talvez se tente encontrar coisas obscurecidas ou fáceis de perder, quer se trate de orces deitados em emboscadas numa estrada, bandidos escondidos nas sombras de um alley, ou luz de velas sob uma porta secreta fechada."
+        ],
+        "ability_score": {
+            "index": "wis",
+            "name": "WIS",
+            "url": "/api/ability-scores/wis"
+        },
+        "url": "/api/skills/perception"
+    },
+    {
+        "index": "performance",
+        "name": "Desempenho",
+        "desc": [
+            "Sua verificação de Charisma (desempenho) determina o quão bem você pode apreciar um público com música, dança, atuação, narração de histórias ou qualquer outra forma de entretenimento."
+        ],
+        "ability_score": {
+            "index": "cha",
+            "name": "CHA",
+            "url": "/api/ability-scores/cha"
+        },
+        "url": "/api/skills/performance"
+    },
+    {
+        "index": "persuasion",
+        "name": "Persuasão",
+        "desc": [
+            "Quando você tenta influenciar alguém ou um grupo de pessoas com tacto, grachas sociais, ou boa natureza, o GM pode pedir que você faça um controlo de Charisma (persuasion). Normalmente, você usa persuasão ao agir de boa fé, para promover amizades, fazer pedidos de cordialidade ou exibir etiqueta adequada. Exemplos de persuasão de outros incluem convencer uma câmara de guerra a deixar seu grupo ver o rei negociando paz entre tribos beligerantes, ou inspirando uma multidão de habitantes da cidade."
+        ],
+        "ability_score": {
+            "index": "cha",
+            "name": "CHA",
+            "url": "/api/ability-scores/cha"
+        },
+        "url": "/api/skills/persuasion"
+    },
+    {
+        "index": "religion",
+        "name": "Religião",
+        "desc": [
+            "Sua Inteligência (Religião) mede a sua habilidade de recordar a história sobre divindades, ritos e orações, hierarquias religiosas, símbolos sagrados e a prática de cultos secretos."
+        ],
+        "ability_score": {
+            "index": "int",
+            "name": "INT",
+            "url": "/api/ability-scores/int"
+        },
+        "url": "/api/skills/religion"
+    },
+    {
+        "index": "sleight-of-hand",
+        "name": "Trenó da Mão",
+        "desc": [
+            "Sempre que você tenta um ato de artifício lendário ou manual, como plantar algo em outra pessoa ou esconder um objeto em sua pessoa, faça uma verificação de Destreza (sinal de vista). O GM pode também pedir uma verificação de Agilidade (Mão da Mão) para determinar se é possível levantar uma moeda de outra pessoa ou escorregar algo do bolso de outra pessoa."
+        ],
+        "ability_score": {
+            "index": "dex",
+            "name": "DEXO",
+            "url": "/api/ability-scores/dex"
+        },
+        "url": "/api/skills/sleight-of-hand"
+    },
+    {
+        "index": "stealth",
+        "name": "Furtividade",
+        "desc": [
+            "Faça uma verificação de Agilidade (Furtiva) quando você tentar se esconder de inimigos, piscar atrás de guardas, escorrege sem ser notado, ou se esgueire em alguém sem ser visto ou ouvido."
+        ],
+        "ability_score": {
+            "index": "dex",
+            "name": "DEXO",
+            "url": "/api/ability-scores/dex"
+        },
+        "url": "/api/skills/stealth"
+    },
+    {
+        "index": "survival",
+        "name": "Sobrevivência",
+        "desc": [
+            "O GM pode pedir-lhe para fazer uma verificação da sabedoria (Survival) para seguir pegadas, caçar jogos selvagens, guiar seu grupo através dos desertos congelados, identificar sinais que corujos vivem nas proximidades, prever o tempo, ou evitar areia rápida e outros riscos naturais."
+        ],
+        "ability_score": {
+            "index": "wis",
+            "name": "WIS",
+            "url": "/api/ability-scores/wis"
+        },
+        "url": "/api/skills/survival"
+    }
+]
