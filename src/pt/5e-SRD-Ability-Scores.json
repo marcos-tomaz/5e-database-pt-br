@@ -5,7 +5,7 @@
         "full_name": "Carisma",
         "desc": [
             "Carisma mede sua capacidade de interagir de forma eficaz com os outros. Inclui factores como a confiança e a eloquência e pode representar uma personalidade encantadora ou de liderança.",
-            "Uma verificação de Carisma pode surgir quando você tentar influenciar ou entreter os outros, quando se tenta causar uma impressão ou contar uma mentira convincente, ou quando se está a navegar por uma situação social complicada. As habilidades Decepção, Intimidação, Desempenho e Persuasão refletem aptidão em certos tipos de verificações de Charisma."
+            "Uma verificação de Carisma pode surgir quando você tentar influenciar ou entreter os outros."
         ],
         "skills": [
             {
@@ -37,7 +37,7 @@
         "full_name": "Constituição",
         "desc": [
             "A Constituição mede saúde, estamina e força vital.",
-            "As verificações da Constituição são incomuns, e não se aplicam competências aos controlos da Constituição, porque a resistência que esta habilidade representa é em grande medida passiva, em vez de envolver um esforço específico por parte de um caráter ou de um monstro."
+            "As verificações da Constituição são incomuns, e não se aplicam competências aos controles da Constituição."
         ],
         "skills": [],
         "url": "/api/ability-scores/con"
@@ -47,8 +47,8 @@
         "name": "DES",
         "full_name": "Destreza",
         "desc": [
-            "A produtividade mede agilidade, reflexos e equilíbrio.",
-            "Uma verificação de Destreza pode modelar qualquer tentativa de mover-se nimamente, rápido ou silenciosamente, ou para não cair em bases complicadas. As habilidades Acrobáticas, Trenó da Mão, e furtividade refletem aptidão em certos tipos de verificações de Agilidade."
+            "A Destreza mede a agilidade, reflexos e equilíbrio.",
+            "Uma verificação de Destreza pode modelar qualquer tentativa de mover-se nimamente, rápido ou silenciosamente, ou para não cair em bases complicadas."
         ],
         "skills": [
             {
@@ -57,7 +57,7 @@
                 "url": "/api/skills/acrobatics"
             },
             {
-                "name": "Mãos Leves",
+                "name": "Prestidigitação",
                 "index": "sleight-of-hand",
                 "url": "/api/skills/sleight-of-hand"
             },
@@ -75,11 +75,11 @@
         "full_name": "Inteligência",
         "desc": [
             "A inteligência mede a acuidade mental, a precisão da recessão, e a capacidade de justificar.",
-            "Uma verificação de inteligência entra em jogo quando você precisa usar lógica, educação, memória ou raciocínio dedutivo. As competências Arcana, Histórica, Investigação, Natureza e Religião refletem aptidão em certos tipos de verificações de Inteligência."
+            "Uma verificação de inteligência entra em jogo quando você precisa usar lógica, educação, memória ou raciocínio dedutivo."
         ],
         "skills": [
             {
-                "name": "Arcano",
+                "name": "Arcanismo",
                 "index": "arcana",
                 "url": "/api/skills/arcana"
             },
@@ -112,7 +112,7 @@
         "full_name": "Força",
         "desc": [
             "A força mede energia corporal, a formação atlética e até que ponto se pode exercer força física.",
-            "Uma Verificação de Força pode modelar qualquer tentativa de elevar, empurrar, puxar ou quebrar algo, para forçar seu corpo através de um espaço, ou, de outra forma, aplicar força bruta a uma situação. A habilidade Atletica reflete a aptidão em certos tipos de verificações de Força."
+            "Uma Verificação de Força pode modelar qualquer tentativa de elevar, empurrar, puxar ou quebrar algo, para forçar seu corpo através de um espaço, ou, de outra forma, aplicar força bruta a uma situação."
         ],
         "skills": [
             {
@@ -129,11 +129,11 @@
         "full_name": "Sabedoria",
         "desc": [
             "A sabedoria reflete como você está em sintonia com o mundo ao seu redor e representa perceptividade e intuição.",
-            "A verificação da sabedoria pode refletir um esforço para ler a linguagem corporal, entender os sentimentos de alguém, observar coisas sobre o ambiente ou cuidar de uma pessoa ferida. As habilidades Manipulação Animal, Insight, Medicina, Percepção e Sobrevivência refletem aptidão em certos tipos de verificações de sabedoria."
+            "A verificação da sabedoria pode refletir um esforço para ler a linguagem corporal, entender os sentimentos de alguém, observar coisas sobre o ambiente ou cuidar de uma pessoa ferida."
         ],
         "skills": [
             {
-                "name": "Lidar com Animais",
+                "name": "Adestrar Animais",
                 "index": "animal-handling",
                 "url": "/api/skills/animal-handling"
             },
