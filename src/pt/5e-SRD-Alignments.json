@@ -1,44 +1,44 @@
 [
     {
         "index": "chaotic-evil",
-        "name": "Chaotic Evil",
-        "abbreviation": "CE",
-        "desc": "Criaturas Caóticas do mal (CE) agem com violência arbitrária, estimuladas por sua ganância, ódio ou sedenta de sangue. Demônios, dragões vermelhos e orcs são maldade caótica.",
+        "name": "Caótico e Mal",
+        "abbreviation": "CM",
+        "desc": "Criaturas Caóticas do mal (CM) agem com violência arbitrária, estimuladas por sua ganância, ódio ou sedenta de sangue. Demônios, dragões vermelhos e orcs são maldade caótica.",
         "url": "/api/alignments/chaotic-evil"
     },
     {
         "index": "chaotic-good",
-        "name": "Muito Bom Caótico",
-        "abbreviation": "CG",
-        "desc": "As criaturas caóticas boas (CG) atuam como sua consciência direta, com pouca consideração pelo que outros esperam. Dragões de cobre, muitos elfos e unicórnios são bem caóticos.",
+        "name": "Caótico e Bom",
+        "abbreviation": "CB",
+        "desc": "As criaturas caóticas boas (CB) atuam como sua consciência direta, com pouca consideração pelo que outros esperam. Dragões de cobre, muitos elfos e unicórnios são bem caóticos.",
         "url": "/api/alignments/chaotic-good"
     },
     {
         "index": "chaotic-neutral",
-        "name": "Neutro Caótico",
-        "abbreviation": "China",
+        "name": "Caótico e Neutro",
+        "abbreviation": "CN",
         "desc": "Criaturas Caóticas neutras (CN) seguem seus caprichos, segurando sua liberdade pessoal acima de tudo. Muitos bárbaros e Jovens, e algumas bardas, são caóticos neutros.",
         "url": "/api/alignments/chaotic-neutral"
     },
     {
         "index": "lawful-evil",
-        "name": "Mal legal",
-        "abbreviation": "VA",
-        "desc": "Criaturas legais (LE) levam metodicamente o que querem, dentro dos limites de um código de tradição, lealdade ou ordem. Diabos, dragões azuis e hobgoblins são um mal legal.",
+        "name": "Leal e Mau",
+        "abbreviation": "LM",
+        "desc": "Criaturas Leais e Más (LM) levam metodicamente o que querem, dentro dos limites de um código de tradição, lealdade ou ordem. Diabos, dragões azuis e hobgoblins são um mal legal.",
         "url": "/api/alignments/lawful-evil"
     },
     {
         "index": "lawful-good",
-        "name": "Direito bom",
-        "abbreviation": "LG",
-        "desc": "As criaturas legais de bem (LG) podem ser contadas para fazer a coisa certa como esperado pela sociedade. Dragões de ouro, paladinos e a maioria dos anões são lícitos.",
+        "name": "Leal e Bom",
+        "abbreviation": "LB",
+        "desc": "As criaturas Leais e Boas (LB) podem ser contadas para fazer a coisa certa como esperado pela sociedade. Dragões de ouro, paladinos e a maioria dos anões são lícitos.",
         "url": "/api/alignments/lawful-good"
     },
     {
         "index": "lawful-neutral",
-        "name": "Neutro legal",
-        "abbreviation": "PT",
-        "desc": "Os indivíduos neutros legais (LN) atuam de acordo com a lei, a tradição ou códigos pessoais. Muitos monges e alguns feiticeiros são neutros da lei.",
+        "name": "Leal e Neutro",
+        "abbreviation": "LN",
+        "desc": "Os indivíduos neutros leais (LN) atuam de acordo com a lei, a tradição ou códigos pessoais. Muitos monges e alguns feiticeiros são neutros da lei.",
         "url": "/api/alignments/lawful-neutral"
     },
     {
@@ -50,16 +50,16 @@
     },
     {
         "index": "neutral-evil",
-        "name": "Mal Neutro",
-        "abbreviation": "Níger",
-        "desc": "O mal neutro (NE) é o alinhamento daqueles que fazem tudo o que podem fazer, sem compaixão nem escrúpulos. Muitos se afogam, alguns gigantes de nuvens e ganchos são mal neutro.",
+        "name": "Neutro e Mal",
+        "abbreviation": "NM",
+        "desc": "O mal neutro (NM) é o alinhamento daqueles que fazem tudo o que podem fazer, sem compaixão nem escrúpulos. Muitos se afogam, alguns gigantes de nuvens e ganchos são mal neutro.",
         "url": "/api/alignments/neutral-evil"
     },
     {
         "index": "neutral-good",
-        "name": "Neutro bom",
-        "abbreviation": "NG",
-        "desc": "O bem neutro (NG) do povo faz o melhor que pode para ajudar os outros de acordo com as suas necessidades. Muitos celestiais, alguns gigantes em nuvem e a maioria dos gnomos são neutros.",
+        "name": "Neutro e Bom",
+        "abbreviation": "NB",
+        "desc": "O bem neutro (NB) do povo faz o melhor que pode para ajudar os outros de acordo com as suas necessidades. Muitos celestiais, alguns gigantes em nuvem e a maioria dos gnomos são neutros.",
         "url": "/api/alignments/neutral-good"
     }
 ]
