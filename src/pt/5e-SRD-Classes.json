@@ -5,7 +5,7 @@
         "hit_die": 12,
         "proficiency_choices": [
             {
-                "desc": "Escolha duas de Manipulação Animal, Atletismo, Intimidação, Natureza, Percepção e Sobrevivência",
+                "desc": "Escolha duas entre Adestrar Animais, Atletismo, Intimidação, Natureza, Percepção e Sobrevivência",
                 "choose": 2,
                 "type": "proficiencies",
                 "from": {
@@ -15,7 +15,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "skill-animal-handling",
-                                "name": "Habilidade: Manipulação de Animais",
+                                "name": "Habilidade: Adestrar Animais",
                                 "url": "/api/proficiencies/skill-animal-handling"
                             }
                         },
@@ -23,7 +23,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "skill-athletics",
-                                "name": "Habilidade: Atleta",
+                                "name": "Habilidade: Atletismo",
                                 "url": "/api/proficiencies/skill-athletics"
                             }
                         },
@@ -91,19 +91,19 @@
             },
             {
                 "index": "saving-throw-str",
-                "name": "Salvando Throw: STR",
+                "name": "Teste de Resistência: FOR",
                 "url": "/api/proficiencies/saving-throw-str"
             },
             {
                 "index": "saving-throw-con",
-                "name": "Salvando Throw: CON",
+                "name": "Teste de Resistência: CON",
                 "url": "/api/proficiencies/saving-throw-con"
             }
         ],
         "saving_throws": [
             {
                 "index": "str",
-                "name": "STR",
+                "name": "FOR",
                 "url": "/api/ability-scores/str"
             },
             {
@@ -124,7 +124,7 @@
             {
                 "equipment": {
                     "index": "javelin",
-                    "name": "Javelin",
+                    "name": "Azagaias",
                     "url": "/api/equipment/javelin"
                 },
                 "quantity": 4
@@ -132,7 +132,7 @@
         ],
         "starting_equipment_options": [
             {
-                "desc": "(a) um Machado greataque ou (b) qualquer arma branca marcial",
+                "desc": "(a) um Machado Grande ou (b) qualquer arma marcial corpo-a-corpo",
                 "choose": 1,
                 "type": "equipment",
                 "from": {
@@ -143,21 +143,21 @@
                             "count": 1,
                             "of": {
                                 "index": "greataxe",
-                                "name": "Greataxe",
+                                "name": "Machado Grande",
                                 "url": "/api/equipment/greataxe"
                             }
                         },
                         {
                             "option_type": "choice",
                             "choice": {
-                                "desc": "qualquer arma marcial branca",
+                                "desc": "qualquer arma marcial corpo-a-corpo",
                                 "choose": 1,
                                 "type": "equipment",
                                 "from": {
                                     "option_set_type": "equipment_category",
                                     "equipment_category": {
                                         "index": "martial-melee-weapons",
-                                        "name": "Armas de Corpo-a-corpo Marcial",
+                                        "name": "Arma Marcial Corpo-a-corpo",
                                         "url": "/api/equipment-categories/martial-melee-weapons"
                                     }
                                 }
@@ -167,7 +167,7 @@
                 }
             },
             {
-                "desc": "(a) dois handaxes ou (b) qualquer arma simples",
+                "desc": "(a) dois Machados de Mão ou (b) qualquer arma simples",
                 "choose": 1,
                 "type": "equipment",
                 "from": {
@@ -178,7 +178,7 @@
                             "count": 2,
                             "of": {
                                 "index": "handaxe",
-                                "name": "Handaxe",
+                                "name": "Machados de Mão",
                                 "url": "/api/equipment/handaxe"
                             }
                         },
@@ -208,7 +208,7 @@
                 {
                     "ability_score": {
                         "index": "str",
-                        "name": "STR",
+                        "name": "FOR",
                         "url": "/api/ability-scores/str"
                     },
                     "minimum_score": 13
@@ -247,7 +247,7 @@
         "hit_die": 8,
         "proficiency_choices": [
             {
-                "desc": "Escolha quaisquer três",
+                "desc": "Escolha três quaisquer",
                 "choose": 3,
                 "type": "proficiencies",
                 "from": {
@@ -257,7 +257,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "skill-acrobatics",
-                                "name": "Habilidade: Acrobática",
+                                "name": "Habilidade: Acrobacia",
                                 "url": "/api/proficiencies/skill-acrobatics"
                             }
                         },
@@ -265,7 +265,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "skill-animal-handling",
-                                "name": "Habilidade: Manipulação de Animais",
+                                "name": "Habilidade: Adestrar Animais",
                                 "url": "/api/proficiencies/skill-animal-handling"
                             }
                         },
@@ -273,7 +273,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "skill-arcana",
-                                "name": "Habilidade: Arcana",
+                                "name": "Habilidade: Arcanismo",
                                 "url": "/api/proficiencies/skill-arcana"
                             }
                         },
@@ -281,7 +281,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "skill-athletics",
-                                "name": "Habilidade: Atleta",
+                                "name": "Habilidade: Atletismo",
                                 "url": "/api/proficiencies/skill-athletics"
                             }
                         },
@@ -289,7 +289,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "skill-deception",
-                                "name": "Habilidade: Engodo",
+                                "name": "Habilidade: Enganação",
                                 "url": "/api/proficiencies/skill-deception"
                             }
                         },
@@ -297,7 +297,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "skill-history",
-                                "name": "Habilidade: Histórico",
+                                "name": "Habilidade: História",
                                 "url": "/api/proficiencies/skill-history"
                             }
                         },
@@ -305,7 +305,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "skill-insight",
-                                "name": "Habilidade: Conhecimento",
+                                "name": "Habilidade: Intuição",
                                 "url": "/api/proficiencies/skill-insight"
                             }
                         },
@@ -353,7 +353,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "skill-performance",
-                                "name": "Habilidade: Desempenho",
+                                "name": "Habilidade: Atuação",
                                 "url": "/api/proficiencies/skill-performance"
                             }
                         },
@@ -377,7 +377,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "skill-sleight-of-hand",
-                                "name": "Habilidade: Trenó da Mão",
+                                "name": "Habilidade: Pretidigitação",
                                 "url": "/api/proficiencies/skill-sleight-of-hand"
                             }
                         },
@@ -411,7 +411,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "bagpipes",
-                                "name": "Bagas",
+                                "name": "Gaita de Foles",
                                 "url": "/api/proficiencies/bagpipes"
                             }
                         },
@@ -427,7 +427,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "dulcimer",
-                                "name": "Dulcimer",
+                                "name": "Oboé",
                                 "url": "/api/proficiencies/dulcimer"
                             }
                         },
@@ -443,7 +443,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "lute",
-                                "name": "Lutar",
+                                "name": "Alaúde",
                                 "url": "/api/proficiencies/lute"
                             }
                         },
@@ -451,7 +451,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "lyre",
-                                "name": "Lança",
+                                "name": "Lira",
                                 "url": "/api/proficiencies/lyre"
                             }
                         },
@@ -459,7 +459,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "horn",
-                                "name": "Chifre",
+                                "name": "Trombeta",
                                 "url": "/api/proficiencies/horn"
                             }
                         },
@@ -467,7 +467,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "pan-flute",
-                                "name": "Flauta de Panela",
+                                "name": "Flauta de Pã",
                                 "url": "/api/proficiencies/pan-flute"
                             }
                         },
@@ -475,7 +475,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "shawm",
-                                "name": "Shawm",
+                                "name": "Xilofone",
                                 "url": "/api/proficiencies/shawm"
                             }
                         },
@@ -483,7 +483,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "viol",
-                                "name": "Viol",
+                                "name": "Violino",
                                 "url": "/api/proficiencies/viol"
                             }
                         }
@@ -504,7 +504,7 @@
             },
             {
                 "index": "longswords",
-                "name": "Espadas longas",
+                "name": "Espadas Longas",
                 "url": "/api/proficiencies/longswords"
             },
             {
@@ -514,34 +514,34 @@
             },
             {
                 "index": "shortswords",
-                "name": "Palavras curtas",
+                "name": "Espadas Curtas",
                 "url": "/api/proficiencies/shortswords"
             },
             {
                 "index": "hand-crossbows",
-                "name": "Bestas de mão",
+                "name": "Bestas de Mão",
                 "url": "/api/proficiencies/hand-crossbows"
             },
             {
                 "index": "saving-throw-dex",
-                "name": "Salvando Throw: DEX",
+                "name": "Teste de Resistência: DES",
                 "url": "/api/proficiencies/saving-throw-dex"
             },
             {
                 "index": "saving-throw-cha",
-                "name": "Salvando Throw: CHA",
+                "name": "Teste de Resistência: CAR",
                 "url": "/api/proficiencies/saving-throw-cha"
             }
         ],
         "saving_throws": [
             {
                 "index": "dex",
-                "name": "DEXO",
+                "name": "DES",
                 "url": "/api/ability-scores/dex"
             },
             {
                 "index": "cha",
-                "name": "CHA",
+                "name": "CAR",
                 "url": "/api/ability-scores/cha"
             }
         ],
@@ -557,7 +557,7 @@
             {
                 "equipment": {
                     "index": "dagger",
-                    "name": "Dagger",
+                    "name": "Adaga",
                     "url": "/api/equipment/dagger"
                 },
                 "quantity": 1
@@ -565,7 +565,7 @@
         ],
         "starting_equipment_options": [
             {
-                "desc": "(a) um estuprador, (b) uma espada longa, ou (c) qualquer arma simples",
+                "desc": "(a) uma rapieira, (b) uma espada longa, ou (c) qualquer arma simples",
                 "choose": 1,
                 "type": "equipment",
                 "from": {
@@ -609,7 +609,7 @@
                 }
             },
             {
-                "desc": "(a) pacote de um diplomata ou (b) pacote de um entretenedor",
+                "desc": "(a) pacote de um diplomata ou (b) pacote de um artista",
                 "choose": 1,
                 "type": "equipment",
                 "from": {
@@ -629,7 +629,7 @@
                             "count": 1,
                             "of": {
                                 "index": "entertainers-pack",
-                                "name": "Pacote de Entretenimento",
+                                "name": "Pacote de Artista",
                                 "url": "/api/equipment/entertainers-pack"
                             }
                         }
@@ -637,7 +637,7 @@
                 }
             },
             {
-                "desc": "(a) um instrumento musical ou (b) qualquer outro instrumento musical",
+                "desc": "(a) um alaúde ou (b) qualquer outro instrumento musical",
                 "choose": 1,
                 "type": "equipment",
                 "from": {
@@ -648,7 +648,7 @@
                             "count": 1,
                             "of": {
                                 "index": "lute",
-                                "name": "Lutar",
+                                "name": "Alaúde",
                                 "url": "/api/equipment/lute"
                             }
                         },
@@ -678,7 +678,7 @@
                 {
                     "ability_score": {
                         "index": "cha",
-                        "name": "CHA",
+                        "name": "CAR",
                         "url": "/api/ability-scores/cha"
                     },
                     "minimum_score": 13
@@ -703,7 +703,7 @@
                                 "option_type": "reference",
                                 "item": {
                                     "index": "skill-acrobatics",
-                                    "name": "Habilidade: Acrobática",
+                                    "name": "Habilidade: Acrobacia",
                                     "url": "/api/proficiencies/skill-acrobatics"
                                 }
                             },
@@ -711,7 +711,7 @@
                                 "option_type": "reference",
                                 "item": {
                                     "index": "skill-animal-handling",
-                                    "name": "Habilidade: Manipulação de Animais",
+                                    "name": "Habilidade: Adestrar Animais",
                                     "url": "/api/proficiencies/skill-animal-handling"
                                 }
                             },
@@ -719,7 +719,7 @@
                                 "option_type": "reference",
                                 "item": {
                                     "index": "skill-arcana",
-                                    "name": "Habilidade: Arcana",
+                                    "name": "Habilidade: Arcanismo",
                                     "url": "/api/proficiencies/skill-arcana"
                                 }
                             },
@@ -727,7 +727,7 @@
                                 "option_type": "reference",
                                 "item": {
                                     "index": "skill-athletics",
-                                    "name": "Habilidade: Atleta",
+                                    "name": "Habilidade: Atletismo",
                                     "url": "/api/proficiencies/skill-athletics"
                                 }
                             },
@@ -735,7 +735,7 @@
                                 "option_type": "reference",
                                 "item": {
                                     "index": "skill-deception",
-                                    "name": "Habilidade: Engodo",
+                                    "name": "Habilidade: Enganação",
                                     "url": "/api/proficiencies/skill-deception"
                                 }
                             },
@@ -743,7 +743,7 @@
                                 "option_type": "reference",
                                 "item": {
                                     "index": "skill-history",
-                                    "name": "Habilidade: Histórico",
+                                    "name": "Habilidade: História",
                                     "url": "/api/proficiencies/skill-history"
                                 }
                             },
@@ -751,7 +751,7 @@
                                 "option_type": "reference",
                                 "item": {
                                     "index": "skill-insight",
-                                    "name": "Habilidade: Conhecimento",
+                                    "name": "Habilidade: Intuição",
                                     "url": "/api/proficiencies/skill-insight"
                                 }
                             },
@@ -799,7 +799,7 @@
                                 "option_type": "reference",
                                 "item": {
                                     "index": "skill-performance",
-                                    "name": "Habilidade: Desempenho",
+                                    "name": "Habilidade: Atuação",
                                     "url": "/api/proficiencies/skill-performance"
                                 }
                             },
@@ -823,7 +823,7 @@
                                 "option_type": "reference",
                                 "item": {
                                     "index": "skill-sleight-of-hand",
-                                    "name": "Habilidade: Trenó da Mão",
+                                    "name": "Habilidade: Pretidigitação",
                                     "url": "/api/proficiencies/skill-sleight-of-hand"
                                 }
                             },
@@ -857,7 +857,7 @@
                                 "option_type": "reference",
                                 "item": {
                                     "index": "bagpipes",
-                                    "name": "Bagas",
+                                    "name": "Gaita de Fole",
                                     "url": "/api/proficiencies/bagpipes"
                                 }
                             },
@@ -873,7 +873,7 @@
                                 "option_type": "reference",
                                 "item": {
                                     "index": "dulcimer",
-                                    "name": "Dulcimer",
+                                    "name": "Oboé",
                                     "url": "/api/proficiencies/dulcimer"
                                 }
                             },
@@ -889,7 +889,7 @@
                                 "option_type": "reference",
                                 "item": {
                                     "index": "lute",
-                                    "name": "Lutar",
+                                    "name": "Alaúde",
                                     "url": "/api/proficiencies/lute"
                                 }
                             },
@@ -897,7 +897,7 @@
                                 "option_type": "reference",
                                 "item": {
                                     "index": "lyre",
-                                    "name": "Lança",
+                                    "name": "Lira",
                                     "url": "/api/proficiencies/lyre"
                                 }
                             },
@@ -905,7 +905,7 @@
                                 "option_type": "reference",
                                 "item": {
                                     "index": "horn",
-                                    "name": "Chifre",
+                                    "name": "Trombeta",
                                     "url": "/api/proficiencies/horn"
                                 }
                             },
@@ -913,7 +913,7 @@
                                 "option_type": "reference",
                                 "item": {
                                     "index": "pan-flute",
-                                    "name": "Flauta de Panela",
+                                    "name": "Flauta de Pã",
                                     "url": "/api/proficiencies/pan-flute"
                                 }
                             },
@@ -921,7 +921,7 @@
                                 "option_type": "reference",
                                 "item": {
                                     "index": "shawm",
-                                    "name": "Shawm",
+                                    "name": "Xilofone",
                                     "url": "/api/proficiencies/shawm"
                                 }
                             },
@@ -929,7 +929,7 @@
                                 "option_type": "reference",
                                 "item": {
                                     "index": "viol",
-                                    "name": "Viol",
+                                    "name": "Violino",
                                     "url": "/api/proficiencies/viol"
                                 }
                             }
@@ -949,50 +949,50 @@
             "level": 1,
             "spellcasting_ability": {
                 "index": "cha",
-                "name": "CHA",
+                "name": "CAR",
                 "url": "/api/ability-scores/cha"
             },
             "info": [
                 {
-                    "name": "Corridas",
+                    "name": "Truques",
                     "desc": [
-                        "Você conhece duas dificuldades da sua escolha na lista de feitiços. Você aprende outras viagens de barba de sua escolha em níveis mais altos, conforme mostrado na coluna de Canalhas conhecida da mesa de Bardes."
+                        "Você conhece dois truques, à sua escolha da lista de magias de bardo. Você aprende truques de bardo adicionais, à sua escolha em níveis mais altos, como mostrado na coluna Truques Conhecidos da tabela O Bardo."
                     ]
                 },
                 {
-                    "name": "Spell Slots",
+                    "name": "Espaços de Magia",
                     "desc": [
-                        "A tabela do Bardo mostra quantos slots de feitiço você precisa lançar os feitiços de 1 nível e superior. Para lançar um desses feitiços, você deve gastar um slot do nível do feitiço ou superior. Você recupera todos os slots ortográficos gastos ao terminar um longo descanso.",
-                        "Por exemplo, se você conhece a cura do primeiro nível do feitiço e tem um nível 1 e um espaço de feitiço de segundo nível disponível, você pode curar ferimentos usando qualquer slot."
+                        "A tabela O Bardo mostra quantos espaços de magia de 1° nível e superiores você possui disponíveis para conjuração. Para conjurar uma dessas magias, você deve gastar uma espaço de magia do nível da magia ou superior. Você recupera todos os espaços de magia gastos quando você completa um descanso longo",
+                        "Por exemplo, se você quiser conjurar a magia de 1° nível curar ferimentos e você tiver um espaço de magia de 1° nível e um de 2° nível disponíveis, você poderá conjurar curar ferimentos usando qualquer dos dois espaços."
                     ]
                 },
                 {
                     "name": "Feitiços conhecidos de primeiro nível e superiores",
                     "desc": [
-                        "Você conhece quatro feitiços de nível 1 da sua escolha a partir da lista de feitiços do bard.",
-                        "A coluna Feitiços conhecida da tabela de Bordo mostra quando você aprende mais feitiços de sua escolha.",
-                        "Cada um desses feitiços deve ter um nível no qual você tenha um slot de magia, conforme mostrado na mesa. Por exemplo, quando você atinge o terceiro nível nesta aula, você pode aprender um novo feitiço de 1° ou 21.",
-                        "Além disso, quando você ganha um nível nesta aula, você pode escolher um dos feitiços que você conhece e substituí-lo por outro feitiço da lista de feitiços de bardo, que também deve ser de um nível para o qual você tem slots de ortografia."
+                        "Você conhece quatro magias de nível 1 da sua escolha, da lista de magias do bardo.",
+                        "A coluna Magias Conhecidas na tabela O Bardo mostra quando você aprende mais magias de bardo, à sua escolha.",
+                        "Cada uma dessas magias deve ser de um nível a que você tenha acesso, como mostrado na tabela. Por exemplo, quando você alcança o 3° nível da classe, você pode aprender uma nova magia de 1° ou 2° nível.",
+                        "Além disso, quando você adquire um nível nessa classe, você pode escolher uma magia de bardo que você conheça e substituí-la por outra magia da lista de magias de bardo, que também deve ser de um nível ao qual você tenha espaços de magia."
                     ]
                 },
                 {
-                    "name": "Habilidade de Magia",
+                    "name": "Habilidade de Conjuração",
                     "desc": [
-                        "Charisma é sua habilidade de feitiço para seus feitiços de barro. Sua magia vem do coração e da alma que você despeja no desempenho de sua música ou oração. Você usa o seu Charisma sempre que um feitiço se refere à sua habilidade de magia. Além disso você usa seu modificador Charisma ao definir o jogo de save DC para um feitiço que você lançou e ao fazer um ataque rolar com um.",
-                        "Economize DC = 8 + seu bônus de proficiência + o seu modificador Charisma.",
-                        "Modificador de ataque ortográfico = seu bônus de proficiência + seu modificador de Charisma."
+                        "Sua habilidade de conjuração é Carisma para suas magias de bardo, portanto, você usa seu Carisma sempre que alguma magia se referir à sua habilidade de conjurar magias. Além disso, você usa o seu modificador de Carisma para definir a CD dos testes de resistência para as magias de bardo que você conjura e quando você realiza uma jogada de ataque com uma magia.",
+                        "CD para as suas magias = 8 + seu bônus de proficiência + o seu modificador Carisma.",
+                        "Modificador de ataque de magia = seu bônus de proficiência + seu modificador de Carisma."
                     ]
                 },
                 {
-                    "name": "Fundição Ritual",
+                    "name": "Conjuração de Ritual",
                     "desc": [
-                        "Você pode lançar qualquer feitiço que você conhece como ritual se esse feitiço tiver a tag ritual."
+                        "Você pode lançar qualquer magia que você conhece como ritual se essa magia possuir um descritor ritual."
                     ]
                 },
                 {
-                    "name": "Foco da Magia",
+                    "name": "Foco de Conjuração",
                     "desc": [
-                        "Você pode usar um instrumento musical (ver Equipamento) como um foco de feitiço para o seu feitiço."
+                        "Você pode usar um instrumento musical como um foco de  conjuração das suas magias."
                     ]
                 }
             ]
