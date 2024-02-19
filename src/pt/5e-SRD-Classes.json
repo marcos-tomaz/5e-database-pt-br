@@ -1002,11 +1002,11 @@
     },
     {
         "index": "cleric",
-        "name": "Clérico",
+        "name": "Clérigo",
         "hit_die": 8,
         "proficiency_choices": [
             {
-                "desc": "Escolha dois de História, Insight, Medicina, Persuasão e Religião",
+                "desc": "Escolha dois de História, Intuição, Medicina, Persuasão e Religião",
                 "choose": 2,
                 "type": "proficiencies",
                 "from": {
@@ -1016,7 +1016,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "skill-history",
-                                "name": "Habilidade: Histórico",
+                                "name": "Habilidade: História",
                                 "url": "/api/proficiencies/skill-history"
                             }
                         },
@@ -1024,7 +1024,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "skill-insight",
-                                "name": "Habilidade: Conhecimento",
+                                "name": "Habilidade: Intuição",
                                 "url": "/api/proficiencies/skill-insight"
                             }
                         },
@@ -1079,24 +1079,24 @@
             },
             {
                 "index": "saving-throw-wis",
-                "name": "Salvando Throw: WIS",
+                "name": "Teste de resistência: SAB",
                 "url": "/api/proficiencies/saving-throw-wis"
             },
             {
                 "index": "saving-throw-cha",
-                "name": "Salvando Throw: CHA",
+                "name": "Teste de resistência: CAR",
                 "url": "/api/proficiencies/saving-throw-cha"
             }
         ],
         "saving_throws": [
             {
                 "index": "wis",
-                "name": "WIS",
+                "name": "SAB",
                 "url": "/api/ability-scores/wis"
             },
             {
                 "index": "cha",
-                "name": "CHA",
+                "name": "CAR",
                 "url": "/api/ability-scores/cha"
             }
         ],
@@ -1112,7 +1112,7 @@
         ],
         "starting_equipment_options": [
             {
-                "desc": "(a) um mace ou (b) um martelo de guerra (se proficiente)",
+                "desc": "(a) uma maça ou (b) um martelo de guerra (se proficiente)",
                 "choose": 1,
                 "type": "equipment",
                 "from": {
@@ -1123,7 +1123,7 @@
                             "count": 1,
                             "of": {
                                 "index": "mace",
-                                "name": "Mace",
+                                "name": "Maça",
                                 "url": "/api/equipment/mace"
                             }
                         },
@@ -1132,7 +1132,7 @@
                             "count": 1,
                             "of": {
                                 "index": "warhammer",
-                                "name": "Warhammer",
+                                "name": "Martelo de Guerra",
                                 "url": "/api/equipment/warhammer"
                             },
                             "prerequisites": [
@@ -1140,7 +1140,7 @@
                                     "type": "proficiency",
                                     "proficiency": {
                                         "index": "warhammers",
-                                        "name": "Warhammers",
+                                        "name": "Martelo de Guerra",
                                         "url": "/api/proficiencies/warhammers"
                                     }
                                 }
@@ -1150,7 +1150,7 @@
                 }
             },
             {
-                "desc": "(a) correio de escala, (b) armadura de couro, ou (c) e-mail da cadeia (se proficiente)",
+                "desc": "(a) brunea, (b) armadura de couro, ou (c) cota de malha (se proficiente)",
                 "choose": 1,
                 "type": "equipment",
                 "from": {
@@ -1161,7 +1161,7 @@
                             "count": 1,
                             "of": {
                                 "index": "scale-mail",
-                                "name": "Escala de Correio",
+                                "name": "Brunea",
                                 "url": "/api/equipment/scale-mail"
                             }
                         },
@@ -1179,7 +1179,7 @@
                             "count": 1,
                             "of": {
                                 "index": "chain-mail",
-                                "name": "Chain Mail",
+                                "name": "Cota de malha",
                                 "url": "/api/equipment/chain-mail"
                             },
                             "prerequisites": [
@@ -1187,7 +1187,7 @@
                                     "type": "proficiency",
                                     "proficiency": {
                                         "index": "chain-mail",
-                                        "name": "Chain Mail",
+                                        "name": "Cota de malha",
                                         "url": "/api/proficiencies/chain-mail"
                                     }
                                 }
@@ -1197,7 +1197,7 @@
                 }
             },
             {
-                "desc": "(a) uma besta leve e 20 parafusos ou (b) qualquer arma simples",
+                "desc": "(a) uma besta leve e 20 virotes ou (b) qualquer arma simples",
                 "choose": 1,
                 "type": "equipment",
                 "from": {
@@ -1211,7 +1211,7 @@
                                     "count": 1,
                                     "of": {
                                         "index": "crossbow-light",
-                                        "name": "Besteira, luz",
+                                        "name": "Besta Leve",
                                         "url": "/api/equipment/crossbow-light"
                                     }
                                 },
@@ -1220,7 +1220,7 @@
                                     "count": 20,
                                     "of": {
                                         "index": "crossbow-bolt",
-                                        "name": "Dardo de Balestra",
+                                        "name": "Virote",
                                         "url": "/api/equipment/crossbow-bolt"
                                     }
                                 }
@@ -1246,7 +1246,7 @@
                 }
             },
             {
-                "desc": "(a) pacote de um padre ou (b) pacote de um explorador",
+                "desc": "(a) pacote de sacerdote ou (b) pacote de aventureiro",
                 "choose": 1,
                 "type": "equipment",
                 "from": {
@@ -1266,7 +1266,7 @@
                             "count": 1,
                             "of": {
                                 "index": "explorers-pack",
-                                "name": "Pacote de Explorador",
+                                "name": "Pacote de Aventureiro",
                                 "url": "/api/equipment/explorers-pack"
                             }
                         }
@@ -1281,7 +1281,7 @@
                     "option_set_type": "equipment_category",
                     "equipment_category": {
                         "index": "holy-symbols",
-                        "name": "Símbolos Sagrados",
+                        "name": "Símbolo Sagrado",
                         "url": "/api/equipment-categories/holy-symbols"
                     }
                 }
@@ -1293,7 +1293,7 @@
                 {
                     "ability_score": {
                         "index": "wis",
-                        "name": "WIS",
+                        "name": "SAB",
                         "url": "/api/ability-scores/wis"
                     },
                     "minimum_score": 13
@@ -1328,43 +1328,43 @@
             "level": 1,
             "spellcasting_ability": {
                 "index": "wis",
-                "name": "WIS",
+                "name": "SAB",
                 "url": "/api/ability-scores/wis"
             },
             "info": [
                 {
-                    "name": "Corridas",
+                    "name": "Truques",
                     "desc": [
-                        "No primeiro nível, você conhece três cantis de sua escolha a partir da lista de feitiços clerica. Você aprende outras viagens clínicas de sua escolha em níveis mais altos, conforme mostrado na coluna do Torneio de Passagens conhecidas na tabela Cleral."
+                        "Você conhece três truques, à sua escolha, da lista de magias de clérigo. Você aprende truques de clérigo adicionais, à sua escolha, em níveis mais altos, como mostrado na coluna Truques Conhecidos da tabela O Clérigo."
                     ]
                 },
                 {
-                    "name": "Preparando e transmitindo Feitiços",
+                    "name": "Preparando e Conjurando Magias",
                     "desc": [
-                        "A tabela clerica mostra quantos slots de feitiço você precisa para lançar os feitiços de 1 nível e superior. Para lançar um desses feitiços, você deve gastar um slot do nível do feitiço ou superior. Você recupera todos os slots ortográficos gastos ao terminar um longo descanso.",
-                        "Você prepara a lista de feitiços que estão disponíveis para você transmitir, escolhendo na lista de feitiços clerônicos. Quando você fizer isso, escolha um número de feitiços clénicos iguais ao seu modificador de sabedoria + seu nível clerico (mínimo de um feitiço). Os feitiços devem ser de um nível para o qual você tem slots de magia.",
-                        "Por exemplo, se se é um clérigo de nível 3, há quatro níveis 1 e dois espaços de feitiço de nível 2. Com uma sabedoria de 16, sua lista de feitiços preparados pode incluir seis feitiços de primeiro ou segundo nível, em qualquer combinação. Se você preparar a cura do feitiço de primeiro nível, você pode lançá-la usando um slot de nível 1 ou 2 níveis. Transmitir o feitiço não o remove da sua lista de feitiços preparados.",
-                        "Você pode alterar sua lista de feitiços preparados quando terminar um longo descanso. Preparando uma nova lista de feitiços clericos requer tempo gasto em oração e meditação: pelo menos 1 minuto por nível ortográfico para cada feitiço da sua lista."
+                        "A tabela O Clérigo mostra quantos espaços de magia você têm para conjurar suas magias de 1º nível e superiores. Para conjurar uma dessas magias, você precisa gastar um espaço do nível da magia ou superior. Você recupera todos os espaços gastos quando termina um descanso longo.",
+                        "Você prepara a lista de magias disponíveis selecionando-as da lista de magias de clérigo. Você seleciona um número de magias igual ao seu modificador de Sabedoria + seu nível de clérigo (mínimo de uma magia). Essas magias devem ser de níveis que você possua espaços de magia.",
+                        "Por exemplo, se você é um clérigo de 3º nível, você possui quatro espaços de magia de 1º nível e dois de 2º nível. Com Sabedoria 16, sua lista de magias preparadas pode incluir 6 magias, combinando as de 1º e 2º nível em qualquer ordem. Se você preparar a magia de 1º nível curar ferimentos, você pode conjurá-la com um espaço de magia de 1º ou de 2º nível. Ao conjurar a magia, você não a retira de sua lista de magias preparadas, podendo conjurá-la de novo se tiver espaços de magia disponíveis.",
+                        "Você pode modificar a sua lista de magias preparadas quando termina um descanso longo. Preparar uma nova lista de magias de clérigo requer tempo gasto em preces e meditação: no mínimo 1 minuto por nível de magia para cada magia preparada."
                     ]
                 },
                 {
-                    "name": "Habilidade de Magia",
+                    "name": "Habilidade de Conjuração",
                     "desc": [
-                        "A sabedoria é sua habilidade de magia para os seus feitiços clerônicos. O poder dos seus feitiços vem da sua devoção à sua divindade. Você usa sua sabedoria sempre que um feitiço clerico se refere à sua habilidade de soletrar. Além disso você usa seu modificador de sabedoria ao definir o lançamento da DC para um feitiço clerico que você lança, e ao fazer um ataque rolar com um.",
-                        "Economize DC = 8 + seu bônus de proficiência + seu modificador de sabedoria",
-                        "Modificador de ataque ortográfico = seu bônus de proficiência + seu modificador de sabedoria"
+                        "Sabedoria é a sua habilidade para você conjurar suas magias de clérigo. O poder de suas magias vem da devoção que você tem ao seu deus. Você usa sua Sabedoria sempre que alguma magia se referir a sua habilidade de conjurar magias. Além disso, você usa o seu modificador de Sabedoria para definir a CD dos testes de resistência para as magias de clérigo que você conjura e quando você realiza uma jogada de ataque com uma magia.",
+                        "CD para suas magias = 8 + seu bônus de proficiência + seu modificador de sabedoria",
+                        "Modificador de ataque de magia = seu bônus de proficiência + seu modificador de sabedoria"
                     ]
                 },
                 {
-                    "name": "Fundição Ritual",
+                    "name": "Conjuração de Ritual",
                     "desc": [
-                        "Você pode lançar um feitiço clerico como ritual, se esse feitiço tiver a etiqueta de ritual e tiver a magia preparada."
+                        "Você pode conjurar qualquer magia de clérigo que você conheça como um ritual se ela possuir o descritor ritual."
                     ]
                 },
                 {
-                    "name": "Foco da Magia",
+                    "name": "Foco de Conjuração",
                     "desc": [
-                        "Você pode usar um símbolo sagrado (ver Equipamento) como foco de magia para seu feitiço."
+                        "Você pode usar um símbolo sagrado (ver Equipamento) como foco de Conjuração de suas magias."
                     ]
                 }
             ]
@@ -1378,7 +1378,7 @@
         "hit_die": 8,
         "proficiency_choices": [
             {
-                "desc": "Escolha dois de Arcana, Manipulação Animal, Insight, Medicina, Natureza, Percepção, Religião e Sobrevivência",
+                "desc": "Escolha dois de Arcanismo, Adestrar Animais, Intuição, Medicina, Natureza, Percepção, Religião e Sobrevivência",
                 "choose": 2,
                 "type": "proficiencies",
                 "from": {
@@ -1388,7 +1388,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "skill-arcana",
-                                "name": "Habilidade: Arcana",
+                                "name": "Habilidade: Arcanismo",
                                 "url": "/api/proficiencies/skill-arcana"
                             }
                         },
@@ -1396,7 +1396,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "skill-animal-handling",
-                                "name": "Habilidade: Manipulação de Animais",
+                                "name": "Habilidade: Adestrar Animais",
                                 "url": "/api/proficiencies/skill-animal-handling"
                             }
                         },
@@ -1404,7 +1404,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "skill-insight",
-                                "name": "Habilidade: Conhecimento",
+                                "name": "Habilidade: Intuição",
                                 "url": "/api/proficiencies/skill-insight"
                             }
                         },
@@ -1470,27 +1470,27 @@
             },
             {
                 "index": "clubs",
-                "name": "Clubes",
+                "name": "Clavas",
                 "url": "/api/proficiencies/clubs"
             },
             {
                 "index": "daggers",
-                "name": "Daggers",
+                "name": "Adagas",
                 "url": "/api/proficiencies/daggers"
             },
             {
                 "index": "javelins",
-                "name": "Janelas",
+                "name": "Azagaias",
                 "url": "/api/proficiencies/javelins"
             },
             {
                 "index": "maces",
-                "name": "Maces",
+                "name": "Maças",
                 "url": "/api/proficiencies/maces"
             },
             {
                 "index": "quarterstaffs",
-                "name": "Quartéis",
+                "name": "Bordões",
                 "url": "/api/proficiencies/quarterstaffs"
             },
             {
@@ -1525,12 +1525,12 @@
             },
             {
                 "index": "saving-throw-int",
-                "name": "Salvando Throw: INT",
+                "name": "Teste de Resistência: INT",
                 "url": "/api/proficiencies/saving-throw-int"
             },
             {
                 "index": "saving-throw-wis",
-                "name": "Salvando Throw: WIS",
+                "name": "Teste de Resistência: SAB",
                 "url": "/api/proficiencies/saving-throw-wis"
             }
         ],
@@ -1542,7 +1542,7 @@
             },
             {
                 "index": "wis",
-                "name": "WIS",
+                "name": "SAB",
                 "url": "/api/ability-scores/wis"
             }
         ],
@@ -1558,7 +1558,7 @@
             {
                 "equipment": {
                     "index": "explorers-pack",
-                    "name": "Pacote de Explorador",
+                    "name": "Pacote de Aventureiro",
                     "url": "/api/equipment/explorers-pack"
                 },
                 "quantity": 1
@@ -1601,7 +1601,7 @@
                 }
             },
             {
-                "desc": "(a) uma ciência ou (b) qualquer arma branca simples",
+                "desc": "(a) uma cimitarra ou (b) qualquer arma corpo-a-corpo simples",
                 "choose": 1,
                 "type": "equipment",
                 "from": {
@@ -1619,14 +1619,14 @@
                         {
                             "option_type": "choice",
                             "choice": {
-                                "desc": "qualquer arma branca simples",
+                                "desc": "qualquer arma corpo-a-corpo simples",
                                 "choose": 1,
                                 "type": "equipment",
                                 "from": {
                                     "option_set_type": "equipment_category",
                                     "equipment_category": {
                                         "index": "simple-melee-weapons",
-                                        "name": "Armas Simples de Combate",
+                                        "name": "Armas Simples Corpo-a-corpo",
                                         "url": "/api/equipment-categories/simple-melee-weapons"
                                     }
                                 }
@@ -1636,14 +1636,14 @@
                 }
             },
             {
-                "desc": "Foco drudico",
+                "desc": "Foco Druídico",
                 "choose": 1,
                 "type": "equipment",
                 "from": {
                     "option_set_type": "equipment_category",
                     "equipment_category": {
                         "index": "druidic-foci",
-                        "name": "Foco Druidificante",
+                        "name": "Foco Druídico",
                         "url": "/api/equipment-categories/druidic-foci"
                     }
                 }
@@ -1655,7 +1655,7 @@
                 {
                     "ability_score": {
                         "index": "wis",
-                        "name": "WIS",
+                        "name": "SAB",
                         "url": "/api/ability-scores/wis"
                     },
                     "minimum_score": 13
@@ -1682,7 +1682,7 @@
         "subclasses": [
             {
                 "index": "land",
-                "name": "Terreno",
+                "name": "Circulo da Terra",
                 "url": "/api/subclasses/land"
             }
         ],
@@ -1690,43 +1690,43 @@
             "level": 1,
             "spellcasting_ability": {
                 "index": "wis",
-                "name": "WIS",
+                "name": "SAB",
                 "url": "/api/ability-scores/wis"
             },
             "info": [
                 {
-                    "name": "Corridas",
+                    "name": "Truques",
                     "desc": [
-                        "No primeiro nível, você conhece dois canalhas de sua escolha a partir da lista de feitiços de drogas. Você aprende viagens de druidas adicionais da sua escolha em níveis mais altos, conforme mostrado na coluna Candidatura conhecida da tabela Druida."
+                        "Você conhece dois truques, à sua escolha, da lista de magias de druida. Você aprende truques de druida adicionais, à sua escolha, em níveis mais altos, como mostrado na coluna Truques Conhecidos da tabela O Druida."
                     ]
                 },
                 {
-                    "name": "Preparando e transmitindo Feitiços",
+                    "name": "Preparando e Conjurando Magias",
                     "desc": [
-                        "A tabela Druid mostra quantos slots de feitiço você tem para lançar os seus feitiços de primeiro nível e superior. Para lançar um desses feitiços de droga, você deve gastar um slot do nível do feitiço ou superior. Você recupera todos os slots ortográficos gastos ao terminar um longo descanso.",
-                        "Prepara a lista de feitiços de droga que estão disponíveis para que você publique, escolhendo na lista de feitiços de drogas. Quando você fizer isso, escolha um número de feitiços de druida iguais ao seu modificador de sabedoria + seu nível de druida (mínimo de um feitiço). Os feitiços devem ser de um nível para o qual você tem slots de magia.",
-                        "Por exemplo, se tivermos um medicamento de nível 3, temos quatro níveis 1 e dois slots de feitiço de nível 2. Com uma sabedoria de 16, sua lista de feitiços preparados pode incluir seis feitiços de primeiro ou segundo nível, em qualquer combinação. Se você preparar a cura do feitiço de primeiro nível, você pode lançá-la usando um slot de nível 1 ou 2 níveis. Transmitir o feitiço não o remove da sua lista de feitiços preparados.",
-                        "Você também pode alterar sua lista de feitiços preparados quando terminar um longo descanso. Preparando uma nova lista de feitiços de droga requer tempo gasto em oração e meditação: pelo menos 1 minuto por nível de feitiço para cada feitiço da sua lista."
+                        "A tabela O Druida mostra quantos espaços de magia você têm para conjurar suas magias de 1º nível e superiores. Para conjurar uma dessas magias, você precisa gastar um espaço do nível da magia ou superior. Você recupera todos os espaços gastos quando termina um descanso longo.",
+                        "Você prepara a lista de magias disponíveis selecionando-as da lista de magias de Druida. Você seleciona um número de magias igual ao seu modificador de Sabedoria + seu nível de druida (mínimo de uma magia). Essas magias devem ser de níveis que você possua espaços de magia.",
+                        "Por exemplo, se você é um druida de 3º nível, você possui quatro espaços de magia de 1º nível e dois de 2º nível. Com Sabedoria 16, sua lista de magias preparadas pode incluir 6 magias, combinando as de 1º e 2º nível em qualquer ordem. Se você preparar a magia de 1º nível curar ferimentos, você pode conjurá-la com um espaço de magia de 1º ou de 2º nível. Ao conjurar a magia, você não a retira de sua lista de magias preparadas, podendo conjurá-la de novo se tiver espaços de magia disponíveis.",
+                        "Você pode modificar a sua lista de magias preparadas quando termina um descanso longo. Preparar uma nova lista de magias de druida requer tempo gasto em preces e meditação: no mínimo 1 minuto por nível de magia para cada magia preparada."
                     ]
                 },
                 {
-                    "name": "Habilidade de Magia",
+                    "name": "Habilidade de Conjuração",
                     "desc": [
-                        "A sabedoria é sua habilidade de feitiço para os seus feitiços de droga, já que sua magia se baseia na sua devoção e sintonia com a natureza. Você usa sua sabedoria sempre que um feitiço se refere à sua habilidade de magia. Além disso você usa seu modificador de sabedoria ao definir o lançamento da DC para o feitiço de druid que você lançou e ao fazer um ataque rolar com um.",
-                        "Economize DC = 8 + seu bônus de proficiência + seu modificador de sabedoria.",
-                        "Modificador de ataque ortográfico = seu bônus de proficiência + seu modificador de sabedoria."
+                        "Sabedoria é a sua habilidade para você conjurar suas magias de druida, já que sua magia vem da sua devoção e sintonia com a natureza. Você usa sua Sabedoria sempre que alguma magia se referir a sua habilidade de conjurar magias. Além disso, você usa o seu modificador de Sabedoria para definir a CD dos testes de resistência para as magias de druida que você conjura e quando você realiza uma jogada de ataque com uma magia.",
+                        "CD para suas magias = 8 + seu bônus de proficiência + seu modificador de sabedoria.",
+                        "Modificador de ataque de magia = seu bônus de proficiência + seu modificador de sabedoria."
                     ]
                 },
                 {
-                    "name": "Fundição Ritual",
+                    "name": "Conjuração de Ritual",
                     "desc": [
-                        "Você pode lançar um feitiço de druida como um ritual se esse feitiço tiver a etiqueta de ritual e tiver a magia preparada."
+                        "Você pode conjurar qualquer magia de druida que você conheça como um ritual se ela possuir o descritor ritual."
                     ]
                 },
                 {
-                    "name": "Foco da Magia",
+                    "name": "Foco de Conjuração",
                     "desc": [
-                        "Você pode usar um foco druético (veja o capítulo 5, \"Equipamento\") como um foco de feitiço para seus feitiços druidos."
+                        "Você pode usar um foco druídico como um foco de Conjuração para suas magias de druída."
                     ]
                 }
             ]
@@ -1740,7 +1740,7 @@
         "hit_die": 10,
         "proficiency_choices": [
             {
-                "desc": "Escolha duas habilidades da Acrobática, Manipulação Animal, Atletil, História, Insight, Intimidação, Percepção e Sobrevivência",
+                "desc": "Escolha duas habilidades da Acrobacia, Adestrar Animais, Atletismo, História, Intuição, Intimidação, Percepção e Sobrevivência",
                 "choose": 2,
                 "type": "proficiencies",
                 "from": {
@@ -1750,7 +1750,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "skill-acrobatics",
-                                "name": "Habilidade: Acrobática",
+                                "name": "Habilidade: Acrobacia",
                                 "url": "/api/proficiencies/skill-acrobatics"
                             }
                         },
@@ -1758,7 +1758,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "skill-animal-handling",
-                                "name": "Habilidade: Manipulação de Animais",
+                                "name": "Habilidade: Adestrar Animais",
                                 "url": "/api/proficiencies/skill-animal-handling"
                             }
                         },
@@ -1766,7 +1766,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "skill-athletics",
-                                "name": "Habilidade: Atleta",
+                                "name": "Habilidade: Atletismo",
                                 "url": "/api/proficiencies/skill-athletics"
                             }
                         },
@@ -1774,7 +1774,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "skill-history",
-                                "name": "Habilidade: Histórico",
+                                "name": "Habilidade: História",
                                 "url": "/api/proficiencies/skill-history"
                             }
                         },
@@ -1782,7 +1782,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "skill-insight",
-                                "name": "Habilidade: Conhecimento",
+                                "name": "Habilidade: Intuição",
                                 "url": "/api/proficiencies/skill-insight"
                             }
                         },
@@ -1837,19 +1837,19 @@
             },
             {
                 "index": "saving-throw-str",
-                "name": "Salvando Throw: STR",
+                "name": "Teste de Resistência: FOR",
                 "url": "/api/proficiencies/saving-throw-str"
             },
             {
                 "index": "saving-throw-con",
-                "name": "Salvando Throw: CON",
+                "name": "Teste de Resistência: CON",
                 "url": "/api/proficiencies/saving-throw-con"
             }
         ],
         "saving_throws": [
             {
                 "index": "str",
-                "name": "STR",
+                "name": "FOR",
                 "url": "/api/ability-scores/str"
             },
             {
@@ -1861,7 +1861,7 @@
         "starting_equipment": [],
         "starting_equipment_options": [
             {
-                "desc": "(a) correia de cota ou (b) armadura de couro, arco longo e 20 flechas",
+                "desc": "(a) cota de malha ou (b) armadura de couro, arco longo e 20 flechas",
                 "choose": 1,
                 "type": "equipment",
                 "from": {
@@ -1872,7 +1872,7 @@
                             "count": 1,
                             "of": {
                                 "index": "chain-mail",
-                                "name": "Chain Mail",
+                                "name": "Cota de Malha",
                                 "url": "/api/equipment/chain-mail"
                             }
                         },
@@ -1893,7 +1893,7 @@
                                     "count": 1,
                                     "of": {
                                         "index": "longbow",
-                                        "name": "Longbow",
+                                        "name": "Arco Longo",
                                         "url": "/api/equipment/longbow"
                                     }
                                 },
@@ -1968,7 +1968,7 @@
                 }
             },
             {
-                "desc": "(a) uma besta leve e 20 parafusos ou (b) dois handaxes",
+                "desc": "(a) uma besta leve e 20 virotes ou (b) dois machados de arremesso",
                 "choose": 1,
                 "type": "equipment",
                 "from": {
@@ -1982,7 +1982,7 @@
                                     "count": 1,
                                     "of": {
                                         "index": "crossbow-light",
-                                        "name": "Besteira, luz",
+                                        "name": "Besta Leve",
                                         "url": "/api/equipment/crossbow-light"
                                     }
                                 },
@@ -1991,7 +1991,7 @@
                                     "count": 20,
                                     "of": {
                                         "index": "crossbow-bolt",
-                                        "name": "Dardo de Balestra",
+                                        "name": "Virote",
                                         "url": "/api/equipment/crossbow-bolt"
                                     }
                                 }
@@ -2002,7 +2002,7 @@
                             "count": 2,
                             "of": {
                                 "index": "handaxe",
-                                "name": "Handaxe",
+                                "name": "Machado de Arremesso",
                                 "url": "/api/equipment/handaxe"
                             }
                         }
@@ -2010,7 +2010,7 @@
                 }
             },
             {
-                "desc": "(a) pacote de um calabouço ou (b) pacote de um explorador",
+                "desc": "(a) pacote de um aventureiro ou (b) pacote de um explorador",
                 "choose": 1,
                 "type": "equipment",
                 "from": {
@@ -2021,7 +2021,7 @@
                             "count": 1,
                             "of": {
                                 "index": "dungeoneers-pack",
-                                "name": "Pacote do Calabouço",
+                                "name": "Pacote do Aventureiro",
                                 "url": "/api/equipment/dungeoneers-pack"
                             }
                         },
@@ -2050,7 +2050,7 @@
                             "option_type": "score_prerequisite",
                             "ability_score": {
                                 "index": "str",
-                                "name": "STR",
+                                "name": "FOR",
                                 "url": "/api/ability-scores/str"
                             },
                             "minimum_score": 13
@@ -2059,7 +2059,7 @@
                             "option_type": "score_prerequisite",
                             "ability_score": {
                                 "index": "dex",
-                                "name": "DEXO",
+                                "name": "DES",
                                 "url": "/api/ability-scores/dex"
                             },
                             "minimum_score": 13
