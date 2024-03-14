@@ -1409,7 +1409,7 @@
     },
     {
         "index": "clothes-fine",
-        "name": "Roupas, tudo bem",
+        "name": "Roupas Finas",
         "equipment_category": {
             "index": "adventuring-gear",
             "name": "Equipamento de Aventura",
@@ -4371,7 +4371,7 @@
     },
     {
         "index": "pouch",
-        "name": "Pouch",
+        "name": "Algibeira",
         "equipment_category": {
             "index": "adventuring-gear",
             "name": "Equipamento de Aventura",
@@ -5757,7 +5757,7 @@
     },
     {
         "index": "thieves-tools",
-        "name": "Ferramentas de Ladrões",
+        "name": "Ferramentas de Ladrão",
         "equipment_category": {
             "index": "tools",
             "name": "Ferramentas",
