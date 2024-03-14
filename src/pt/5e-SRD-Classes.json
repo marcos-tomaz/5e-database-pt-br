@@ -427,7 +427,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "dulcimer",
-                                "name": "Oboé",
+                                "name": "Xilofone",
                                 "url": "/api/proficiencies/dulcimer"
                             }
                         },
@@ -475,7 +475,7 @@
                             "option_type": "reference",
                             "item": {
                                 "index": "shawm",
-                                "name": "Xilofone",
+                                "name": "Oboé",
                                 "url": "/api/proficiencies/shawm"
                             }
                         },
