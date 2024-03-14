@@ -334,5 +334,66 @@
             }
         },
         "url": "/api/backgrounds/acolyte"
-    }
+    },
+        {
+        "index": "charlatan",
+        "name": "Charlatão",
+            "url": "/api/backgrounds/charlatan",
+        "starting_proficiencies": [
+            {
+                "index": "deception",
+                "name": "Habilidade: Enganação",
+                "url": "/api/skills/deception"
+            },
+            {
+                "index": "sleight-of-hand",
+                "name": "Habilidade: Prestidigitação",
+                "url": "/api/skills/sleight-of-hand"
+            }
+        ],
+        
+        "starting_equipment": [
+            {
+                "equipment": {
+                    "index": "clothes-fine",
+                    "name": "Roupas Finas",
+                    "url": "/api/equipment/clothes-fine"
+                },
+                "quantity": 1
+            },
+            {
+                "equipment": {
+                    "index": "disguise-kit",
+                    "name": "Kit de Disfarce",
+                    "url": "/api/equipment/disguise-kit"
+                },
+                "quantity": 1
+            },
+             {
+                "equipment": {
+                    "index": "thieves-tools",
+                    "name": "Ferramentas de Ladrão",
+                    "url": "/api/equipment/thieves-tools"
+                },
+                "quantity": 1
+            },
+             {
+                "equipment": {
+                    "index": "pouch",
+                    "name": "Algibeira",
+                    "url": "/api/equipment/pouch"
+                },
+                "quantity": 1
+            }
+        ],
+        "starting_equipment_options": [
+           
+        ],
+        "feature": {
+            "name": "Identidade Falsa",
+            "desc": [
+                "Você criou uma segunda identidade que inclui documentos, conhecidos estabelecidos e disfarces que possibilitam que você assuma essa persona. Além disso, você pode forjar documentos, incluindo papeis oficiais e cartas pessoais, contanto que você tenha visto um exemplo desse tipo de documento ou a caligrafia de quem você está tentando copiar."
+            ]
+        }
+        }
 ]
