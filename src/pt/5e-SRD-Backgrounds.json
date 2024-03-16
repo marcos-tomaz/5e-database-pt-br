@@ -1,11 +1,11 @@
 [
     {
         "index": "acolyte",
-        "name": "Acolyte",
+        "name": "Acólito",
         "starting_proficiencies": [
             {
                 "index": "skill-insight",
-                "name": "Habilidade: Conhecimento",
+                "name": "Habilidade: Intuição",
                 "url": "/api/proficiencies/skill-insight"
             },
             {
@@ -26,7 +26,7 @@
             {
                 "equipment": {
                     "index": "clothes-common",
-                    "name": "Roupas, comum",
+                    "name": "Roupas Comum",
                     "url": "/api/equipment/clothes-common"
                 },
                 "quantity": 1
@@ -34,7 +34,7 @@
             {
                 "equipment": {
                     "index": "pouch",
-                    "name": "Pouch",
+                    "name": "Algibeira",
                     "url": "/api/equipment/pouch"
                 },
                 "quantity": 1
@@ -343,12 +343,12 @@
             {
                 "index": "deception",
                 "name": "Habilidade: Enganação",
-                "url": "/api/skills/deception"
+                "url": "/api/proficiencies/skill-deception"
             },
             {
                 "index": "sleight-of-hand",
                 "name": "Habilidade: Prestidigitação",
-                "url": "/api/skills/sleight-of-hand"
+                "url": "/api/proficiencies/skill-sleight-of-hand"
             }
         ],
         
@@ -394,6 +394,637 @@
             "desc": [
                 "Você criou uma segunda identidade que inclui documentos, conhecidos estabelecidos e disfarces que possibilitam que você assuma essa persona. Além disso, você pode forjar documentos, incluindo papeis oficiais e cartas pessoais, contanto que você tenha visto um exemplo desse tipo de documento ou a caligrafia de quem você está tentando copiar."
             ]
-        }
-        }
-]
+        },
+        {
+        "index": "guild-craftsman",
+        "name": "Artesão de Guilda",
+            "url": "/api/backgrounds/guild-craftsman",
+        "starting_proficiencies": [
+            {
+                "index": "insight",
+                "name": "Habilidade: Intuição",
+                "url": "/api/proficiencies/skill-insight"
+            },
+            {
+                "index": "persuasion",
+                "name": "Habilidade: Persuasão",
+                "url": "/api/proficiencies/skill-persuasion"
+            }
+        ],
+        
+        "starting_equipment": [
+            {
+                "equipment": {
+                    "index": "artisans-tools",
+                    "name": "Ferramentas do Artesão",
+                    "url": "/api/equipment-categories/artisans-tools"
+                },
+                "quantity": 1
+            },
+            {
+                "equipment": {
+                    "index": "clothes-travelers",
+                    "name": "Roupas de Viajantes",
+                    "url": "/api/equipment/clothes-travelers"
+                },
+                "quantity": 1
+            },
+             {
+                "equipment": {
+                    "index": "pouch",
+                    "name": "Algibeira",
+                    "url": "/api/equipment/pouch"
+                },
+                "quantity": 1
+            },
+            ],
+        "feature": {
+            "name": "Associados da Guilda",
+            "desc": [
+                "Como um membro cativo e respeitado da guilda, você pode contar com certos benefícios que a sociedade garante. Seus camaradas, membros da guilda, irão provêlo com hospedagem e comida, se necessário, e pagarão pelo seu funeral se preciso for. Em algumas cidades e vilas, um salão da guilda oferece um local central para conhecer outros membros de profissão, podendo ser um bom lugar para se conhecer patrões, aliados e empregados em potencial. Guildas, muitas vezes, detêm tremendos poderes políticos. Se você for acusado de um crime, sua guilda irá ampará-lo se uma boa defesa puder ser apresentada para provar sua inocência ou se o crime for justificável. Você pode, também, ter acesso a figuras políticas poderosas através da guilda, se você for um membro bem posicionado."
+            ]
+        },
+             {
+        "index": "artist",
+        "name": "Artista",
+            "url": "/api/backgrounds/artist",
+        "starting_proficiencies": [
+            {
+                "index": "acrobatics",
+                "name": "Habilidade: Acrobacia",
+                "url": "/api/proficiencies/skill-acrobatics"
+            },
+            {
+                "index": "performance",
+                "name": "Habilidade: Atuação",
+                "url": "/api/proficiencies/skill-performance"
+            }
+        ],
+        
+        "starting_equipment": [
+            {
+                "equipment": {
+                    "index": "musical-instruments",
+                    "name": "Instrumentos Musicais",
+                    "url": "/api/equipment-categories/musical-instruments"
+                },
+                "quantity": 1
+            },
+            {
+                "equipment": {
+                    "index": "disguise-kit",
+                    "name": "Kit de Disfarce",
+                    "url": "/api/equipment/disguise-kit"
+                },
+                "quantity": 1
+            },
+             {
+                "equipment": {
+                    "index": "clothes-costume",
+                    "name": "Traje",
+                    "url": "/api/equipment/clothes-costume"
+                },
+                "quantity": 1
+            },
+             {
+                "equipment": {
+                    "index": "pouch",
+                    "name": "Algibeira",
+                    "url": "/api/equipment/pouch"
+                },
+                "quantity": 1
+            }
+        ],
+        "starting_equipment_options": [
+           
+        ],
+        "feature": {
+            "name": "Pela Demanda Popular",
+            "desc": [
+                "Você sempre encontra um lugar para atuar, geralmente em tavernas ou estalagens mas, possivelmente em circos, teatros ou até em cortes nobres. Em tais lugares, você recebe alojamento e comida modesta ou de patrões confortáveis, de graça (dependendo da qualidade do estabelecimento), contanto que você atue a cada noite. Além disso, sua atuação torna você um tipo de figura local. Quando estranhos reconhecerem você em uma cidade em que você já tenha atuado, eles geralmente gostaram de você."
+            ]
+        },
+                 {
+        "index": "criminal",
+        "name": "Criminoso",
+            "url": "/api/backgrounds/criminal",
+        "starting_proficiencies": [
+            {
+                "index": "deception",
+                "name": "Habilidade: Enganação",
+                "url": "/api/proficiencies/skill-deception"
+            },
+            {
+                "index": "stealth",
+                "name": "Habilidade: Furtividade",
+                "url": "/api/proficiencies/skill-stealth"
+            }
+        ],
+        
+        "starting_equipment": [
+            {
+               "equipment": {
+                    "index": "thieves-tools",
+                    "name": "Ferramentas de Ladrão",
+                    "url": "/api/equipment/thieves-tools"
+                },
+                "quantity": 1
+            },
+            {
+                "equipment": {
+                    "index": "crowbar",
+                    "name": "Pé de Cabra",
+                    "url": "/api/equipment/crowbar"
+                },
+                "quantity": 1
+            },
+             {
+                "equipment": {
+                    "index": "clothes-common",
+                    "name": "Roupas Comuns",
+                    "url": "/api/equipment/clothes-common"
+                },
+                "quantity": 1
+            },
+             {
+                "equipment": {
+                    "index": "pouch",
+                    "name": "Algibeira",
+                    "url": "/api/equipment/pouch"
+                },
+                "quantity": 1
+            }
+        ],
+        "starting_equipment_options": [
+           
+        ],
+        "feature": {
+            "name": "Contato Criminal",
+            "desc": [
+                "Você possui contatos de confiança que agem como seus informantes em uma rede criminosa. Você sabe como se comunicar com eles mesmo em grandes distâncias. Você conhece em especial os mensageiros locais, mestres de caravana corruptos, e marinheiros escusos que podem transmitir seus recados."
+            ]
+        },
+                 {
+        "index": "hermit",
+        "name": "Eremita",
+            "url": "/api/backgrounds/hermit",
+        "starting_proficiencies": [
+            {
+                "index": "medicine",
+                "name": "Habilidade: Medicina",
+                "url": "/api/proficiencies/skill-medicine"
+            },
+            {
+                "index": "religion",
+                "name": "Habilidade: Religião",
+                "url": "/api/proficiencies/skill-religion"
+            }
+        ],
+        
+        "starting_equipment": [
+            {
+               "equipment": {
+                    "index": "herbalism-kit",
+                    "name": "Kit Herbalismo",
+                    "url": "/api/equipment/herbalism-kit"
+                },
+                "quantity": 1
+            },
+            {
+                "equipment": {
+                    "index": "blanket",
+                    "name": "Cobertor",
+                    "url": "/api/equipment/blanket"
+                },
+                "quantity": 1
+            },
+             {
+                "equipment": {
+                    "index": "clothes-common",
+                    "name": "Roupas Comuns",
+                    "url": "/api/equipment/clothes-common"
+                },
+                "quantity": 1
+            },
+             {
+                "equipment": {
+                    "index": "pouch",
+                    "name": "Algibeira",
+                    "url": "/api/equipment/pouch"
+                },
+                "quantity": 1
+            }
+        ],
+        "starting_equipment_options": [
+           
+        ],
+        "feature": {
+            "name": "Descoberta",
+            "desc": [
+                "A calma reclusão da seu eremitério prolongado lhe deu acesso a descobertas únicas e poderosas. A natureza exata dessas revelações depende da natureza da sua reclusão. Poderia ser uma grande verdade sobre o cosmos, os deuses, os poderosos seres de outros planos ou as forças da natureza. Poderia ser um local nunca visto por mais ninguém. Você pode ter descoberto um fato que a muito foi esquecido, ou desenterrado uma relíquia do passado que poderia reescrever a história. Poderia ser uma informação que seria prejudicial para as pessoas responsáveis pelo seu exilio, consequentemente, a razão que fez você voltar para a sociedade."
+            ]
+        },
+                 {
+        "index": "stranger",
+        "name": "Forasteiro",
+            "url": "/api/backgrounds/stranger",
+        "starting_proficiencies": [
+            {
+                "index": "athletics",
+                "name": "Habilidade: Atletismo",
+                "url": "/api/proficiencies/skill-athletics"
+            },
+            {
+                "index": "survival",
+                "name": "Habilidade: Sobrevivência",
+                "url": "/api/proficiencies/skill-survival"
+            }
+        ],
+        
+        "starting_equipment": [
+            {
+               "equipment": {
+                    "index": "musical-instruments",
+                    "name": "Instrumentos Musicais",
+                    "url": "/api/equipment-categories/musical-instruments"
+                },
+                "quantity": 1
+            },
+            {
+                "equipment": {
+                    "index": "quarterstaff",
+                    "name": "Bordão",
+                    "url": "/api/equipment/quarterstaff"
+                },
+                "quantity": 1
+            },
+             {
+                "equipment": {
+                    "index": "hunting-trap",
+                    "name": "Armadilha de Caça",
+                    "url": "/api/equipment/hunting-trap"
+                },
+                "quantity": 1
+            },
+             {
+                "equipment": {
+                    "index": "pouch",
+                    "name": "Algibeira",
+                    "url": "/api/equipment/pouch"
+                },
+                "quantity": 1
+             },
+             {
+                "equipment": {
+                    "index": "clothes-travelers",
+                    "name": "Roupas de Viajantes",
+                    "url": "/api/equipment/clothes-travelers"
+                },
+                "quantity": 1
+            }
+        ],
+        "starting_equipment_options": [
+           
+        ],
+        "feature": {
+            "name": "Andarilho",
+            "desc": [
+                "Você tem uma memória excelente para mapas e geografia, e você sempre pode recobrar o plano geral de terrenos, assentamentosou outras características ao seu redor. Além disso, você pode encontrar comida e água fresca para você a até cinco outras pessoas a cada dia, considerando que a terra ofereça bagas, pequenas frutas, água e similares."
+            ]
+        },
+                 {
+        "index": "peoples-hero",
+        "name": "Herói do Povo",
+            "url": "/api/backgrounds/peoples-hero",
+        "starting_proficiencies": [
+            {
+                "index": "animal-handling",
+                "name": "Habilidade: Adestrar Animais",
+                "url": "/api/proficiencies/skill-animal-handling"
+            },
+            {
+                "index": "survival",
+                "name": "Habilidade: Sobrevivência",
+                "url": "/api/proficiencies/skill-survival"
+            }
+        ],
+        
+        "starting_equipment": [
+            {
+              "equipment": {
+                    "index": "artisans-tools",
+                    "name": "Ferramentas do Artesão",
+                    "url": "/api/equipment-categories/artisans-tools"
+                },
+                "quantity": 1
+            },
+            {
+                "equipment": {
+                    "index": "shovel",
+                    "name": "Pá",
+                    "url": "/api/equipment/shovel"
+                },
+                "quantity": 1
+            },
+             {
+                "equipment": {
+                    "index": "pot-iron",
+                    "name": "Pote de Ferro",
+                    "url": "/api/equipment/pot-iron"
+                },
+                "quantity": 1
+            },
+             {
+                "equipment": {
+                    "index": "clothes-common",
+                    "name": "Roupas Comuns",
+                    "url": "/api/equipment/clothes-common"
+                },
+                "quantity": 1
+            }
+        ],
+        "starting_equipment_options": [
+           
+        ],
+        "feature": {
+            "name": "Hospitalidade Rústica",
+            "desc": [
+                "Já que você ascendeu da categoria de pessoas comuns até onde você está agora, é fácil se misturar a eles. Você pode encontrar lugar entre os camponeses para se esconder, descansar ou se recuperar, a menos que isso ofereça um risco direto a eles. Eles o esconderão da lei e de qualquer um que venha perguntando por você, desde que não tenham que arriscar suas vidas."
+            ]
+        },
+                 {
+        "index": "sailor",
+        "name": "Marinheiro",
+            "url": "/api/backgrounds/sailor",
+        "starting_proficiencies": [
+            {
+                "index": "athletics",
+                "name": "Habilidade: Atletismo",
+                "url": "/api/proficiencies/skill-athletics"
+            },
+            {
+                "index": "perception",
+                "name": "Habilidade: Percepção",
+                "url": "/api/proficiencies/skill-perception"
+            }
+        ],
+        
+        "starting_equipment": [
+            {
+              "equipment": {
+                    "index": "club",
+                    "name": "Clava",
+                    "url": "/api/equipment/club"
+                },
+                "quantity": 1
+            },
+            {
+                "equipment": {
+                    "index": "rope-silk-50-feet",
+                    "name": "Corda de Seda (50 pés)",
+                    "url": "/api/equipment/rope-silk-50-feet"
+                },
+                "quantity": 1
+            },
+             {
+                "equipment": {
+                    "index": "pouch",
+                    "name": "Algibeira",
+                    "url": "/api/equipment/pouch"
+                },
+                "quantity": 1
+            },
+             {
+                "equipment": {
+                    "index": "clothes-common",
+                    "name": "Roupas Comuns",
+                    "url": "/api/equipment/clothes-common"
+                },
+                "quantity": 1
+            }
+        ],
+        "starting_equipment_options": [
+           
+        ],
+        "feature": {
+            "name": "Passagem de Navio",
+            "desc": [
+                "Quando você precisar, você pode conseguir passagem de graça em um navio para você e seus companheiros de aventura. Você precisa viajar no navio em que você trabalhou ou em outro navio com o qual você teve boas relações (talvez um comandado por um ex-companheiro de tripulação). Por ser um favor, você não pode solicitar uma programação ou rota que atenda à todas as suas necessidades. Seu Mestre determina quanto tempo levará pra chegar aonde você quer ir. Em troca da passagem grátis, espera-se que você e seus companheiros ajudem a tripulação durante a viagem."
+            ]
+        },
+                 {
+        "index": "noble",
+        "name": "Nobre",
+            "url": "/api/backgrounds/noble",
+        "starting_proficiencies": [
+            {
+                "index": "history",
+                "name": "Habilidade: História",
+                "url": "/api/proficiencies/skill-history"
+            },
+            {
+                "index": "persuasion",
+                "name": "Habilidade: Persuasão",
+                "url": "/api/proficiencies/skill-persuasion"
+            }
+        ],
+        
+        "starting_equipment": [
+            {
+              "equipment": {
+                    "index": "gaming-sets",
+                    "name": "Kit de Jogos",
+                    "url": "/api/equipment-categories/gaming-sets"
+                },
+                "quantity": 1
+            },
+            {
+                "equipment": {
+                    "index": "signet-ring",
+                    "name": "Anel com Brasão da Nobre",
+                    "url": "/api/equipment/signet-ring"
+                },
+                "quantity": 1
+            },
+             {
+                "equipment": {
+                    "index": "pouch",
+                    "name": "Algibeira",
+                    "url": "/api/equipment/pouch"
+                },
+                "quantity": 1
+            },
+             {
+                "equipment": {
+                    "index": "clothes-fine",
+                    "name": "Roupas Finas",
+                    "url": "/api/equipment/clothes-fine"
+                },
+                "quantity": 1
+            }
+        ],
+        "starting_equipment_options": [
+           
+        ],
+        "feature": {
+            "name": "Posição Privilegiada",
+            "desc": [
+                "Graças a sua origem nobre, as pessoas tendem a pensar o melhor de você. Você é bem-vindo na alta sociedade e as pessoas assumem que você tem o direito de estar onde está. As pessoas comuns fazem todos os esforços para acomodá-lo e evitar seu desprazer, e outros nobres o tratam como um membro da mesma classe social. Você pode conseguir uma audiência com um nobre local se precisar."
+            ]
+        },
+                 {
+        "index": "orphan",
+        "name": "Órfão",
+            "url": "/api/backgrounds/orphan",
+        "starting_proficiencies": [
+            {
+                "index": "stealth",
+                "name": "Habilidade: Furtividade",
+                "url": "/api/proficiencies/skill-stealth"
+            },
+            {
+                "index": "sleight-of-hand",
+                "name": "Habilidade: Prestidigitação",
+                "url": "/api/proficiencies/skill-sleight-of-hand"
+            }
+        ],
+        
+        "starting_equipment": [
+            {
+              "equipment": {
+                    "index": "small-knife",
+                    "name": "Faca Pequena",
+                    "url": "/api/equipment-categories/small-knife"
+                },
+                "quantity": 1
+            },
+             {
+                "equipment": {
+                    "index": "pouch",
+                    "name": "Algibeira",
+                    "url": "/api/equipment/pouch"
+                },
+                "quantity": 1
+            },
+             {
+                "equipment": {
+                    "index": "clothes-common",
+                    "name": "Roupas Comuns",
+                    "url": "/api/equipment/clothes-common"
+                },
+                "quantity": 1
+            }
+        ],
+        "starting_equipment_options": [
+           
+        ],
+        "feature": {
+            "name": "Segredos da Cidade",
+            "desc": [
+                "Você conhece os padrões secretos e o fluxo das cidades e pode encontrar passagens através da expansão urbana que os outros deixariam passar. Quando você não estiver em combate, você (e os companheiros que você guiar) podem viajar entre dois locais quaisquer na cidade com o dobro da velocidade normalmente permitida."
+            ]
+        },
+                 {
+        "index": "sage",
+        "name": "Sábio",
+            "url": "/api/backgrounds/sage",
+        "starting_proficiencies": [
+            {
+                "index": "arcana",
+                "name": "Habilidade: Arcanismo",
+                "url": "/api/proficiencies/skill-arcana"
+            },
+            {
+                "index": "history",
+                "name": "Habilidade: História",
+                "url": "/api/proficiencies/skill-history"
+            }
+        ],
+        
+        "starting_equipment": [
+            {
+              "equipment": {
+                    "index": "small-knife",
+                    "name": "Faca Pequena",
+                    "url": "/api/equipment-categories/small-knife"
+                },
+                "quantity": 1
+            },
+             {
+                "equipment": {
+                    "index": "pouch",
+                    "name": "Algibeira",
+                    "url": "/api/equipment/pouch"
+                },
+                "quantity": 1
+            },
+             {
+                "equipment": {
+                    "index": "clothes-common",
+                    "name": "Roupas Comuns",
+                    "url": "/api/equipment/clothes-common"
+                },
+                "quantity": 1
+            }
+        ],
+        "starting_equipment_options": [
+           
+        ],
+        "feature": {
+            "name": "Pesquisador",
+            "desc": [
+                "Quando tentar obter ou recuperar um fragmento de conhecimento que você não saiba, você descobre aonde e com quem pode obter essa informação. Normalmente ela será adquirida em bibliotecas, arquivos de escribas, universidade ou outros sábios e pessoas aptas."
+            ]
+        },
+                 {
+        "index": "soldier",
+        "name": "Soldado",
+            "url": "/api/backgrounds/soldier",
+        "starting_proficiencies": [
+            {
+                "index": "athletics",
+                "name": "Habilidade: Atletismo",
+                "url": "/api/proficiencies/skill-athletics"
+            },
+            {
+                "index": "intimidation",
+                "name": "Habilidade: Intimidação",
+                "url": "/api/proficiencies/skill-intimidation"
+            }
+        ],
+        
+        "starting_equipment": [
+            {
+              "equipment": {
+                    "index": "dice-set",
+                    "name": "Conjunto de dados",
+                    "url": "/api/equipment-categories/dice-set"
+                },
+                "quantity": 1
+            },
+             {
+                "equipment": {
+                    "index": "pouch",
+                    "name": "Algibeira",
+                    "url": "/api/equipment/pouch"
+                },
+                "quantity": 1
+            },
+             {
+                "equipment": {
+                    "index": "clothes-common",
+                    "name": "Roupas Comuns",
+                    "url": "/api/equipment/clothes-common"
+                },
+                "quantity": 1
+            }
+        ],
+        "starting_equipment_options": [
+           
+        ],
+        "feature": {
+            "name": "Patente Militar",
+            "desc": [
+                "Você possui uma patente militar da sua época como soldado. Soldados leais à sua antiga organização reconhecem sua autoridade e influência, e o prestam deferência se forem de uma patente mais baixa. Você pode invocar sua patente para exercer influência sobre soldados, e requisitar equipamentos simples ou cavalos para uso temporário. Você também pode ganhar acesso a acampamentos militares aliados, e fortalezas onde usa patente é reconhecida."
+            ]
+        },
