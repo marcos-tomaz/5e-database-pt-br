@@ -155,7 +155,7 @@
             },
             {
                 "index": "clothes-common",
-                "name": "Roupas, comum",
+                "name": "Roupas Comuns",
                 "url": "/api/equipment/clothes-common"
             },
             {
@@ -165,12 +165,12 @@
             },
             {
                 "index": "clothes-fine",
-                "name": "Roupas, tudo bem",
+                "name": "Roupas Finas",
                 "url": "/api/equipment/clothes-fine"
             },
             {
                 "index": "clothes-travelers",
-                "name": "Roupas, viajante",
+                "name": "Roupas de Viajantes",
                 "url": "/api/equipment/clothes-travelers"
             },
             {
@@ -405,7 +405,7 @@
             },
             {
                 "index": "rope-silk-50-feet",
-                "name": "Corda, seda (50 pés)",
+                "name": "Corda de Seda (50 pés)",
                 "url": "/api/equipment/rope-silk-50-feet"
             },
             {
@@ -435,7 +435,7 @@
             },
             {
                 "index": "signet-ring",
-                "name": "Anel de sinalização",
+                "name": "Anel com Brasão da Nobre",
                 "url": "/api/equipment/signet-ring"
             },
             {
@@ -1050,7 +1050,7 @@
     },
     {
         "index": "gaming-sets",
-        "name": "Conjuntos de jogos",
+        "name": "Kit de Jogos",
         "equipment": [
             {
                 "index": "dice-set",
@@ -3019,7 +3019,7 @@
             },
             {
                 "index": "clothes-costume",
-                "name": "Roupas, Traje",
+                "name": "Traje",
                 "url": "/api/equipment/clothes-costume"
             },
             {
@@ -3039,7 +3039,7 @@
             },
             {
                 "index": "crowbar",
-                "name": "Crowbar",
+                "name": "Pé de Cabra",
                 "url": "/api/equipment/crowbar"
             },
             {
@@ -3079,7 +3079,7 @@
             },
             {
                 "index": "hunting-trap",
-                "name": "Armadilha de caça",
+                "name": "Armadilha de Caça",
                 "url": "/api/equipment/hunting-trap"
             },
             {
@@ -3204,7 +3204,7 @@
             },
             {
                 "index": "pot-iron",
-                "name": "Pote, ferro",
+                "name": "Pote de Ferro",
                 "url": "/api/equipment/pot-iron"
             },
             {
@@ -3799,7 +3799,7 @@
             },
             {
                 "index": "quarterstaff",
-                "name": "Bastão",
+                "name": "Bordão",
                 "url": "/api/equipment/quarterstaff"
             },
             {
