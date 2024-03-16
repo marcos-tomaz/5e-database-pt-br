@@ -1572,46 +1572,46 @@
     {
         "index": "skill-acrobatics",
         "type": "Habilidades",
-        "name": "Habilidade: Acrobática",
+        "name": "Habilidade: Acrobacia",
         "classes": [],
         "races": [],
         "url": "/api/proficiencies/skill-acrobatics",
         "reference": {
             "index": "acrobatics",
-            "name": "Acrobáticos",
+            "name": "Acrobacia",
             "url": "/api/skills/acrobatics"
         }
     },
     {
         "index": "skill-animal-handling",
         "type": "Habilidades",
-        "name": "Habilidade: Manipulação de Animais",
+        "name": "Habilidade: Adestrar Animais",
         "classes": [],
         "races": [],
         "url": "/api/proficiencies/skill-animal-handling",
         "reference": {
             "index": "animal-handling",
-            "name": "Manuseio de animais",
+            "name": "Adestrar Animais",
             "url": "/api/skills/animal-handling"
         }
     },
     {
         "index": "skill-arcana",
         "type": "Habilidades",
-        "name": "Habilidade: Arcana",
+        "name": "Habilidade: Arcanismo",
         "classes": [],
         "races": [],
         "url": "/api/proficiencies/skill-arcana",
         "reference": {
             "index": "arcana",
-            "name": "Arcano",
+            "name": "Arcanismo",
             "url": "/api/skills/arcana"
         }
     },
     {
         "index": "skill-athletics",
         "type": "Habilidades",
-        "name": "Habilidade: Atleta",
+        "name": "Habilidade: Atletetismo",
         "classes": [],
         "races": [],
         "url": "/api/proficiencies/skill-athletics",
@@ -1624,39 +1624,39 @@
     {
         "index": "skill-deception",
         "type": "Habilidades",
-        "name": "Habilidade: Engodo",
+        "name": "Habilidade: Enganação",
         "classes": [],
         "races": [],
         "url": "/api/proficiencies/skill-deception",
         "reference": {
             "index": "deception",
-            "name": "Engodo",
+            "name": "Enganação",
             "url": "/api/skills/deception"
         }
     },
     {
         "index": "skill-history",
         "type": "Habilidades",
-        "name": "Habilidade: Histórico",
+        "name": "Habilidade: História",
         "classes": [],
         "races": [],
         "url": "/api/proficiencies/skill-history",
         "reference": {
             "index": "history",
-            "name": "Histórico",
+            "name": "História",
             "url": "/api/skills/history"
         }
     },
     {
         "index": "skill-insight",
         "type": "Habilidades",
-        "name": "Habilidade: Conhecimento",
+        "name": "Habilidade: Intuição",
         "classes": [],
         "races": [],
         "url": "/api/proficiencies/skill-insight",
         "reference": {
             "index": "insight",
-            "name": "Intuições",
+            "name": "Intuição",
             "url": "/api/skills/insight"
         }
     },
@@ -1695,7 +1695,7 @@
         "url": "/api/proficiencies/skill-medicine",
         "reference": {
             "index": "medicine",
-            "name": "Medicamento",
+            "name": "Medicina",
             "url": "/api/skills/medicine"
         }
     },
@@ -1734,13 +1734,13 @@
     {
         "index": "skill-performance",
         "type": "Habilidades",
-        "name": "Habilidade: Desempenho",
+        "name": "Habilidade: Atuação",
         "classes": [],
         "races": [],
         "url": "/api/proficiencies/skill-performance",
         "reference": {
             "index": "performance",
-            "name": "Desempenho",
+            "name": "Atuação",
             "url": "/api/skills/performance"
         }
     },
@@ -1773,13 +1773,13 @@
     {
         "index": "skill-sleight-of-hand",
         "type": "Habilidades",
-        "name": "Habilidade: Trenó da Mão",
+        "name": "Habilidade: Prestidigitação",
         "classes": [],
         "races": [],
         "url": "/api/proficiencies/skill-sleight-of-hand",
         "reference": {
             "index": "sleight-of-hand",
-            "name": "Trenó da Mão",
+            "name": "Prestidigitação",
             "url": "/api/skills/sleight-of-hand"
         }
     },
