@@ -463,12 +463,16 @@
         
         "starting_equipment": [
             {
-                "equipment": {
-                    "index": "musical-instruments",
-                    "name": "Instrumentos Musicais",
-                    "url": "/api/equipment-categories/musical-instruments"
-                },
-                "quantity": 1
+                "choose": 1,
+                "type": "equipment",
+                "from": {
+                    "option_set_type": "equipment_category",
+                    "equipment_category": {
+                        "index": "musical-instruments",
+                        "name": "Instrumentos Musicais",
+                        "url": "/api/equipment-categories/musical-instruments"
+                    }
+                }
             },
             {
                 "equipment": {
@@ -643,12 +647,16 @@
         
         "starting_equipment": [
             {
-               "equipment": {
-                    "index": "musical-instruments",
-                    "name": "Instrumentos Musicais",
-                    "url": "/api/equipment-categories/musical-instruments"
-                },
-                "quantity": 1
+                "choose": 1,
+                "type": "equipment",
+                "from": {
+                    "option_set_type": "equipment_category",
+                    "equipment_category": {
+                        "index": "musical-instruments",
+                        "name": "Instrumentos Musicais",
+                        "url": "/api/equipment-categories/musical-instruments"
+                    }
+                }
             },
             {
                 "equipment": {
@@ -841,7 +849,7 @@
             {
                 "equipment": {
                     "index": "signet-ring",
-                    "name": "Anel com Brasão da Nobre",
+                    "name": "Anel com Brasão da Nobreza",
                     "url": "/api/equipment/signet-ring"
                 },
                 "quantity": 1
